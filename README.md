@@ -2,8 +2,6 @@
 
 **Dual-View Knowledge Graph Construction for Textbook-Specific Retrieval-Augmented Generation**
 
-Kaixi Wu, Ronghan Li, Ruyi Liu, and Qiguang Miao · Xidian University
-
 DVKG builds a shared concept graph for each course and a separate structure graph for each textbook. The concept graph captures concepts and semantic relations. The structure graph preserves textbook chapters, sections, paragraph order, and source locations. Evidence-Constrained Hierarchical Alignment (ECHA) verifies links from concepts to supporting passages. A query can route through the shared concepts and retrieve evidence from the selected textbook.
 
 ## Repository contents
