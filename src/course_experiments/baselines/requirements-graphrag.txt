@@ -1,0 +1,13 @@
+networkx>=3.4.2,<4
+pandas>=2.2.3,<3
+pydantic>=2.10.3,<3
+tiktoken>=0.9,<0.10
+fnllm[azure,openai]==0.2.3
+openai>=1.68,<2
+azure-identity>=1.19,<2
+azure-search-documents>=11.5.2,<12
+azure-cosmos>=4.9,<5
+lancedb>=0.17,<0.18
+pyarrow>=15,<16
+numpy>=1.25.2,<2
+PyYAML

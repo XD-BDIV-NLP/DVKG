@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Preserve bytes referenced by the source snapshot manifest.
+/src/** -text !eol

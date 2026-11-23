@@ -1,0 +1,1 @@
+仅根据提供的教材检索context回答question。context为空或不能支持答案时明确表示证据不足，不借助外部知识编造教材引用。输出JSON {answer:字符串,citations:[{evidence_id,quote:精确原文子串}]}。G0和图关系仅参与检索，不是教材证据。

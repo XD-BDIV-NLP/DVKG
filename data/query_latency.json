@@ -1,0 +1,1042 @@
+{
+  "scope": "DMKD Table 7. Controlled samples and archived native samples. Three native Computer Networks groups are aggregate-only in this export.",
+  "samples": [
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_25f718562685",
+      "qid": "10a90760c41b3e059860684d8d51dd36b662ec40e97492e4e1817d660cd58be3",
+      "seconds": 8.636368407867849,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1805ffed277bb14896275320271718c6e9409827d0779d7c627bdc89a61091c6",
+      "seconds": 3.966803476214409,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_d96f472c8179",
+      "qid": "020b6e45d04d3fb929a3fea5f08df778c4ae82ce80eccc49a02fe3195e6873ae",
+      "seconds": 3.236464463174343,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_25f718562685",
+      "qid": "09566d6f18fe8948b859b98adcac168885f31eae00d7f08c21c14a6e8c34b694",
+      "seconds": 4.524401989765465,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1418f396f2911576b3808fdf667400c0b186d05ef5f2f5eb4ca302918d8495c4",
+      "seconds": 2.946204244159162,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_d96f472c8179",
+      "qid": "0d8254e894b14f004da5067e12c7a83389828f4e75225dc32603318809c0690d",
+      "seconds": 10.178352736867964,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "075284e8d076838f627b18c90d0e2b3859abdd0b696199e978c3a2f88a3d198c",
+      "seconds": 26.828488257713616,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d3f860c396ea74f8c6e5c1e8ec8c382a6962c3f1d089338b6800b535046888",
+      "seconds": 4.032613528892398,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_d96f472c8179",
+      "qid": "084c7c563dde728dd85e59b864100276e004d5f0c9e69c92ce81ec20cc5bab49",
+      "seconds": 14.077619863674045,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d16a14982bfed0842cb0e687e6aa19df7b931881c572cc00e9b8a8bd04ed5f",
+      "seconds": 3.854745367541909,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "15365871f53f049a91d789dc9ea6793a6546dfcebc9c8cb456ce139c8b9f5851",
+      "seconds": 3.7962094638496637,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_49bb8d31ddb9",
+      "qid": "01a20b52551876484a4d85e20f8ae7b27fe4ce8f2488fd540629325fa26355fc",
+      "seconds": 4.376664113253355,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_0b8d87cb0667",
+      "qid": "0edc5a73765b26ce96f8899c186d5880cab602bc10b4c767434a55e6b054435a",
+      "seconds": 5.07392736710608,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_25f718562685",
+      "qid": "1b6b92a7e6452046114e8069e2e4b59a641a023bfb2b781e2e5205b954aa81f4",
+      "seconds": 8.1052869213745,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_25f718562685",
+      "qid": "1924dbee7e1f66da1e68e48bbd02d4dd1b5764121e7f5af5c5ec03c408eaaa76",
+      "seconds": 4.82485157251358,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_d96f472c8179",
+      "qid": "020b6e45d04d3fb929a3fea5f08df778c4ae82ce80eccc49a02fe3195e6873ae",
+      "seconds": 6.866668070666492,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_25f718562685",
+      "qid": "1e22dc213d80780e54480922182f54f8129379e0c5dcc49135ba52064fc3c248",
+      "seconds": 4.454131277278066,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d16a14982bfed0842cb0e687e6aa19df7b931881c572cc00e9b8a8bd04ed5f",
+      "seconds": 3.3894176725298166,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_25f718562685",
+      "qid": "1924dbee7e1f66da1e68e48bbd02d4dd1b5764121e7f5af5c5ec03c408eaaa76",
+      "seconds": 4.042206160724163,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_d96f472c8179",
+      "qid": "04c3c8caa0d4dfceed70a44b10b4a0726f8c4abcb3628ecb7dda743109fca539",
+      "seconds": 4.696665243245661,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_49bb8d31ddb9",
+      "qid": "075284e8d076838f627b18c90d0e2b3859abdd0b696199e978c3a2f88a3d198c",
+      "seconds": 9.536613394506276,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_25f718562685",
+      "qid": "1e22dc213d80780e54480922182f54f8129379e0c5dcc49135ba52064fc3c248",
+      "seconds": 3.665628897026181,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_0b8d87cb0667",
+      "qid": "0edc5a73765b26ce96f8899c186d5880cab602bc10b4c767434a55e6b054435a",
+      "seconds": 5.403052854351699,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d3f860c396ea74f8c6e5c1e8ec8c382a6962c3f1d089338b6800b535046888",
+      "seconds": 5.166399228386581,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_d96f472c8179",
+      "qid": "0efb7666fa03db044cbbafc636b249d20faf6fa86cf31e5a375ea9377231880d",
+      "seconds": 16.36015593074262,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_25f718562685",
+      "qid": "1b6b92a7e6452046114e8069e2e4b59a641a023bfb2b781e2e5205b954aa81f4",
+      "seconds": 6.7524703880771995,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_d96f472c8179",
+      "qid": "04c3c8caa0d4dfceed70a44b10b4a0726f8c4abcb3628ecb7dda743109fca539",
+      "seconds": 9.573152991011739,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_d96f472c8179",
+      "qid": "084c7c563dde728dd85e59b864100276e004d5f0c9e69c92ce81ec20cc5bab49",
+      "seconds": 9.733866582624614,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "01a20b52551876484a4d85e20f8ae7b27fe4ce8f2488fd540629325fa26355fc",
+      "seconds": 4.564647125080228,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_25f718562685",
+      "qid": "09566d6f18fe8948b859b98adcac168885f31eae00d7f08c21c14a6e8c34b694",
+      "seconds": 3.4524308824911714,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_0b8d87cb0667",
+      "qid": "08abce97a800f10de68c683ab9ddb13ee2cfed73a1fcb691f4bfb24a9530699e",
+      "seconds": 3.8883551228791475,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_49bb8d31ddb9",
+      "qid": "15365871f53f049a91d789dc9ea6793a6546dfcebc9c8cb456ce139c8b9f5851",
+      "seconds": 3.9459779178723693,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1418f396f2911576b3808fdf667400c0b186d05ef5f2f5eb4ca302918d8495c4",
+      "seconds": 3.302452121861279,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_0b8d87cb0667",
+      "qid": "361929faba45d67fa1a6f4fa20d0c085d0549268da71de9f0281db9e35a6c54b",
+      "seconds": 3.588195137679577,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "DVKG",
+      "book": "book_d96f472c8179",
+      "qid": "0d8254e894b14f004da5067e12c7a83389828f4e75225dc32603318809c0690d",
+      "seconds": 4.079042210243642,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "DVKG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1805ffed277bb14896275320271718c6e9409827d0779d7c627bdc89a61091c6",
+      "seconds": 5.824868042953312,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_0b8d87cb0667",
+      "qid": "361929faba45d67fa1a6f4fa20d0c085d0549268da71de9f0281db9e35a6c54b",
+      "seconds": 11.278170953504741,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_0b8d87cb0667",
+      "qid": "08abce97a800f10de68c683ab9ddb13ee2cfed73a1fcb691f4bfb24a9530699e",
+      "seconds": 4.595584330148995,
+      "condition": "common_generator"
+    },
+    {
+      "course": "OS",
+      "method": "K12-KGraph",
+      "book": "book_d96f472c8179",
+      "qid": "0efb7666fa03db044cbbafc636b249d20faf6fa86cf31e5a375ea9377231880d",
+      "seconds": 6.505416560918093,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "K12-KGraph",
+      "book": "book_25f718562685",
+      "qid": "10a90760c41b3e059860684d8d51dd36b662ec40e97492e4e1817d660cd58be3",
+      "seconds": 10.241399495862424,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_dd8183b4cb60",
+      "qid": "0f087fe203fe5fe18509d69bc94a3d1961aa46a984c0ff9ca6a10c8066e98201",
+      "seconds": 5.133449846878648,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_00849acee112",
+      "qid": "22c23db41d7cec46409c0f2124fa837f68145fef089f42d98d17a55a05e6ca7d",
+      "seconds": 7.404449762776494,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_00849acee112",
+      "qid": "13c71a4f8ea81bdc3db485dfa1710851aff91e7ae194a74831eb8734077967b2",
+      "seconds": 5.326198312453926,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_dd8183b4cb60",
+      "qid": "13b11fc9be7f238aeab09527aeaacc65dfddf40dcace76a724be50fcecde59fb",
+      "seconds": 3.619725875556469,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_dd8183b4cb60",
+      "qid": "019476ad565bfdcf7feb50d026e350238271245fbba4599bc2edd099bdf9c085",
+      "seconds": 4.8779057478532195,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_00849acee112",
+      "qid": "121a914773a7304bc67aa1d7b16cd1c333299888376a30651814b6673124a65c",
+      "seconds": 5.199052757583559,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_00849acee112",
+      "qid": "1a627cd1badf1ef8a4e3e9ce683f9682525bc138ca0d5b49af54c9fe2043193b",
+      "seconds": 3.263629587367177,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_dd8183b4cb60",
+      "qid": "190cc9aefa164103ba834bc7d2ccc3c1b60d9a72b2dd8816965d4f73edfe8500",
+      "seconds": 5.230577204376459,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_00849acee112",
+      "qid": "19c239970d27e577572b9ba1a5e7346576db7e491280a0860165d29f50fff66b",
+      "seconds": 8.031538801267743,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "DVKG",
+      "book": "book_dd8183b4cb60",
+      "qid": "1606ccbd0b7ba650aaa65e582da09d54fa88d9dfb02353512e573d7d45f88363",
+      "seconds": 3.610210496932268,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_dd8183b4cb60",
+      "qid": "0f087fe203fe5fe18509d69bc94a3d1961aa46a984c0ff9ca6a10c8066e98201",
+      "seconds": 8.202147699892521,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_00849acee112",
+      "qid": "22c23db41d7cec46409c0f2124fa837f68145fef089f42d98d17a55a05e6ca7d",
+      "seconds": 11.765218991786242,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_00849acee112",
+      "qid": "13c71a4f8ea81bdc3db485dfa1710851aff91e7ae194a74831eb8734077967b2",
+      "seconds": 4.569380693137646,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_dd8183b4cb60",
+      "qid": "13b11fc9be7f238aeab09527aeaacc65dfddf40dcace76a724be50fcecde59fb",
+      "seconds": 6.134708825498819,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_dd8183b4cb60",
+      "qid": "019476ad565bfdcf7feb50d026e350238271245fbba4599bc2edd099bdf9c085",
+      "seconds": 3.979480433277786,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_00849acee112",
+      "qid": "121a914773a7304bc67aa1d7b16cd1c333299888376a30651814b6673124a65c",
+      "seconds": 4.270500712096691,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_00849acee112",
+      "qid": "1a627cd1badf1ef8a4e3e9ce683f9682525bc138ca0d5b49af54c9fe2043193b",
+      "seconds": 5.010347637347877,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_dd8183b4cb60",
+      "qid": "190cc9aefa164103ba834bc7d2ccc3c1b60d9a72b2dd8816965d4f73edfe8500",
+      "seconds": 10.039786795154214,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_00849acee112",
+      "qid": "19c239970d27e577572b9ba1a5e7346576db7e491280a0860165d29f50fff66b",
+      "seconds": 7.057537319138646,
+      "condition": "common_generator"
+    },
+    {
+      "course": "NET",
+      "method": "K12-KGraph",
+      "book": "book_dd8183b4cb60",
+      "qid": "1606ccbd0b7ba650aaa65e582da09d54fa88d9dfb02353512e573d7d45f88363",
+      "seconds": 6.257743473164737,
+      "condition": "common_generator"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_25f718562685",
+      "qid": "09566d6f18fe8948b859b98adcac168885f31eae00d7f08c21c14a6e8c34b694",
+      "seconds": 9.970630505122244,
+      "condition": "native_prompt_budget",
+      "record_sha256": "775f22c3b5ba5945195f145fc2be21c02ba653c529995340a8184d6bfb582b5d"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_25f718562685",
+      "qid": "1b6b92a7e6452046114e8069e2e4b59a641a023bfb2b781e2e5205b954aa81f4",
+      "seconds": 26.457214797846973,
+      "condition": "native_prompt_budget",
+      "record_sha256": "658fe0a869e173658d6b2361caa4a32f4b61166e10bbcabb9e026bb1ed6f1681"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_25f718562685",
+      "qid": "1e22dc213d80780e54480922182f54f8129379e0c5dcc49135ba52064fc3c248",
+      "seconds": 10.040898045524955,
+      "condition": "native_prompt_budget",
+      "record_sha256": "d38408769b8978ea76bdd8143fd8ca4cd7082f415d0c5b5c546cb929e34fa291"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_25f718562685",
+      "qid": "1924dbee7e1f66da1e68e48bbd02d4dd1b5764121e7f5af5c5ec03c408eaaa76",
+      "seconds": 3.638222270645201,
+      "condition": "native_prompt_budget",
+      "record_sha256": "cc08883ff2ec513237d86c102fe918e4a39f5b6899806fbe503bd3bafbd80c94"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_25f718562685",
+      "qid": "10a90760c41b3e059860684d8d51dd36b662ec40e97492e4e1817d660cd58be3",
+      "seconds": 5.403692045249045,
+      "condition": "native_prompt_budget",
+      "record_sha256": "e643a25d2963284324ccbafdad4f600c9c5bb1812a0cb8cce802f07f38763411"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "075284e8d076838f627b18c90d0e2b3859abdd0b696199e978c3a2f88a3d198c",
+      "seconds": 27.52701904438436,
+      "condition": "native_prompt_budget",
+      "record_sha256": "8f76e214ceeb203f20817da7c841ec34915282bd41a68f3c7507df6dc9c51c41"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1805ffed277bb14896275320271718c6e9409827d0779d7c627bdc89a61091c6",
+      "seconds": 46.55664442386478,
+      "condition": "native_prompt_budget",
+      "record_sha256": "fb748e90990d26953d5e277112b3df35ecd0fd9a74370c5d06f107c201799b1c"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "15365871f53f049a91d789dc9ea6793a6546dfcebc9c8cb456ce139c8b9f5851",
+      "seconds": 7.7945171827450395,
+      "condition": "native_prompt_budget",
+      "record_sha256": "03779a93ee7f5814a9421476a1f5afe4f66d5746934caa7918789b2b3b5bff59"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "01a20b52551876484a4d85e20f8ae7b27fe4ce8f2488fd540629325fa26355fc",
+      "seconds": 6.399821329861879,
+      "condition": "native_prompt_budget",
+      "record_sha256": "a9b0d0883bee5a73c00c39dc0d3c5f014a68277a5b57736fd9a588c8468aaca9"
+    },
+    {
+      "course": "CO",
+      "method": "GraphRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1418f396f2911576b3808fdf667400c0b186d05ef5f2f5eb4ca302918d8495c4",
+      "seconds": 24.237415603362024,
+      "condition": "native_prompt_budget",
+      "record_sha256": "c0f6168e8da4b5ef76a3e31f6a817d39280840d9833fb67999a9426873457018"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d3f860c396ea74f8c6e5c1e8ec8c382a6962c3f1d089338b6800b535046888",
+      "seconds": 4.302413682453334,
+      "condition": "native_prompt_budget",
+      "record_sha256": "33a1caf4828a0b4e0e36e185663b207a65fdf213b80672ffc885ff2489a51302"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "08abce97a800f10de68c683ab9ddb13ee2cfed73a1fcb691f4bfb24a9530699e",
+      "seconds": 7.780651102773845,
+      "condition": "native_prompt_budget",
+      "record_sha256": "ca60be78999c255f85f631dede5e337c50e0ae9b77a76c3cf561dac75a7bfc62"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "0edc5a73765b26ce96f8899c186d5880cab602bc10b4c767434a55e6b054435a",
+      "seconds": 19.979556505568326,
+      "condition": "native_prompt_budget",
+      "record_sha256": "2e82165a1d7e11567ebd3febfb4e89835b0b74389fef0ac34a608849e3b7448a"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "361929faba45d67fa1a6f4fa20d0c085d0549268da71de9f0281db9e35a6c54b",
+      "seconds": 5.252363701350987,
+      "condition": "native_prompt_budget",
+      "record_sha256": "61712dd396279f7918e3d22d774d0a29654ec9c97862939a8573bedf78375134"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d16a14982bfed0842cb0e687e6aa19df7b931881c572cc00e9b8a8bd04ed5f",
+      "seconds": 17.232778786681592,
+      "condition": "native_prompt_budget",
+      "record_sha256": "ac93f57479a34452a71fb696bae222e8c20268953809ad5584efef8839941f33"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_d96f472c8179",
+      "qid": "0efb7666fa03db044cbbafc636b249d20faf6fa86cf31e5a375ea9377231880d",
+      "seconds": 10.20339233148843,
+      "condition": "native_prompt_budget",
+      "record_sha256": "f4f8d1b69dc55a88729a5b94b83c8771d5b8fd2c2ef859cfe252c701e8a96177"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_d96f472c8179",
+      "qid": "020b6e45d04d3fb929a3fea5f08df778c4ae82ce80eccc49a02fe3195e6873ae",
+      "seconds": 6.8152924329042435,
+      "condition": "native_prompt_budget",
+      "record_sha256": "f1d2ea8c5d94ee8435c6fbf055fab898e2cf03486d1d3005811e520dae889dc0"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_d96f472c8179",
+      "qid": "04c3c8caa0d4dfceed70a44b10b4a0726f8c4abcb3628ecb7dda743109fca539",
+      "seconds": 10.525684902444482,
+      "condition": "native_prompt_budget",
+      "record_sha256": "5c2f948665f2cbf2eb5b7f3c62a4049469ca22f5a2c1c11265692282c8f7c53b"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_d96f472c8179",
+      "qid": "084c7c563dde728dd85e59b864100276e004d5f0c9e69c92ce81ec20cc5bab49",
+      "seconds": 33.23956479690969,
+      "condition": "native_prompt_budget",
+      "record_sha256": "286ea87e4d2da0b671b70a57456ed39b389da6ee7bfb139c171fd1719cef77c3"
+    },
+    {
+      "course": "OS",
+      "method": "GraphRAG",
+      "book": "book_d96f472c8179",
+      "qid": "0d8254e894b14f004da5067e12c7a83389828f4e75225dc32603318809c0690d",
+      "seconds": 4.906302448362112,
+      "condition": "native_prompt_budget",
+      "record_sha256": "8fcd14ad6e5083510ceb4d11baf6885a305610b7c9ecd220117e6a99c77293eb"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_25f718562685",
+      "qid": "1e22dc213d80780e54480922182f54f8129379e0c5dcc49135ba52064fc3c248",
+      "seconds": 9.780028952285647,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4951e36cc4701997ca5eaab6d2537fffcfe9680dcdefde01fea76c0c6eaebdc3"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_25f718562685",
+      "qid": "10a90760c41b3e059860684d8d51dd36b662ec40e97492e4e1817d660cd58be3",
+      "seconds": 30.8139443481341,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4852cdd91d704457f141f8757f5e86629ab99024942fc8346598d393b1bcd4cf"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_25f718562685",
+      "qid": "09566d6f18fe8948b859b98adcac168885f31eae00d7f08c21c14a6e8c34b694",
+      "seconds": 17.644496384076774,
+      "condition": "native_prompt_budget",
+      "record_sha256": "357b71be7ee0ba887e44ed295e377a216796a974e8a221d438ea40bc0a4a9f7e"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_25f718562685",
+      "qid": "1924dbee7e1f66da1e68e48bbd02d4dd1b5764121e7f5af5c5ec03c408eaaa76",
+      "seconds": 32.09258710220456,
+      "condition": "native_prompt_budget",
+      "record_sha256": "07a69658b4914b8218d9caa159c2a88a37f7ed322b11d982f619b190bd5384db"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_25f718562685",
+      "qid": "1b6b92a7e6452046114e8069e2e4b59a641a023bfb2b781e2e5205b954aa81f4",
+      "seconds": 11.34956631809473,
+      "condition": "native_prompt_budget",
+      "record_sha256": "c8c40705c341330397f4ea7a21a4f8e95ec7accb8419d1ba3dff7ccab7bfe1c2"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1418f396f2911576b3808fdf667400c0b186d05ef5f2f5eb4ca302918d8495c4",
+      "seconds": 12.533391612581909,
+      "condition": "native_prompt_budget",
+      "record_sha256": "44ee78589b7d3d25ef0332379b164acb92146836fdac223057ef3656899a57cb"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1805ffed277bb14896275320271718c6e9409827d0779d7c627bdc89a61091c6",
+      "seconds": 12.565205398947,
+      "condition": "native_prompt_budget",
+      "record_sha256": "1cad4e448b34d52685d663b632e229fbe3fbb416f99dbcdef80e5158420fbafa"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "15365871f53f049a91d789dc9ea6793a6546dfcebc9c8cb456ce139c8b9f5851",
+      "seconds": 55.4850019486621,
+      "condition": "native_prompt_budget",
+      "record_sha256": "a52dc6d9a615d41f787b4ded0160f3d599b145e5814d17bb59c67c2c73d7c6a5"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "01a20b52551876484a4d85e20f8ae7b27fe4ce8f2488fd540629325fa26355fc",
+      "seconds": 62.45787133835256,
+      "condition": "native_prompt_budget",
+      "record_sha256": "61e1e7e9795ead6ef1c55da6b76063ae33fbf1b461ecb6db762868b59b37cd0f"
+    },
+    {
+      "course": "CO",
+      "method": "LightRAG",
+      "book": "book_49bb8d31ddb9",
+      "qid": "075284e8d076838f627b18c90d0e2b3859abdd0b696199e978c3a2f88a3d198c",
+      "seconds": 7.637060930021107,
+      "condition": "native_prompt_budget",
+      "record_sha256": "787f0c4d07c3af3e283d2b84e9b4d7f5245c8e575f7fca065eb9051a96478d6e"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d3f860c396ea74f8c6e5c1e8ec8c382a6962c3f1d089338b6800b535046888",
+      "seconds": 13.48468672297895,
+      "condition": "native_prompt_budget",
+      "record_sha256": "cd61401a2392febda818f57d848ddf8d7a8558351ccf0a376290c82296e0067f"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d16a14982bfed0842cb0e687e6aa19df7b931881c572cc00e9b8a8bd04ed5f",
+      "seconds": 11.918942334130406,
+      "condition": "native_prompt_budget",
+      "record_sha256": "da0feacdc20e4ae47adaa668c4d39821cf52065571e88115595e7785f8847d3d"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "08abce97a800f10de68c683ab9ddb13ee2cfed73a1fcb691f4bfb24a9530699e",
+      "seconds": 11.858779494650662,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4bf823483d669253c7e0bf789c55a4ec85457800c5b6d888cbe70624791c855c"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "361929faba45d67fa1a6f4fa20d0c085d0549268da71de9f0281db9e35a6c54b",
+      "seconds": 7.66994605306536,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4b2d793704dd7a03cac6aa65539c75bbe6d84b34f4baa33e699056f308fd336e"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_0b8d87cb0667",
+      "qid": "0edc5a73765b26ce96f8899c186d5880cab602bc10b4c767434a55e6b054435a",
+      "seconds": 29.429002407938242,
+      "condition": "native_prompt_budget",
+      "record_sha256": "3ca22aa5f333f1e9df3b449d9eae1f18f4be07368fac5a331882506352901a62"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_d96f472c8179",
+      "qid": "0efb7666fa03db044cbbafc636b249d20faf6fa86cf31e5a375ea9377231880d",
+      "seconds": 18.708321157842875,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4874f68b4731004d385e2b5301c45a966e0bab507cb7ac253e15341ebfa77005"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_d96f472c8179",
+      "qid": "020b6e45d04d3fb929a3fea5f08df778c4ae82ce80eccc49a02fe3195e6873ae",
+      "seconds": 14.776515889912844,
+      "condition": "native_prompt_budget",
+      "record_sha256": "44005bbdc3f1a7529fdeec1c2b17033540efa2a2d045e3ab1c6f724adbe96eff"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_d96f472c8179",
+      "qid": "0d8254e894b14f004da5067e12c7a83389828f4e75225dc32603318809c0690d",
+      "seconds": 8.485794506035745,
+      "condition": "native_prompt_budget",
+      "record_sha256": "8b4287423e9d3cd1ed2ff0fdfdbfc4b4eb06be307b6a63e70f82cb4e30f34f75"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_d96f472c8179",
+      "qid": "04c3c8caa0d4dfceed70a44b10b4a0726f8c4abcb3628ecb7dda743109fca539",
+      "seconds": 12.405243711546063,
+      "condition": "native_prompt_budget",
+      "record_sha256": "a3f168be9c662991bd950df564467807485f8486d88380f88b56586aa15acb65"
+    },
+    {
+      "course": "OS",
+      "method": "LightRAG",
+      "book": "book_d96f472c8179",
+      "qid": "084c7c563dde728dd85e59b864100276e004d5f0c9e69c92ce81ec20cc5bab49",
+      "seconds": 24.786131138913333,
+      "condition": "native_prompt_budget",
+      "record_sha256": "d11b54dbed25fec6eadde060047b6ead8fd89c4fc8203176f6e258fd62a32980"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_25f718562685",
+      "qid": "09566d6f18fe8948b859b98adcac168885f31eae00d7f08c21c14a6e8c34b694",
+      "seconds": 74.03521830961108,
+      "condition": "native_prompt_budget",
+      "record_sha256": "7b2c871e5683a953cd88f610ebcb41db542340e5c22f2efa42ae26b6a59919a3"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_25f718562685",
+      "qid": "1b6b92a7e6452046114e8069e2e4b59a641a023bfb2b781e2e5205b954aa81f4",
+      "seconds": 11.056669914163649,
+      "condition": "native_prompt_budget",
+      "record_sha256": "bda0983966bc88b963fd3fca223f545f4da9ea02daac5008d2882622bf32c440"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_25f718562685",
+      "qid": "1e22dc213d80780e54480922182f54f8129379e0c5dcc49135ba52064fc3c248",
+      "seconds": 42.02170271705836,
+      "condition": "native_prompt_budget",
+      "record_sha256": "30a4ab607c0c38599c04cef03d966589a33b8d9692d0328aa895d73baf10bc93"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_25f718562685",
+      "qid": "10a90760c41b3e059860684d8d51dd36b662ec40e97492e4e1817d660cd58be3",
+      "seconds": 6.127572370693088,
+      "condition": "native_prompt_budget",
+      "record_sha256": "cc08a07a3f751df1e054f6ec52fd3e7fb6caa995ff1d81c20c23b1adfe72fe45"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_25f718562685",
+      "qid": "1924dbee7e1f66da1e68e48bbd02d4dd1b5764121e7f5af5c5ec03c408eaaa76",
+      "seconds": 5.42957894038409,
+      "condition": "native_prompt_budget",
+      "record_sha256": "a9f781b365878ede43a9886caeab2bda5561302e024af70e3d874668ee435522"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_49bb8d31ddb9",
+      "qid": "075284e8d076838f627b18c90d0e2b3859abdd0b696199e978c3a2f88a3d198c",
+      "seconds": 11.028678251430392,
+      "condition": "native_prompt_budget",
+      "record_sha256": "92ce279a1b6ebbb45cf0c9cb870a06410f9514221eb89a381c3601ddfccb764b"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_49bb8d31ddb9",
+      "qid": "01a20b52551876484a4d85e20f8ae7b27fe4ce8f2488fd540629325fa26355fc",
+      "seconds": 53.87460467685014,
+      "condition": "native_prompt_budget",
+      "record_sha256": "948963cfdbb4ff3eadab9c23671c4ae9e56741cd77613a8eec64aba7f04110ae"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_49bb8d31ddb9",
+      "qid": "15365871f53f049a91d789dc9ea6793a6546dfcebc9c8cb456ce139c8b9f5851",
+      "seconds": 85.8402851242572,
+      "condition": "native_prompt_budget",
+      "record_sha256": "3f02b7606cf5c2e2a34c197b00a631e3852ccd700e4454dc964ea259927c9183"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1418f396f2911576b3808fdf667400c0b186d05ef5f2f5eb4ca302918d8495c4",
+      "seconds": 15.198562424629927,
+      "condition": "native_prompt_budget",
+      "record_sha256": "0b229ea41d70f1e28a47fdc44a6a046ebf2158c66bc1244c07ae286fb6ced378"
+    },
+    {
+      "course": "CO",
+      "method": "HippoRAG 2",
+      "book": "book_49bb8d31ddb9",
+      "qid": "1805ffed277bb14896275320271718c6e9409827d0779d7c627bdc89a61091c6",
+      "seconds": 9.22983739245683,
+      "condition": "native_prompt_budget",
+      "record_sha256": "22510ab88fe79631a5acc07e782027c62632381a22da63ae523e3d6ab49de57d"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d16a14982bfed0842cb0e687e6aa19df7b931881c572cc00e9b8a8bd04ed5f",
+      "seconds": 4.357556791044772,
+      "condition": "native_prompt_budget",
+      "record_sha256": "4e869d817e402307ec1657c9963ba00b6d088240a31dbd3e404dfa4f02d425e5"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_0b8d87cb0667",
+      "qid": "08abce97a800f10de68c683ab9ddb13ee2cfed73a1fcb691f4bfb24a9530699e",
+      "seconds": 56.62099409289658,
+      "condition": "native_prompt_budget",
+      "record_sha256": "2b67c1f1ee1717be422c9aa48866620351bc316befc7e9853a7b5109cca9bb0f"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_0b8d87cb0667",
+      "qid": "33d3f860c396ea74f8c6e5c1e8ec8c382a6962c3f1d089338b6800b535046888",
+      "seconds": 8.144919817335904,
+      "condition": "native_prompt_budget",
+      "record_sha256": "953dd480d688704a1df6ef80304c88760e60e626aea55eb917af363a20511bb9"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_0b8d87cb0667",
+      "qid": "0edc5a73765b26ce96f8899c186d5880cab602bc10b4c767434a55e6b054435a",
+      "seconds": 41.82930291816592,
+      "condition": "native_prompt_budget",
+      "record_sha256": "d316e982c593d1f2fa6470cdaff71f5b56adf73a553f35d21ee0a25e07518585"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_0b8d87cb0667",
+      "qid": "361929faba45d67fa1a6f4fa20d0c085d0549268da71de9f0281db9e35a6c54b",
+      "seconds": 127.44204299710691,
+      "condition": "native_prompt_budget",
+      "record_sha256": "032760a3a6569b0cc8ed56e325aafb9c464a74eba2cbff1aaf77db39c81c437b"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_d96f472c8179",
+      "qid": "0d8254e894b14f004da5067e12c7a83389828f4e75225dc32603318809c0690d",
+      "seconds": 35.389363622292876,
+      "condition": "native_prompt_budget",
+      "record_sha256": "6aef846c15012a21136f734a54cc3dd0849add010dee0bdf5fa08510ac748780"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_d96f472c8179",
+      "qid": "020b6e45d04d3fb929a3fea5f08df778c4ae82ce80eccc49a02fe3195e6873ae",
+      "seconds": 11.005840296857059,
+      "condition": "native_prompt_budget",
+      "record_sha256": "baac0bfda00b128b622d44ed5f148a5bbc65847166339452ec4dc4fba3868157"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_d96f472c8179",
+      "qid": "0efb7666fa03db044cbbafc636b249d20faf6fa86cf31e5a375ea9377231880d",
+      "seconds": 10.69903619773686,
+      "condition": "native_prompt_budget",
+      "record_sha256": "1175c94f0a25733cff40de7f51c6208e1db9851ef998525344b0d6c06d150116"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_d96f472c8179",
+      "qid": "084c7c563dde728dd85e59b864100276e004d5f0c9e69c92ce81ec20cc5bab49",
+      "seconds": 32.98048815038055,
+      "condition": "native_prompt_budget",
+      "record_sha256": "777048745b3b9b76a16d3af2e5aa997c1e9dfb7dd927f1b2494f2ace6ea20606"
+    },
+    {
+      "course": "OS",
+      "method": "HippoRAG 2",
+      "book": "book_d96f472c8179",
+      "qid": "04c3c8caa0d4dfceed70a44b10b4a0726f8c4abcb3628ecb7dda743109fca539",
+      "seconds": 12.523723425343633,
+      "condition": "native_prompt_budget",
+      "record_sha256": "2547ce6a75a7fb789243d131ea5eedd8a756caf208fbd05dc03f8e506bacdd52"
+    }
+  ],
+  "network_native_aggregates": {
+    "GraphRAG": {
+      "n": 10,
+      "p50": 7.020809890702367,
+      "p95": 8.63984595052898
+    },
+    "LightRAG": {
+      "n": 10,
+      "p50": 7.946160155814141,
+      "p95": 24.06914467085153
+    },
+    "HippoRAG 2": {
+      "n": 10,
+      "p50": 9.847403794527054,
+      "p95": 30.88450595922768
+    }
+  }
+}

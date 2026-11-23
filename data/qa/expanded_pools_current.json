@@ -1,0 +1,141 @@
+{
+  "scope": "DMKD Table 8. DVKG adds candidate expansion and cross-encoder reranking; the four baselines are unchanged from the archived expanded-pool study.",
+  "rows": [
+    {
+      "f1": 0.5802210857307777,
+      "paragraph_recall_at5": 0.7442296902165323,
+      "question_count": 353,
+      "method": "K12-KGraph",
+      "scope": "same_subject_pool"
+    },
+    {
+      "f1": 0.5740518388279916,
+      "paragraph_recall_at5": 0.7304196301564723,
+      "question_count": 353,
+      "method": "K12-KGraph",
+      "scope": "mixed_six_book_pool"
+    },
+    {
+      "f1": 0.519760180982387,
+      "paragraph_recall_at5": 0.46398490595859015,
+      "question_count": 353,
+      "method": "GraphRAG",
+      "scope": "same_subject_pool"
+    },
+    {
+      "f1": 0.5145320825380008,
+      "paragraph_recall_at5": 0.4569015726252568,
+      "question_count": 353,
+      "method": "GraphRAG",
+      "scope": "mixed_six_book_pool"
+    },
+    {
+      "f1": 0.5706326103173356,
+      "paragraph_recall_at5": 0.7026898609135451,
+      "question_count": 353,
+      "method": "LightRAG",
+      "scope": "same_subject_pool"
+    },
+    {
+      "f1": 0.5584190545036164,
+      "paragraph_recall_at5": 0.6947935435435435,
+      "question_count": 353,
+      "method": "LightRAG",
+      "scope": "mixed_six_book_pool"
+    },
+    {
+      "f1": 0.5849051165948123,
+      "paragraph_recall_at5": 0.7562780543701596,
+      "question_count": 353,
+      "method": "HippoRAG 2",
+      "scope": "same_subject_pool"
+    },
+    {
+      "f1": 0.5758748130970416,
+      "paragraph_recall_at5": 0.739412438754544,
+      "question_count": 353,
+      "method": "HippoRAG 2",
+      "scope": "mixed_six_book_pool"
+    },
+    {
+      "f1": 0.589790511652567,
+      "paragraph_recall_at5": 0.7703846609767662,
+      "question_count": 353,
+      "method": "DVKG+cross-encoder",
+      "scope": "same_subject_pool"
+    },
+    {
+      "f1": 0.583803381426911,
+      "paragraph_recall_at5": 0.7625768531689584,
+      "question_count": 353,
+      "method": "DVKG+cross-encoder",
+      "scope": "mixed_six_book_pool"
+    }
+  ],
+  "paired_bootstrap": {
+    "mixed_six_book_pool": {
+      "f1": {
+        "bootstrap_iterations": 10000,
+        "ci95": [
+          -0.007586301913476343,
+          0.023951275823181458
+        ],
+        "estimate": 0.007928568329869518,
+        "estimator": "equal_book_macro_paired_difference",
+        "interval": "two_sided_95_percent_percentile",
+        "n_fixed_books": 6,
+        "n_questions": 353,
+        "resampling": "same_question_pairs_within_each_fixed_book;books_not_resampled",
+        "scope": "these_observed_questions_and_fixed_books",
+        "seed": 42
+      },
+      "paragraph_recall_at5": {
+        "bootstrap_iterations": 10000,
+        "ci95": [
+          -0.004806627351035245,
+          0.05184153726094516
+        ],
+        "estimate": 0.023164414414414414,
+        "estimator": "equal_book_macro_paired_difference",
+        "interval": "two_sided_95_percent_percentile",
+        "n_fixed_books": 6,
+        "n_questions": 353,
+        "resampling": "same_question_pairs_within_each_fixed_book;books_not_resampled",
+        "scope": "these_observed_questions_and_fixed_books",
+        "seed": 42
+      }
+    },
+    "same_subject_pool": {
+      "f1": {
+        "bootstrap_iterations": 10000,
+        "ci95": [
+          -0.01064018084885684,
+          0.020457803699812184
+        ],
+        "estimate": 0.004885395057754674,
+        "estimator": "equal_book_macro_paired_difference",
+        "interval": "two_sided_95_percent_percentile",
+        "n_fixed_books": 6,
+        "n_questions": 353,
+        "resampling": "same_question_pairs_within_each_fixed_book;books_not_resampled",
+        "scope": "these_observed_questions_and_fixed_books",
+        "seed": 42
+      },
+      "paragraph_recall_at5": {
+        "bootstrap_iterations": 10000,
+        "ci95": [
+          -0.013371483325430693,
+          0.04266004820610084
+        ],
+        "estimate": 0.014106606606606606,
+        "estimator": "equal_book_macro_paired_difference",
+        "interval": "two_sided_95_percent_percentile",
+        "n_fixed_books": 6,
+        "n_questions": 353,
+        "resampling": "same_question_pairs_within_each_fixed_book;books_not_resampled",
+        "scope": "these_observed_questions_and_fixed_books",
+        "seed": 42
+      }
+    }
+  }
+}

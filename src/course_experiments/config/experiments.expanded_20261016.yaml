@@ -1,0 +1,83 @@
+version: 2
+status: preparing_not_frozen
+courses_config: courses.expanded_20261016.yaml
+seed: 42
+book_sets: [[A], [B], [A, B]]
+course_book_sets:
+  computer_organization: [[A], [B], [A, B], [A, B, C, D]]
+primary_states: [fixed_g0, fused]
+evaluations: [rag, topology, kge]
+additional_states: [textbook_only]
+methods:
+  - method_id: course_g0_textbook_fusion
+    status: implementation_pending
+  - method_id: k12_kgraph
+    repository: https://github.com/haolpku/K12-KGraph
+    commit: 865bc3556768224d929825d7c258a5e77ac1aab0
+    status: source_verified_execution_pending
+    configuration: controlled_same_model_adapter
+  - method_id: tree_kg
+    repository: https://github.com/thu-pacman/Tree-KG
+    commit: 2c21a2252ec8cf7be4ff48c0b90a486c0451e45d
+    status: source_unavailable_remote_service_pending
+  - method_id: kggen_lm_dedup
+    repository: https://github.com/stair-lab/kg-gen
+    commit: e0cb917241654cb820f9dd3ba64c397f329fbfcd
+    status: source_verified_execution_pending
+    configuration: dspy_2_6_27_chat_lm_based_deduplication
+  - method_id: graphrag_extract
+    repository: https://github.com/microsoft/graphrag
+    commit: 56a865bff0cac9fbbc24f343cf52d0a1850abba6
+    status: source_verified_execution_pending
+    configuration: v2_2_1_native_graph_extraction_only
+models:
+  construction: deepseek-ai/DeepSeek-V4-Flash
+  embedding: BAAI/bge-m3
+budgets:
+  g0:
+    max_concepts: 60
+    max_relations: 100
+    max_output_tokens: 12000
+    temperature: 0
+  textbook:
+    chunk_chars: 4500
+    evidence_chars: 650
+    max_output_tokens: 12000
+    temperature: 0
+    max_retries: 6
+  rag:
+    retrieval_top_k: null
+    context_token_limit: null
+    max_output_tokens: null
+    temperature: null
+  kge:
+    models: null
+    epochs: null
+    batch_size: null
+    negative_samples: null
+    learning_rate: null
+    split_ratios: null
+schema:
+  status: remote_runtime_schema_verified
+  path: ../../config/schema.yaml
+evaluation_reuse:
+  topology_script: ../../scripts/evaluate_kg_quality.py
+  kge_script: ../../scripts/run_pykeen_epoch_sweep.py
+  version_hashes:
+    topology_script: e438c6118167e411cc7a75819dab58b88d9290db9e913a9da8cf78d6966342ad
+    kge_script: d88fee5332f7719fbd0337e26065968c5c57e31acad25cded7dacb99e1c60729
+freeze_required_before_execution:
+  - schema_digest
+  - source_chunk_digests
+  - g0_prompt_and_generation_budget
+  - textbook_construction_budget
+  - baseline_commits_and_capability_scope
+  - independent_question_set_and_reference_facts
+  - rag_retrieval_and_generation_budget
+  - equivalence_grouped_fact_split
+  - kge_training_parameters_and_gpu_environment
+result_rules:
+  topology_layer: concept_semantic_only
+  baseline_graph_state: native
+  unavailable_result: null
+  retain_raw_results: true

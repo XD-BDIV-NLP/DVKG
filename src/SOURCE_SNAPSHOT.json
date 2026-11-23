@@ -1,0 +1,2291 @@
+{
+  "scope": "Code, prompts, schemas, synthetic fixtures and source documentation. The release staging folder contains no manuscript textbook artifacts in this source subtree.",
+  "sources": {
+    "dual_kg/__init__.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/__init__.py",
+      "source_sha256": "962cc5f5cdc56e690b7d4d1ae4a2dac4f606447800b9dbe222fdfc39ca8b3819",
+      "release_sha256": "962cc5f5cdc56e690b7d4d1ae4a2dac4f606447800b9dbe222fdfc39ca8b3819"
+    },
+    "dual_kg/__main__.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/__main__.py",
+      "source_sha256": "939323a4094cc2545578fb4d3e56e4a070202fd39d61c59f834994c43ab6b2cd",
+      "release_sha256": "939323a4094cc2545578fb4d3e56e4a070202fd39d61c59f834994c43ab6b2cd"
+    },
+    "dual_kg/api.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/api.py",
+      "source_sha256": "8c7617c47630106a2f512ee212ff8d60ff2310ba45c7f3610c1e3e542da90c57",
+      "release_sha256": "8c7617c47630106a2f512ee212ff8d60ff2310ba45c7f3610c1e3e542da90c57"
+    },
+    "dual_kg/http.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/http.py",
+      "source_sha256": "a86349fc0d86e457747a23f436bb6b374af9d2789a7bc468b180da03f1ec153d",
+      "release_sha256": "a86349fc0d86e457747a23f436bb6b374af9d2789a7bc468b180da03f1ec153d"
+    },
+    "dual_kg/resources/config/incremental.example.yaml": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/config/incremental.example.yaml",
+      "source_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059",
+      "release_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059"
+    },
+    "dual_kg/resources/config/schema.yaml": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/config/schema.yaml",
+      "source_sha256": "c785d699bcea42f98ebb7193bf4821e54aa79a268fb298dd3ff2a40d1956c82c",
+      "release_sha256": "c785d699bcea42f98ebb7193bf4821e54aa79a268fb298dd3ff2a40d1956c82c"
+    },
+    "dual_kg/resources/prompts/incremental_v5/00_教材共同_system.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/00_教材共同_system.txt",
+      "source_sha256": "956a1c7bc5bb5620ed6815eabd1771bb604945815995f0ac9f264bb53cd04693",
+      "release_sha256": "956a1c7bc5bb5620ed6815eabd1771bb604945815995f0ac9f264bb53cd04693"
+    },
+    "dual_kg/resources/prompts/incremental_v5/01_G0生成_system.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/01_G0生成_system.txt",
+      "source_sha256": "0e23b100556fa564f2eddda5d70b449b9a3b6a1e319028170f245a4bc15f96da",
+      "release_sha256": "0e23b100556fa564f2eddda5d70b449b9a3b6a1e319028170f245a4bc15f96da"
+    },
+    "dual_kg/resources/prompts/incremental_v5/01_G0生成_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/01_G0生成_user.txt",
+      "source_sha256": "564f091fa2c5bcf981aa994e71bc2f77ffb6e648747ccac6fbd8764c13361b15",
+      "release_sha256": "564f091fa2c5bcf981aa994e71bc2f77ffb6e648747ccac6fbd8764c13361b15"
+    },
+    "dual_kg/resources/prompts/incremental_v5/02_片段概念识别_system.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/02_片段概念识别_system.txt",
+      "source_sha256": "523fef2ebd2f60f65031754dec36831c86fca44cc63de88b54b3cf4a017db30f",
+      "release_sha256": "523fef2ebd2f60f65031754dec36831c86fca44cc63de88b54b3cf4a017db30f"
+    },
+    "dual_kg/resources/prompts/incremental_v5/02_片段概念识别_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/02_片段概念识别_user.txt",
+      "source_sha256": "a668e02e1b6dc03ab8c59ad8f558f1e10c0bd6df9d378b6b35e52b59065cb755",
+      "release_sha256": "a668e02e1b6dc03ab8c59ad8f558f1e10c0bd6df9d378b6b35e52b59065cb755"
+    },
+    "dual_kg/resources/prompts/incremental_v5/03_批量概念身份判断_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/03_批量概念身份判断_user.txt",
+      "source_sha256": "46f7b19732f7e49eecb1d4b1d5ba0e61502d8fe9c6ee1a95814d04b1b50bf11d",
+      "release_sha256": "46f7b19732f7e49eecb1d4b1d5ba0e61502d8fe9c6ee1a95814d04b1b50bf11d"
+    },
+    "dual_kg/resources/prompts/incremental_v5/04_关系与图谱增量更新_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/04_关系与图谱增量更新_user.txt",
+      "source_sha256": "be8d797e782925800151bfafc355a59e9433867200874927a4558e42ef8c7593",
+      "release_sha256": "be8d797e782925800151bfafc355a59e9433867200874927a4558e42ef8c7593"
+    },
+    "dual_kg/resources/prompts/incremental_v5/05_定向证据与冲突复核_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/05_定向证据与冲突复核_user.txt",
+      "source_sha256": "e88f8989073fee9776b1c70e424342f3c484cb3325f0e9b362b593e6689df1fa",
+      "release_sha256": "e88f8989073fee9776b1c70e424342f3c484cb3325f0e9b362b593e6689df1fa"
+    },
+    "dual_kg/resources/prompts/incremental_v5/06_片段图谱抽取_system.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/06_片段图谱抽取_system.txt",
+      "source_sha256": "ede1bb492023af03d6bf17bf887028e475c27902296f5315c4629dc2890b1202",
+      "release_sha256": "ede1bb492023af03d6bf17bf887028e475c27902296f5315c4629dc2890b1202"
+    },
+    "dual_kg/resources/prompts/incremental_v5/06_片段图谱抽取_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/06_片段图谱抽取_user.txt",
+      "source_sha256": "c4a93125e1c58c383cda1733f2b142f849fb113e575c96367d6b3865bc030036",
+      "release_sha256": "c4a93125e1c58c383cda1733f2b142f849fb113e575c96367d6b3865bc030036"
+    },
+    "dual_kg/resources/prompts/incremental_v5/07_同义概念判定_system.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/07_同义概念判定_system.txt",
+      "source_sha256": "92c3689a372cd428c9919779adf3688c7f46122863d0db62ce5177d01751be13",
+      "release_sha256": "92c3689a372cd428c9919779adf3688c7f46122863d0db62ce5177d01751be13"
+    },
+    "dual_kg/resources/prompts/incremental_v5/07_同义概念判定_user.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "dual_kg/resources/prompts/incremental_v5/07_同义概念判定_user.txt",
+      "source_sha256": "1a802596d428878fa20f0a4427c4f04a421f8cbb762ad6ed50828c8d18836379",
+      "release_sha256": "1a802596d428878fa20f0a4427c4f04a421f8cbb762ad6ed50828c8d18836379"
+    },
+    "domain_ckg_workspace/ckg_build/__init__.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/__init__.py",
+      "source_sha256": "1967f5c9215e7d145dc595838f5b750db9477937cf5a53cca52eb435b396496c",
+      "release_sha256": "1967f5c9215e7d145dc595838f5b750db9477937cf5a53cca52eb435b396496c"
+    },
+    "domain_ckg_workspace/ckg_build/engine.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/engine.py",
+      "source_sha256": "0ffe345ab891ce76a32675ed9723cfed7c7494af9e0231699187f4382d195988",
+      "release_sha256": "0ffe345ab891ce76a32675ed9723cfed7c7494af9e0231699187f4382d195988"
+    },
+    "domain_ckg_workspace/ckg_build/exports.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/exports.py",
+      "source_sha256": "4568b896142b7b17c5dd1add3567b41cd05692655195b22131e86943a065371e",
+      "release_sha256": "4568b896142b7b17c5dd1add3567b41cd05692655195b22131e86943a065371e"
+    },
+    "domain_ckg_workspace/ckg_build/legacy_import.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/legacy_import.py",
+      "source_sha256": "5d605458c7f57d954b95941a0a68752b0aeb2e3175eb0bd7d5195c7120a93179",
+      "release_sha256": "5d605458c7f57d954b95941a0a68752b0aeb2e3175eb0bd7d5195c7120a93179"
+    },
+    "domain_ckg_workspace/ckg_build/runtime.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/runtime.py",
+      "source_sha256": "8838e26f08021927e46cc49091beec4cec24a61d8d260a08661b18d0ad7c739a",
+      "release_sha256": "8838e26f08021927e46cc49091beec4cec24a61d8d260a08661b18d0ad7c739a"
+    },
+    "domain_ckg_workspace/ckg_build/source_adapter.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "domain_ckg_workspace/ckg_build/source_adapter.py",
+      "source_sha256": "a2166b0a348d8da22bc098ed29998267de4ebeaf3348efee16424b5231387c26",
+      "release_sha256": "a2166b0a348d8da22bc098ed29998267de4ebeaf3348efee16424b5231387c26"
+    },
+    "examples/__init__.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "examples/__init__.py",
+      "source_sha256": "8a0949fb35a3457f403d3ec8956de90ffe17d5c0783bbe0a3b0ff096a90bb5ee",
+      "release_sha256": "8a0949fb35a3457f403d3ec8956de90ffe17d5c0783bbe0a3b0ff096a90bb5ee"
+    },
+    "examples/make_fixture.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "examples/make_fixture.py",
+      "source_sha256": "9535c0eb532c79a62cd4d4296a5b329c23a8f90acf21105f318dbc741477722d",
+      "release_sha256": "9535c0eb532c79a62cd4d4296a5b329c23a8f90acf21105f318dbc741477722d"
+    },
+    "examples/offline_runtime.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "examples/offline_runtime.py",
+      "source_sha256": "72708514647b6766765e35c34b083947b8226a24f12f7baf240f95a5411d7e51",
+      "release_sha256": "72708514647b6766765e35c34b083947b8226a24f12f7baf240f95a5411d7e51"
+    },
+    "legacy_text_graph_tools/audit_heading_ownership.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/audit_heading_ownership.py",
+      "source_sha256": "32ed1fff59d981d7dc8ff6e7385bc8a8faaecbf96bb8abcb4c728a9148807193",
+      "release_sha256": "32ed1fff59d981d7dc8ff6e7385bc8a8faaecbf96bb8abcb4c728a9148807193"
+    },
+    "legacy_text_graph_tools/audit_paragraph_boundaries.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/audit_paragraph_boundaries.py",
+      "source_sha256": "2b96d6deb27b03681b77e6c74f6bf75f1894aea47332e7d5eed2322189c97c89",
+      "release_sha256": "2b96d6deb27b03681b77e6c74f6bf75f1894aea47332e7d5eed2322189c97c89"
+    },
+    "legacy_text_graph_tools/build_evidence_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_evidence_graphs.py",
+      "source_sha256": "b3155b132161a01f7892cc34b67ec5f62a42f650e2f2f43e4a7e9e9ff2e31f02",
+      "release_sha256": "b3155b132161a01f7892cc34b67ec5f62a42f650e2f2f43e4a7e9e9ff2e31f02"
+    },
+    "legacy_text_graph_tools/build_full_audit_report.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_full_audit_report.py",
+      "source_sha256": "2850ae6ee467a215859c5fd37d8b2bd0ea276f5f01fb7725b728d15ffaf06f23",
+      "release_sha256": "2850ae6ee467a215859c5fd37d8b2bd0ea276f5f01fb7725b728d15ffaf06f23"
+    },
+    "legacy_text_graph_tools/build_hierarchy_view.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_hierarchy_view.py",
+      "source_sha256": "038a502da844b440a62e36bfac7a27f11dfc20078ca45f83864db7647f9789ab",
+      "release_sha256": "038a502da844b440a62e36bfac7a27f11dfc20078ca45f83864db7647f9789ab"
+    },
+    "legacy_text_graph_tools/build_layout_ownership_v6.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_layout_ownership_v6.py",
+      "source_sha256": "45e80b1f35f7a6daeb2dd7f302aef13f8c7f7125a4d8a3f2c79cd19ba7705f39",
+      "release_sha256": "45e80b1f35f7a6daeb2dd7f302aef13f8c7f7125a4d8a3f2c79cd19ba7705f39"
+    },
+    "legacy_text_graph_tools/build_pdf_paragraph_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_pdf_paragraph_graphs.py",
+      "source_sha256": "910f451850402b0e3494d4ac913b1c86b1c3af7134ac9a7070e8b682329eed3f",
+      "release_sha256": "910f451850402b0e3494d4ac913b1c86b1c3af7134ac9a7070e8b682329eed3f"
+    },
+    "legacy_text_graph_tools/build_physical_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_physical_graphs.py",
+      "source_sha256": "7f917825704d35c71bdb3d831482aa75e9900465a176869efea7e8889d1e20b7",
+      "release_sha256": "7f917825704d35c71bdb3d831482aa75e9900465a176869efea7e8889d1e20b7"
+    },
+    "legacy_text_graph_tools/build_text_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_text_graphs.py",
+      "source_sha256": "4f4ea6168a6cef55f242edcc065d472d8121c97a80568ea79db892cae0cc1cdd",
+      "release_sha256": "4f4ea6168a6cef55f242edcc065d472d8121c97a80568ea79db892cae0cc1cdd"
+    },
+    "legacy_text_graph_tools/build_v3_report.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_v3_report.py",
+      "source_sha256": "f8051709360fc45c798456435427988815ea93171f4d884d401ab17d2b99b6ea",
+      "release_sha256": "f8051709360fc45c798456435427988815ea93171f4d884d401ab17d2b99b6ea"
+    },
+    "legacy_text_graph_tools/build_v6_review_sheets.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/build_v6_review_sheets.py",
+      "source_sha256": "4f1ec1f6754a07a52d2a1a1eaa0090e2015e991ed288dd0281b3ab0357cfd79f",
+      "release_sha256": "4f1ec1f6754a07a52d2a1a1eaa0090e2015e991ed288dd0281b3ab0357cfd79f"
+    },
+    "legacy_text_graph_tools/compile_evidence_plan.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/compile_evidence_plan.py",
+      "source_sha256": "0d12867878b9e3ca8159858ca683a6097c9b975f0eb8a733840574656b4d428c",
+      "release_sha256": "0d12867878b9e3ca8159858ca683a6097c9b975f0eb8a733840574656b4d428c"
+    },
+    "legacy_text_graph_tools/evidence_repair.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/evidence_repair.py",
+      "source_sha256": "0da89f66899cb25773a76d668f1e669be0115c07cc91c61b91a7a6ee5072df05",
+      "release_sha256": "0da89f66899cb25773a76d668f1e669be0115c07cc91c61b91a7a6ee5072df05"
+    },
+    "legacy_text_graph_tools/export_full_paragraph_corpus.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/export_full_paragraph_corpus.py",
+      "source_sha256": "f3eb6864f29106771dfdcf90bfffd98b8e5af8237eb61fc85565422bead454ba",
+      "release_sha256": "f3eb6864f29106771dfdcf90bfffd98b8e5af8237eb61fc85565422bead454ba"
+    },
+    "legacy_text_graph_tools/extract_pdf_line_geometry.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/extract_pdf_line_geometry.py",
+      "source_sha256": "4ca7650b402c6b08644b556e747401d5965e238bd61af0fc4fcb553cac1e64b6",
+      "release_sha256": "4ca7650b402c6b08644b556e747401d5965e238bd61af0fc4fcb553cac1e64b6"
+    },
+    "legacy_text_graph_tools/paragraph_cleaning.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/paragraph_cleaning.py",
+      "source_sha256": "230a27c8a096ad1d6bc45253735154dc0104a5456b7b7a18c387e3de5bba4a07",
+      "release_sha256": "230a27c8a096ad1d6bc45253735154dc0104a5456b7b7a18c387e3de5bba4a07"
+    },
+    "legacy_text_graph_tools/pdf_paragraph_rules.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/pdf_paragraph_rules.py",
+      "source_sha256": "f614a54c210c18e699a935260f6c940159c358f4644d7a499b1dac4ed18ba50d",
+      "release_sha256": "f614a54c210c18e699a935260f6c940159c358f4644d7a499b1dac4ed18ba50d"
+    },
+    "legacy_text_graph_tools/propose_pdf_boundaries.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/propose_pdf_boundaries.py",
+      "source_sha256": "56cf328a44106e043704003305f1e6fccf5a3316532b869a76190402e14483af",
+      "release_sha256": "56cf328a44106e043704003305f1e6fccf5a3316532b869a76190402e14483af"
+    },
+    "legacy_text_graph_tools/publish_layout_ownership_v6.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/publish_layout_ownership_v6.py",
+      "source_sha256": "93c1d496dbdf18208bf29fdbb6b6dc2c0c3e8ddb4f00cb3195391eaacd3ec814",
+      "release_sha256": "93c1d496dbdf18208bf29fdbb6b6dc2c0c3e8ddb4f00cb3195391eaacd3ec814"
+    },
+    "legacy_text_graph_tools/publish_pdf_paragraph_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/publish_pdf_paragraph_graphs.py",
+      "source_sha256": "1b78fd8d7e841c301620ccd3232be32482eff5e0cdb4c819e5652b9874a0128e",
+      "release_sha256": "1b78fd8d7e841c301620ccd3232be32482eff5e0cdb4c819e5652b9874a0128e"
+    },
+    "legacy_text_graph_tools/publish_physical_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/publish_physical_graphs.py",
+      "source_sha256": "92b1c04fe05a195ff91171bf722502abe9bc5953b15721717eb5a29bc07e9ab0",
+      "release_sha256": "92b1c04fe05a195ff91171bf722502abe9bc5953b15721717eb5a29bc07e9ab0"
+    },
+    "legacy_text_graph_tools/reconcile_heading_scopes.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/reconcile_heading_scopes.py",
+      "source_sha256": "ae2d4bee98d0d7e8a83c4e24ee9b3d22cdbe4a468915cb266d121eaa8eebc531",
+      "release_sha256": "ae2d4bee98d0d7e8a83c4e24ee9b3d22cdbe4a468915cb266d121eaa8eebc531"
+    },
+    "legacy_text_graph_tools/reconcile_pdf_sources.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/reconcile_pdf_sources.py",
+      "source_sha256": "d9f5d9995760c50ce60c0afd86cd6eff3504071c198233a6685caf5c49b86038",
+      "release_sha256": "d9f5d9995760c50ce60c0afd86cd6eff3504071c198233a6685caf5c49b86038"
+    },
+    "legacy_text_graph_tools/record_full_audit_visual_reviews.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/record_full_audit_visual_reviews.py",
+      "source_sha256": "688ef874a8d82d38aac70ddb3dd826621f11b9c12387d178d587f83e4d2397e9",
+      "release_sha256": "688ef874a8d82d38aac70ddb3dd826621f11b9c12387d178d587f83e4d2397e9"
+    },
+    "legacy_text_graph_tools/render_full_audit_evidence.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/render_full_audit_evidence.py",
+      "source_sha256": "2d840fee411fb9a369dabb008afb7be9b6f2afce74d80ca884ef79e9db81202a",
+      "release_sha256": "2d840fee411fb9a369dabb008afb7be9b6f2afce74d80ca884ef79e9db81202a"
+    },
+    "legacy_text_graph_tools/serve_pdf_evidence.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/serve_pdf_evidence.py",
+      "source_sha256": "006f05be2094fc1649360cc5fff36ebcd6ed753dbb7f75df9b6f6b49b9478a5c",
+      "release_sha256": "006f05be2094fc1649360cc5fff36ebcd6ed753dbb7f75df9b6f6b49b9478a5c"
+    },
+    "legacy_text_graph_tools/source_recovery.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/source_recovery.py",
+      "source_sha256": "3fec97d95e037785c9b6faaccd3612290070a75ff2e89a2e6a4333f033d979be",
+      "release_sha256": "3fec97d95e037785c9b6faaccd3612290070a75ff2e89a2e6a4333f033d979be"
+    },
+    "legacy_text_graph_tools/text_graph_assets.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/text_graph_assets.py",
+      "source_sha256": "4bc4150278d1dc86c0318b156b04da5bcfd84a831960e5014c45ce8781e1b3a6",
+      "release_sha256": "4bc4150278d1dc86c0318b156b04da5bcfd84a831960e5014c45ce8781e1b3a6"
+    },
+    "legacy_text_graph_tools/verify_evidence_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_evidence_graphs.py",
+      "source_sha256": "fd8c52ff8bb6da84168b01168a0b1559603d556487b390026ef090aa17ff468e",
+      "release_sha256": "fd8c52ff8bb6da84168b01168a0b1559603d556487b390026ef090aa17ff468e"
+    },
+    "legacy_text_graph_tools/verify_full_corpus_audit.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_full_corpus_audit.py",
+      "source_sha256": "7a28c395a134e55ee55ac9c3399271f8a0347edfc9f87188f43be46017f0cadf",
+      "release_sha256": "7a28c395a134e55ee55ac9c3399271f8a0347edfc9f87188f43be46017f0cadf"
+    },
+    "legacy_text_graph_tools/verify_hierarchy_view.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_hierarchy_view.py",
+      "source_sha256": "899a46b737f30d34c211bd452658cf402a11cc59918e42c72213c4a94d1e02ff",
+      "release_sha256": "899a46b737f30d34c211bd452658cf402a11cc59918e42c72213c4a94d1e02ff"
+    },
+    "legacy_text_graph_tools/verify_layout_ownership_v6.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_layout_ownership_v6.py",
+      "source_sha256": "8bd25fc3e9092a90d0e750c28f57bdf4f9e25db96c90f276c304413fe0f6234f",
+      "release_sha256": "8bd25fc3e9092a90d0e750c28f57bdf4f9e25db96c90f276c304413fe0f6234f"
+    },
+    "legacy_text_graph_tools/verify_pdf_paragraph_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_pdf_paragraph_graphs.py",
+      "source_sha256": "2d68aa64831fb4ab8a7b0e118eb0f4f7e4318c9c83fcf0f292adc41e6598c542",
+      "release_sha256": "2d68aa64831fb4ab8a7b0e118eb0f4f7e4318c9c83fcf0f292adc41e6598c542"
+    },
+    "legacy_text_graph_tools/verify_physical_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_physical_graphs.py",
+      "source_sha256": "3e9e9eedfea0a4fde8ac51407c72ef1049c72f5b27d13341998c03a049e4a44f",
+      "release_sha256": "3e9e9eedfea0a4fde8ac51407c72ef1049c72f5b27d13341998c03a049e4a44f"
+    },
+    "legacy_text_graph_tools/verify_text_graphs.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "legacy_text_graph_tools/verify_text_graphs.py",
+      "source_sha256": "2eb1bddc63516e0d404c43671786cf864624c4e98fd31694b95dace685cd76c2",
+      "release_sha256": "2eb1bddc63516e0d404c43671786cf864624c4e98fd31694b95dace685cd76c2"
+    },
+    "tests/test_api.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "tests/test_api.py",
+      "source_sha256": "6a193503b5a004b5e435db80d59468bbccf2b336efb48e7c3cc12bfa12cf2cb2",
+      "release_sha256": "6a193503b5a004b5e435db80d59468bbccf2b336efb48e7c3cc12bfa12cf2cb2"
+    },
+    "tests/test_http.py": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "tests/test_http.py",
+      "source_sha256": "524e355a2d4152fc9b5a8bcb2332a1512f0c61ad4e1a96a52c7643a580dff8af",
+      "release_sha256": "524e355a2d4152fc9b5a8bcb2332a1512f0c61ad4e1a96a52c7643a580dff8af"
+    },
+    "config/incremental.example.yaml": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "config/incremental.example.yaml",
+      "source_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059",
+      "release_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059"
+    },
+    "docs/API.md": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "docs/API.md",
+      "source_sha256": "0eb79000ffa83e3635d37f7f3ed0b13cbadc41d3cc025881079a316150736b04",
+      "release_sha256": "0eb79000ffa83e3635d37f7f3ed0b13cbadc41d3cc025881079a316150736b04"
+    },
+    "docs/README.zh-CN.md": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "docs/README.zh-CN.md",
+      "source_sha256": "2b063680040f089d4cf8539770575a6e0c2a9a58b2633da5ee20dd19276f2492",
+      "release_sha256": "2b063680040f089d4cf8539770575a6e0c2a9a58b2633da5ee20dd19276f2492"
+    },
+    "docs/构建过程与源码对应.md": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "docs/构建过程与源码对应.md",
+      "source_sha256": "3b15de474afb48f391a1b0a566bf7c5c36a3df4cc44d7f568a86b6510a8c4a80",
+      "release_sha256": "3b15de474afb48f391a1b0a566bf7c5c36a3df4cc44d7f568a86b6510a8c4a80"
+    },
+    "licenses/MIT-dual-view-textbook-kg.txt": {
+      "snapshot": "dual-view-textbook-kg / 150763b",
+      "source": "LICENSE",
+      "source_sha256": "286e6b1534e39398584d044c766bf83ac4ef6b01060012e119e477e92de123a8",
+      "release_sha256": "286e6b1534e39398584d044c766bf83ac4ef6b01060012e119e477e92de123a8"
+    },
+    "course_experiments/__init__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/__init__.py",
+      "source_sha256": "615f5958c7b884152823f9f90b6a12d9842b7769d00dde2ceaa246ecf28500a5",
+      "release_sha256": "615f5958c7b884152823f9f90b6a12d9842b7769d00dde2ceaa246ecf28500a5"
+    },
+    "course_experiments/__main__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/__main__.py",
+      "source_sha256": "1bed898e30ae0447b0a1fb05f242ea2e848ef23f234be20aec631a655a505a92",
+      "release_sha256": "1bed898e30ae0447b0a1fb05f242ea2e848ef23f234be20aec631a655a505a92"
+    },
+    "course_experiments/baselines/__init__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/__init__.py",
+      "source_sha256": "ece70f36e80490f4a64c3181e5f6fd8cde0b240bd6902f2c45131122bd956b3e",
+      "release_sha256": "ece70f36e80490f4a64c3181e5f6fd8cde0b240bd6902f2c45131122bd956b3e"
+    },
+    "course_experiments/baselines/alignment.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/alignment.py",
+      "source_sha256": "9628b782266651f7d1b7255634b312330e40f0f60832a35b6233714c324c7e74",
+      "release_sha256": "9628b782266651f7d1b7255634b312330e40f0f60832a35b6233714c324c7e74"
+    },
+    "course_experiments/baselines/alignment_prompt.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/alignment_prompt.txt",
+      "source_sha256": "686dfe72ac58dc8c5d4d500b95d4c04755411de9ed4f53173982d85f60a81acd",
+      "release_sha256": "686dfe72ac58dc8c5d4d500b95d4c04755411de9ed4f53173982d85f60a81acd"
+    },
+    "course_experiments/baselines/edc_native.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/edc_native.py",
+      "source_sha256": "68cac406cea781d0f11720d7495e10fad218e690d6b7269d9a50e6ee390f8224",
+      "release_sha256": "68cac406cea781d0f11720d7495e10fad218e690d6b7269d9a50e6ee390f8224"
+    },
+    "course_experiments/baselines/k12_native_projection.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/k12_native_projection.py",
+      "source_sha256": "02be5c473325471df2d99569afafb34d608c48321ce493bc194b3d4dfb87fb9d",
+      "release_sha256": "02be5c473325471df2d99569afafb34d608c48321ce493bc194b3d4dfb87fb9d"
+    },
+    "course_experiments/baselines/native.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/native.py",
+      "source_sha256": "e96fa58fb64a33259bcbf70c63f481e898aa5abded52084dd54d85019747998c",
+      "release_sha256": "e96fa58fb64a33259bcbf70c63f481e898aa5abded52084dd54d85019747998c"
+    },
+    "course_experiments/baselines/protocol.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/protocol.py",
+      "source_sha256": "ee6ba99bfe13c254a695a37736cc31f25417fbf1e8ad8b59ae4f81c6dc71b7a7",
+      "release_sha256": "ee6ba99bfe13c254a695a37736cc31f25417fbf1e8ad8b59ae4f81c6dc71b7a7"
+    },
+    "course_experiments/baselines/README.md": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/README.md",
+      "source_sha256": "e29105fc86558a3c1b6e394f39e507b368c4a4e37e0e02c4f2ed4f46b0625b9d",
+      "release_sha256": "e29105fc86558a3c1b6e394f39e507b368c4a4e37e0e02c4f2ed4f46b0625b9d"
+    },
+    "course_experiments/baselines/requirements-graphrag.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/requirements-graphrag.txt",
+      "source_sha256": "308a2fd5d89a4269557b39c337de564e830e4cbf223662f6a01b5f7e3b92342f",
+      "release_sha256": "308a2fd5d89a4269557b39c337de564e830e4cbf223662f6a01b5f7e3b92342f"
+    },
+    "course_experiments/baselines/requirements-k12.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/requirements-k12.txt",
+      "source_sha256": "329ac74cdf8febf48a3d3b7638abb261ad704f01ff94abd5ac5d3d463a092a12",
+      "release_sha256": "329ac74cdf8febf48a3d3b7638abb261ad704f01ff94abd5ac5d3d463a092a12"
+    },
+    "course_experiments/baselines/requirements-kggen.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/requirements-kggen.txt",
+      "source_sha256": "d788e02382a1ae0eac3ae8a6ebb373b580aa35c7ddfbf4402e94724ce2902ed8",
+      "release_sha256": "d788e02382a1ae0eac3ae8a6ebb373b580aa35c7ddfbf4402e94724ce2902ed8"
+    },
+    "course_experiments/baselines/runner.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/runner.py",
+      "source_sha256": "df19f03d0a0ddefa662b30436ae9f860cbde9cfc7c61e4445ac316fe6fcac89e",
+      "release_sha256": "df19f03d0a0ddefa662b30436ae9f860cbde9cfc7c61e4445ac316fe6fcac89e"
+    },
+    "course_experiments/baselines/source_pins.json": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/source_pins.json",
+      "source_sha256": "9e3b3ffbef1f2b1bf4d479df25aa9a046682c20e7a3746f10d61589a1ea6d456",
+      "release_sha256": "9e3b3ffbef1f2b1bf4d479df25aa9a046682c20e7a3746f10d61589a1ea6d456"
+    },
+    "course_experiments/baselines/tree_kg.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/baselines/tree_kg.py",
+      "source_sha256": "827720bf64fdf5d5dbe317f768aab755843ff650bc35b6051331e8af6139aa13",
+      "release_sha256": "827720bf64fdf5d5dbe317f768aab755843ff650bc35b6051331e8af6139aa13"
+    },
+    "course_experiments/comparison.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/comparison.py",
+      "source_sha256": "f4bc81ac72fa8bf7334155072de4884db5487909b9e19a4c00392c8117281328",
+      "release_sha256": "f4bc81ac72fa8bf7334155072de4884db5487909b9e19a4c00392c8117281328"
+    },
+    "course_experiments/config/courses.expanded_20261016.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/config/courses.expanded_20261016.yaml",
+      "source_sha256": "327a18500ca528fbc121a714d6911f854610ee0804575640ef3a9ead7900e661",
+      "release_changes": "Omit unpublished local historical manifest path.",
+      "release_sha256": "384f32b56ccbfec49ce3bb2b927576df475b09f49cf23c57306f4e25bfd1daa9"
+    },
+    "course_experiments/config/courses.networks_20261016.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/config/courses.networks_20261016.yaml",
+      "source_sha256": "e7c710474a0e6d18ea0e8f3f7e5e4bf3d2610594993e89431a0b8dbe867d0607",
+      "release_changes": "Omit unpublished local historical manifest path.",
+      "release_sha256": "faf21d35964d2bea0c828159b676df250497dd95f26cd9a8dac997ecfd5c2302"
+    },
+    "course_experiments/config/courses.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/config/courses.yaml",
+      "source_sha256": "39ed25261bf7f4c6e5f28c6515e65ae2f21c6b98ae0d5b6fcf2188c9a195a6eb",
+      "release_changes": "Omit unpublished local historical manifest path.",
+      "release_sha256": "0e438c8a8c0ad4e430db4f698fa7892a689629b4dfccf62185283814e4e9f756"
+    },
+    "course_experiments/config/experiments.expanded_20261016.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/config/experiments.expanded_20261016.yaml",
+      "source_sha256": "504c525ae81192bf6c4d6f96fb707cb09312f9a7861f0bc9b35a4857c7b5793e",
+      "release_changes": "Point to local schema and evaluator locations in this source package; the frozen evaluator hashes still identify the historical files.",
+      "release_sha256": "36aebd20d7d735ca952d83ae9e85c4c8f0688d18d5cc7cf8fa54ae0996a94476"
+    },
+    "course_experiments/config/experiments.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/config/experiments.yaml",
+      "source_sha256": "68c04eff10480e50408a3b78bba704971a16e700ffafa1a5e967272a5e7ddee7",
+      "release_changes": "Point to local schema and evaluator locations in this source package; the frozen evaluator hashes still identify the historical files.",
+      "release_sha256": "fde0cb8eb93987209ed792ac15eac19e57b1894c27bcc64dc257ffbf519935b4"
+    },
+    "course_experiments/construction.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/construction.py",
+      "source_sha256": "5eee62d92ea26daf56aa56479ba2aa12be99c9fe52ac7428d146025247debfee",
+      "release_sha256": "5eee62d92ea26daf56aa56479ba2aa12be99c9fe52ac7428d146025247debfee"
+    },
+    "course_experiments/contributions.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/contributions.py",
+      "source_sha256": "058aff2470db195577cacfbda3a0d56fa2460162e9cf1304e572c52ea6674a3a",
+      "release_sha256": "058aff2470db195577cacfbda3a0d56fa2460162e9cf1304e572c52ea6674a3a"
+    },
+    "course_experiments/dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/dual_view.py",
+      "source_sha256": "54822b439ab57cbe4d71bf8288538790bc31f2ad244168875498111373db3f7a",
+      "release_sha256": "54822b439ab57cbe4d71bf8288538790bc31f2ad244168875498111373db3f7a"
+    },
+    "course_experiments/evaluation/__init__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/__init__.py",
+      "source_sha256": "103e7a7f7efe3a20c68159c828cde7af4571bc67f618a4a79d73e489445daca7",
+      "release_sha256": "103e7a7f7efe3a20c68159c828cde7af4571bc67f618a4a79d73e489445daca7"
+    },
+    "course_experiments/evaluation/__main__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/__main__.py",
+      "source_sha256": "f5352e2616e3efbcb7901b686596f919c7573ad72cd9da15da8b35dce6f0e01d",
+      "release_sha256": "f5352e2616e3efbcb7901b686596f919c7573ad72cd9da15da8b35dce6f0e01d"
+    },
+    "course_experiments/evaluation/baseline_rag_bridge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/baseline_rag_bridge.py",
+      "source_sha256": "29a7182f24c1a01440238db6cb255d3af62cd65937df88fe8b1df0a2977060e4",
+      "release_sha256": "29a7182f24c1a01440238db6cb255d3af62cd65937df88fe8b1df0a2977060e4"
+    },
+    "course_experiments/evaluation/blind64_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/blind64_pipeline.py",
+      "source_sha256": "be9817cafc7e3cc9cdab12779696356f3c1fbf5f78472811da3c80d91d458dd7",
+      "release_sha256": "be9817cafc7e3cc9cdab12779696356f3c1fbf5f78472811da3c80d91d458dd7"
+    },
+    "course_experiments/evaluation/chat.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/chat.py",
+      "source_sha256": "6b489baea4903a6ed1f784f5b15ec0fc4fb74485742b12e5b13f8d0ef19f8694",
+      "release_sha256": "6b489baea4903a6ed1f784f5b15ec0fc4fb74485742b12e5b13f8d0ef19f8694"
+    },
+    "course_experiments/evaluation/common_paragraph_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/common_paragraph_rag.py",
+      "source_sha256": "a9f4e982557ec3692493203b489a62f8c109a5aeb048a06ec2731170e9424e1c",
+      "release_sha256": "a9f4e982557ec3692493203b489a62f8c109a5aeb048a06ec2731170e9424e1c"
+    },
+    "course_experiments/evaluation/corrected_f_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/corrected_f_dual_view.py",
+      "source_sha256": "ff0684de5d1c947177793407f84db4450ee9bc1b32661ff5210be4071fba5ce5",
+      "release_sha256": "ff0684de5d1c947177793407f84db4450ee9bc1b32661ff5210be4071fba5ce5"
+    },
+    "course_experiments/evaluation/current_matrix_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/current_matrix_reporting.py",
+      "source_sha256": "45e03190f11f9df87111e9c1ac7737b5474b280668dfdb5e51c4c65b07b9fa41",
+      "release_sha256": "45e03190f11f9df87111e9c1ac7737b5474b280668dfdb5e51c4c65b07b9fa41"
+    },
+    "course_experiments/evaluation/dual_view_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/dual_view_pipeline.py",
+      "source_sha256": "4a9b8f4cfdab0cee66d481d432d21de3f2466a5d82cb48bcb30fb5e45dd03943",
+      "release_changes": "Use repository-local output paths for historical runner defaults.",
+      "release_sha256": "76293d889e4da5aeb003c687dc565361f0c819ab7effe32e3a174262bf6baeb5"
+    },
+    "course_experiments/evaluation/dual_view_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/dual_view_rag.py",
+      "source_sha256": "9b89f693c52fdff1151899b7ac7397c6223febc3b15fb581de2025d6c438e0e4",
+      "release_sha256": "9b89f693c52fdff1151899b7ac7397c6223febc3b15fb581de2025d6c438e0e4"
+    },
+    "course_experiments/evaluation/dual_view_run.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/dual_view_run.py",
+      "source_sha256": "834d70a14283cacf01e2f8b1791e7a39d76ae0af2f64b96875676fc54852f38c",
+      "release_sha256": "834d70a14283cacf01e2f8b1791e7a39d76ae0af2f64b96875676fc54852f38c"
+    },
+    "course_experiments/evaluation/dual_view_tasks.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/dual_view_tasks.py",
+      "source_sha256": "dc3806be9eb291f981bddbbdd8943a04db035bb2685864de5a9fc8b2295450f7",
+      "release_sha256": "dc3806be9eb291f981bddbbdd8943a04db035bb2685864de5a9fc8b2295450f7"
+    },
+    "course_experiments/evaluation/dvkg_development.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/dvkg_development.py",
+      "source_sha256": "5856dc75f8f272e2a1f2ceb2d93e4efb4ac0da7417725e0685be79f39b92c213",
+      "release_sha256": "5856dc75f8f272e2a1f2ceb2d93e4efb4ac0da7417725e0685be79f39b92c213"
+    },
+    "course_experiments/evaluation/echa_batch_runtime.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_batch_runtime.py",
+      "source_sha256": "44a6cf561489025d50cb2d5c9d93a36c7d20dd13b83498d775ce623555d0ee88",
+      "release_sha256": "44a6cf561489025d50cb2d5c9d93a36c7d20dd13b83498d775ce623555d0ee88"
+    },
+    "course_experiments/evaluation/echa_local_rerank.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_local_rerank.py",
+      "source_sha256": "6b30863dd135bab4b442323ab3967995014b5bacb176eb069eafcc7afaeffe42",
+      "release_sha256": "6b30863dd135bab4b442323ab3967995014b5bacb176eb069eafcc7afaeffe42"
+    },
+    "course_experiments/evaluation/echa_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_pipeline.py",
+      "source_sha256": "2596f91be8d970f2972c15ce53b35100d465be23aad090316b4b791ac92c114f",
+      "release_sha256": "2596f91be8d970f2972c15ce53b35100d465be23aad090316b4b791ac92c114f"
+    },
+    "course_experiments/evaluation/echa_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_rag.py",
+      "source_sha256": "8f81021a32c658a5f38306a975246dc447277f096d5905c7abdfdb6f8fe4d373",
+      "release_sha256": "8f81021a32c658a5f38306a975246dc447277f096d5905c7abdfdb6f8fe4d373"
+    },
+    "course_experiments/evaluation/echa_recall_guard.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_recall_guard.py",
+      "source_sha256": "c99b8c1703b29f79deba59f676fda0436d07584e917523c14d84fa1a2c9354d8",
+      "release_sha256": "c99b8c1703b29f79deba59f676fda0436d07584e917523c14d84fa1a2c9354d8"
+    },
+    "course_experiments/evaluation/echa_structured_fast.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_structured_fast.py",
+      "source_sha256": "77ac842cb4aac8b8afc4fff3a3fb8e4f4dd6764fee445a290ea4bff749ca64ec",
+      "release_sha256": "77ac842cb4aac8b8afc4fff3a3fb8e4f4dd6764fee445a290ea4bff749ca64ec"
+    },
+    "course_experiments/evaluation/echa_structured_focus.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/echa_structured_focus.py",
+      "source_sha256": "e92065f9cf5f4ade11d1806bd18a1bd62c97c67a1779f12635405c745cf1543d",
+      "release_sha256": "e92065f9cf5f4ade11d1806bd18a1bd62c97c67a1779f12635405c745cf1543d"
+    },
+    "course_experiments/evaluation/epoch_sensitivity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/epoch_sensitivity_kge.py",
+      "source_sha256": "72de18af8a2e80aa8314a756dbda09dda196e2d03d48d096e17426b97537d05a",
+      "release_sha256": "72de18af8a2e80aa8314a756dbda09dda196e2d03d48d096e17426b97537d05a"
+    },
+    "course_experiments/evaluation/evidence_development_run.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/evidence_development_run.py",
+      "source_sha256": "bdbbe7eaabd28bb09ef757d8c272d1168213ed6829937c66d31098cc168a571e",
+      "release_sha256": "bdbbe7eaabd28bb09ef757d8c272d1168213ed6829937c66d31098cc168a571e"
+    },
+    "course_experiments/evaluation/evidence_hierarchical_alignment.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/evidence_hierarchical_alignment.py",
+      "source_sha256": "d599e9053d94deff6b098d560f340ab761243f7e586986482ad56854e5846972",
+      "release_sha256": "d599e9053d94deff6b098d560f340ab761243f7e586986482ad56854e5846972"
+    },
+    "course_experiments/evaluation/evidence_selection_pool.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/evidence_selection_pool.py",
+      "source_sha256": "6c4fe53a368b5823e3de354b7a8d59183eaec8e5ac406fc2f6d8043150f66d80",
+      "release_sha256": "6c4fe53a368b5823e3de354b7a8d59183eaec8e5ac406fc2f6d8043150f66d80"
+    },
+    "course_experiments/evaluation/evidence_stage_metrics.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/evidence_stage_metrics.py",
+      "source_sha256": "fa9b6cb1a3fa9676c97f2ec9944e3bed2c1f49175d4d8d9741947716dd2ed571",
+      "release_sha256": "fa9b6cb1a3fa9676c97f2ec9944e3bed2c1f49175d4d8d9741947716dd2ed571"
+    },
+    "course_experiments/evaluation/evidence_window_packing.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/evidence_window_packing.py",
+      "source_sha256": "447316cbb69db14fbeb557a457e2c01e5c7c5a9a055db0150ad6c29c9c926756",
+      "release_sha256": "447316cbb69db14fbeb557a457e2c01e5c7c5a9a055db0150ad6c29c9c926756"
+    },
+    "course_experiments/evaluation/followup_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/followup_reporting.py",
+      "source_sha256": "54e5d70a76350601930f186a5e544d6ea58646faf6714d5853001d798b708b67",
+      "release_sha256": "54e5d70a76350601930f186a5e544d6ea58646faf6714d5853001d798b708b67"
+    },
+    "course_experiments/evaluation/followup_stages.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/followup_stages.py",
+      "source_sha256": "58d6b084beed7b9b45d8ed80352c15aef043f2d52b53ad0f828ff63b65ee3fb1",
+      "release_changes": "Use repository-local output paths for historical runner defaults.",
+      "release_sha256": "49f3ef37d62536a527615e73cb666e45ca69043a380fd272eb93905f280e007e"
+    },
+    "course_experiments/evaluation/graph_rag_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/graph_rag_v2.py",
+      "source_sha256": "05fe65450eff49215a87a68a5199874bc68388d42addbd6283a345c44736299d",
+      "release_sha256": "05fe65450eff49215a87a68a5199874bc68388d42addbd6283a345c44736299d"
+    },
+    "course_experiments/evaluation/identity_append_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_append_execution.py",
+      "source_sha256": "964e3e43a65c1afdf38b093b7e36615c7e49584011c62bde742a5886e3a2919b",
+      "release_sha256": "964e3e43a65c1afdf38b093b7e36615c7e49584011c62bde742a5886e3a2919b"
+    },
+    "course_experiments/evaluation/identity_format_repair.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_format_repair.py",
+      "source_sha256": "0b68769ff3122d73a2d51f137bd6fdc919ebc8c81699772d77603b52b6914235",
+      "release_sha256": "0b68769ff3122d73a2d51f137bd6fdc919ebc8c81699772d77603b52b6914235"
+    },
+    "course_experiments/evaluation/identity_inventory_append.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_inventory_append.py",
+      "source_sha256": "e46fbbd3ee8fb326b93f5a51fadf9cf9fe6c0f446e8e3fbd2f29c7bf7c2001ed",
+      "release_sha256": "e46fbbd3ee8fb326b93f5a51fadf9cf9fe6c0f446e8e3fbd2f29c7bf7c2001ed"
+    },
+    "course_experiments/evaluation/identity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_kge.py",
+      "source_sha256": "df12a4942d3a763a80354ebdd490c9b921a430ee03d8a3a64a0daa70021527a4",
+      "release_sha256": "df12a4942d3a763a80354ebdd490c9b921a430ee03d8a3a64a0daa70021527a4"
+    },
+    "course_experiments/evaluation/identity_kge_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_kge_execution.py",
+      "source_sha256": "cfeec5d3967cc6fe7cc33389389b0e8ebe7b27552a2797b51ce41f2d3af71f5e",
+      "release_sha256": "5841964bc63461207d200398463bed49152026fbfef85e6c271598cd3d88c35e",
+      "release_changes": "Configure the lock file for the local execution host."
+    },
+    "course_experiments/evaluation/identity_response.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_response.py",
+      "source_sha256": "020ae176706f77e63064e1d10a586867858059e946fb6ef6e2d2462b0f71cf38",
+      "release_sha256": "020ae176706f77e63064e1d10a586867858059e946fb6ef6e2d2462b0f71cf38"
+    },
+    "course_experiments/evaluation/identity_short_provider.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_short_provider.py",
+      "source_sha256": "3a05fc398385c562bdcb084d762a9acb36b3115661affaa1375bee7334a3261d",
+      "release_sha256": "3a05fc398385c562bdcb084d762a9acb36b3115661affaa1375bee7334a3261d"
+    },
+    "course_experiments/evaluation/identity_short_single.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_short_single.py",
+      "source_sha256": "0f7c3f61c8ba4217403c82af14fdc47d071caff83a0713a93470c38025e255c7",
+      "release_sha256": "0f7c3f61c8ba4217403c82af14fdc47d071caff83a0713a93470c38025e255c7"
+    },
+    "course_experiments/evaluation/identity_single_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_single_v2.py",
+      "source_sha256": "96d7f43115e42a90ee1d06d1b6b0ee90402fd47f9da8529743b1d70f7351a6b8",
+      "release_sha256": "96d7f43115e42a90ee1d06d1b6b0ee90402fd47f9da8529743b1d70f7351a6b8"
+    },
+    "course_experiments/evaluation/identity_single_v2_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_single_v2_full.py",
+      "source_sha256": "b4da32744536087965c880ebb85b0f2f32cf5a34d13059f1923457b01997ed70",
+      "release_sha256": "b4da32744536087965c880ebb85b0f2f32cf5a34d13059f1923457b01997ed70"
+    },
+    "course_experiments/evaluation/identity_single_v2_g0.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_single_v2_g0.py",
+      "source_sha256": "538bbe85dc80398500a0755be2deedacf4374723122335c4a08c73bbfd89955f",
+      "release_sha256": "538bbe85dc80398500a0755be2deedacf4374723122335c4a08c73bbfd89955f"
+    },
+    "course_experiments/evaluation/identity_single_v2_infrastructure.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_single_v2_infrastructure.py",
+      "source_sha256": "092c1d4847a5e583b2f44c59d7bd40d095bd25ef92456de684c466c38b7ef3d7",
+      "release_sha256": "092c1d4847a5e583b2f44c59d7bd40d095bd25ef92456de684c466c38b7ef3d7"
+    },
+    "course_experiments/evaluation/identity_source_full_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_source_full_execution.py",
+      "source_sha256": "b3df1de3e65ae21fd1b9f23fe124bc299d3033f19e5bb853e06ea6909948c7e8",
+      "release_sha256": "b3df1de3e65ae21fd1b9f23fe124bc299d3033f19e5bb853e06ea6909948c7e8"
+    },
+    "course_experiments/evaluation/identity_wire_labels.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/identity_wire_labels.py",
+      "source_sha256": "b57a2e9408bcff1a1017b6a4bc6dbe77bd9d3c160ca27cd869146807b87ed456",
+      "release_sha256": "b57a2e9408bcff1a1017b6a4bc6dbe77bd9d3c160ca27cd869146807b87ed456"
+    },
+    "course_experiments/evaluation/joint_pool_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/joint_pool_rag.py",
+      "source_sha256": "1de5137d54b5cf782981e577eb1a172d2fc16734c71d4e2cb68f087e76664ef7",
+      "release_sha256": "1de5137d54b5cf782981e577eb1a172d2fc16734c71d4e2cb68f087e76664ef7"
+    },
+    "course_experiments/evaluation/k12_alias_compat.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/k12_alias_compat.py",
+      "source_sha256": "e12e81266bca408e9a052cf72e1eddf5aeb3541a6756a9232d19054102ce7ece",
+      "release_sha256": "e12e81266bca408e9a052cf72e1eddf5aeb3541a6756a9232d19054102ce7ece"
+    },
+    "course_experiments/evaluation/kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/kge.py",
+      "source_sha256": "8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e",
+      "release_sha256": "8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e"
+    },
+    "course_experiments/evaluation/kge_collection_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/kge_collection_reporting.py",
+      "source_sha256": "d4bc77885558e5d381a0be81e6b9b973f57b8dc28005dec8fc2221b21770f76e",
+      "release_sha256": "d4bc77885558e5d381a0be81e6b9b973f57b8dc28005dec8fc2221b21770f76e"
+    },
+    "course_experiments/evaluation/lightrag_exact_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/lightrag_exact_length_recovery.py",
+      "source_sha256": "9dc3b2b82f5ec249fa1556bd46ac86f7c0709b69c22646f21e1d4315722d2456",
+      "release_sha256": "9dc3b2b82f5ec249fa1556bd46ac86f7c0709b69c22646f21e1d4315722d2456"
+    },
+    "course_experiments/evaluation/lightrag_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/lightrag_length_recovery.py",
+      "source_sha256": "a51efa581535a741cfe27202e10bf4f8a5335ebb6a17fbcf55455d0b7f05194a",
+      "release_sha256": "a51efa581535a741cfe27202e10bf4f8a5335ebb6a17fbcf55455d0b7f05194a"
+    },
+    "course_experiments/evaluation/materialize_joint_mapping.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/materialize_joint_mapping.py",
+      "source_sha256": "ddbbccefd09ee8fab2758d9761a7f373e10ded6d3e65a4da64d7864389a914a6",
+      "release_sha256": "ddbbccefd09ee8fab2758d9761a7f373e10ded6d3e65a4da64d7864389a914a6"
+    },
+    "course_experiments/evaluation/multi_model_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/multi_model_kge.py",
+      "source_sha256": "58de677f1e11ff015344c2eb899dc23d12214d19baed8ebe2a23518bbb08bcec",
+      "release_sha256": "58de677f1e11ff015344c2eb899dc23d12214d19baed8ebe2a23518bbb08bcec"
+    },
+    "course_experiments/evaluation/native_corpus.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_corpus.py",
+      "source_sha256": "b97dd83d6618124d5f51b5bdf00f2255a5eafdb7dc1d0be2b796d3952ff4eb02",
+      "release_sha256": "b97dd83d6618124d5f51b5bdf00f2255a5eafdb7dc1d0be2b796d3952ff4eb02"
+    },
+    "course_experiments/evaluation/native_graph_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_graph_kge.py",
+      "source_sha256": "47471d6780a1e6bfd05a325614dc94d37722afe45a9e02e1637e3a94004702df",
+      "release_sha256": "47471d6780a1e6bfd05a325614dc94d37722afe45a9e02e1637e3a94004702df"
+    },
+    "course_experiments/evaluation/native_hipporag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_hipporag.py",
+      "source_sha256": "a9135db88faf41d9e0acb128a00112375bc75dcf26ea7a2d848435ca17791a83",
+      "release_sha256": "a9135db88faf41d9e0acb128a00112375bc75dcf26ea7a2d848435ca17791a83"
+    },
+    "course_experiments/evaluation/native_joint_pool_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_joint_pool_rag.py",
+      "source_sha256": "8a9e8c9479b18d652229ad3278e26e2bbf85bf202185386d83854fd3356e7735",
+      "release_sha256": "8a9e8c9479b18d652229ad3278e26e2bbf85bf202185386d83854fd3356e7735"
+    },
+    "course_experiments/evaluation/native_lightrag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_lightrag.py",
+      "source_sha256": "79de95dd8a9cf3ba11b7bc2c64d4f61b6ff0ea05b093e76104b8bdf290a7444f",
+      "release_sha256": "79de95dd8a9cf3ba11b7bc2c64d4f61b6ff0ea05b093e76104b8bdf290a7444f"
+    },
+    "course_experiments/evaluation/native_microsoft_faithful.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_microsoft_faithful.py",
+      "source_sha256": "1aaa9eddb854de523ccca0397c7305d78e87f371260065bc656757cda29f67a8",
+      "release_sha256": "1aaa9eddb854de523ccca0397c7305d78e87f371260065bc656757cda29f67a8"
+    },
+    "course_experiments/evaluation/native_microsoft_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_microsoft_full.py",
+      "source_sha256": "cf8a6f50074422e11197690c6e37d379c2b9c4227b0d35615012d56786c5937a",
+      "release_sha256": "cf8a6f50074422e11197690c6e37d379c2b9c4227b0d35615012d56786c5937a"
+    },
+    "course_experiments/evaluation/native_microsoft_graphrag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_microsoft_graphrag.py",
+      "source_sha256": "ee764374f7f85399ad28bf9ad3cee8ee8d071e22dba21308e544b2edd62f1fcd",
+      "release_sha256": "ee764374f7f85399ad28bf9ad3cee8ee8d071e22dba21308e544b2edd62f1fcd"
+    },
+    "course_experiments/evaluation/native_microsoft_query_mapping.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_microsoft_query_mapping.py",
+      "source_sha256": "b2044b058fcb1338beede4ad2216a85885d83acbf01fc0c46be51581c0c61c41",
+      "release_sha256": "b2044b058fcb1338beede4ad2216a85885d83acbf01fc0c46be51581c0c61c41"
+    },
+    "course_experiments/evaluation/native_microsoft_spans.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_microsoft_spans.py",
+      "source_sha256": "db19ceaca71457248570ab7f2fef4a9815e91407004953f5f9f501ba24a6e52b",
+      "release_sha256": "db19ceaca71457248570ab7f2fef4a9815e91407004953f5f9f501ba24a6e52b"
+    },
+    "course_experiments/evaluation/native_provider.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_provider.py",
+      "source_sha256": "af32fd606f52b78bc2d30d117950148f6207dc820c2819a5463a3394d4e7482f",
+      "release_sha256": "af32fd606f52b78bc2d30d117950148f6207dc820c2819a5463a3394d4e7482f"
+    },
+    "course_experiments/evaluation/native_qa_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_qa_length_recovery.py",
+      "source_sha256": "04fd7319556d7e6a0e1ec9eca6f12feae80554192a471b20a08cec9c6a703156",
+      "release_sha256": "04fd7319556d7e6a0e1ec9eca6f12feae80554192a471b20a08cec9c6a703156"
+    },
+    "course_experiments/evaluation/native_source_paragraph_projection.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/native_source_paragraph_projection.py",
+      "source_sha256": "4bb0b2e1b31044932d5faf2da7e2f43bd708827d62547914cbd18f22e8c14dd5",
+      "release_sha256": "4bb0b2e1b31044932d5faf2da7e2f43bd708827d62547914cbd18f22e8c14dd5"
+    },
+    "course_experiments/evaluation/origin_alignment77.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/origin_alignment77.py",
+      "source_sha256": "2d44ec3921defa274c460226e93ee4efd429f0db510bfd39b46953a98fb267ca",
+      "release_sha256": "2d44ec3921defa274c460226e93ee4efd429f0db510bfd39b46953a98fb267ca"
+    },
+    "course_experiments/evaluation/paper_ab200.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/paper_ab200.py",
+      "source_sha256": "4f7c0f690429fe76134bed1c3bd55730bc1cdf68cd3b3effecde70dd02097f98",
+      "release_sha256": "4f7c0f690429fe76134bed1c3bd55730bc1cdf68cd3b3effecde70dd02097f98"
+    },
+    "course_experiments/evaluation/paper_ab200_evaluation.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/paper_ab200_evaluation.py",
+      "source_sha256": "06cacac2017fa55eca03f7fe9c0880180952ae32c2e05ee3022e35285c9944d8",
+      "release_sha256": "06cacac2017fa55eca03f7fe9c0880180952ae32c2e05ee3022e35285c9944d8"
+    },
+    "course_experiments/evaluation/paper_ab200_parallel.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/paper_ab200_parallel.py",
+      "source_sha256": "9c06ef74b869e27abe718b04eca7ddaf9d10628e01619b623dd744b9eda20561",
+      "release_sha256": "9c06ef74b869e27abe718b04eca7ddaf9d10628e01619b623dd744b9eda20561"
+    },
+    "course_experiments/evaluation/posthoc_joint_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/posthoc_joint_kge.py",
+      "source_sha256": "235a5039e8708fcf53f18ec2d79ea2b58b8c7edd19d4703fd039f36f6b070d0a",
+      "release_sha256": "235a5039e8708fcf53f18ec2d79ea2b58b8c7edd19d4703fd039f36f6b070d0a"
+    },
+    "course_experiments/evaluation/prior_definition_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/prior_definition_identity.py",
+      "source_sha256": "46dbbcba312a4759d3e15f755262657d45a658cdd03f067a0d6a79b01d2f4db0",
+      "release_sha256": "46dbbcba312a4759d3e15f755262657d45a658cdd03f067a0d6a79b01d2f4db0"
+    },
+    "course_experiments/evaluation/priority_comparison.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/priority_comparison.py",
+      "source_sha256": "ae93673d34bfb3bc5e7b53a91c064f9bcc7733cd55f413f6436f211663e9da5a",
+      "release_sha256": "ae93673d34bfb3bc5e7b53a91c064f9bcc7733cd55f413f6436f211663e9da5a"
+    },
+    "course_experiments/evaluation/protocol.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/protocol.py",
+      "source_sha256": "3fea96ff5a4205aafad30951e448d9e50fe66956a96eebd2cfe5fc5c864f597d",
+      "release_sha256": "3fea96ff5a4205aafad30951e448d9e50fe66956a96eebd2cfe5fc5c864f597d"
+    },
+    "course_experiments/evaluation/query_evidence_rerank.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/query_evidence_rerank.py",
+      "source_sha256": "921d73c0d119ae27aa33e5e157802352ce517220afa9cfe77b9de8d18cab83ac",
+      "release_sha256": "921d73c0d119ae27aa33e5e157802352ce517220afa9cfe77b9de8d18cab83ac"
+    },
+    "course_experiments/evaluation/rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/rag.py",
+      "source_sha256": "5ee545c4e9eada19889c47cb0ba9b64faaa3918344dff4d7346d0aea3fac3585",
+      "release_sha256": "5ee545c4e9eada19889c47cb0ba9b64faaa3918344dff4d7346d0aea3fac3585"
+    },
+    "course_experiments/evaluation/rag_attribution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/rag_attribution.py",
+      "source_sha256": "f684c9696c87a6bf321091ecf4c5412c5f2d7ac6b06dcd8aecc42021c8b82431",
+      "release_sha256": "f684c9696c87a6bf321091ecf4c5412c5f2d7ac6b06dcd8aecc42021c8b82431"
+    },
+    "course_experiments/evaluation/rag_component_ablation.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/rag_component_ablation.py",
+      "source_sha256": "c6cae3ed435bee1e38789797197e22202100890f574918ddec6654d32bde49ae",
+      "release_sha256": "c6cae3ed435bee1e38789797197e22202100890f574918ddec6654d32bde49ae"
+    },
+    "course_experiments/evaluation/rag_repair_v3.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/rag_repair_v3.py",
+      "source_sha256": "2c6fdb0eda0d1faeee22d3a65b8a40fd067acad31a60ffed7ce3a7f00efd1166",
+      "release_sha256": "2c6fdb0eda0d1faeee22d3a65b8a40fd067acad31a60ffed7ce3a7f00efd1166"
+    },
+    "course_experiments/evaluation/README.md": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/README.md",
+      "source_sha256": "b2310fbd1748bc4442738f35b7320c5c94f9f5f36343d7551b7238c11757959c",
+      "release_sha256": "b2310fbd1748bc4442738f35b7320c5c94f9f5f36343d7551b7238c11757959c"
+    },
+    "course_experiments/evaluation/reference.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/reference.py",
+      "source_sha256": "1a0b1b1b7f6219e95dabbda69c238379457fc9c545dc54fc0407b3040c258e41",
+      "release_sha256": "1a0b1b1b7f6219e95dabbda69c238379457fc9c545dc54fc0407b3040c258e41"
+    },
+    "course_experiments/evaluation/reference_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/reference_identity.py",
+      "source_sha256": "fa577b78eb1f82242906c76df7fa3c641f9751644d48ab28da3385a8efb89680",
+      "release_sha256": "fa577b78eb1f82242906c76df7fa3c641f9751644d48ab28da3385a8efb89680"
+    },
+    "course_experiments/evaluation/reference_identity_audit.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/reference_identity_audit.py",
+      "source_sha256": "a193c9879d65fcfb57f146543c04a31a7792a09eb6a8de805c7960fa8d0bb5f4",
+      "release_sha256": "a193c9879d65fcfb57f146543c04a31a7792a09eb6a8de805c7960fa8d0bb5f4"
+    },
+    "course_experiments/evaluation/reference_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/reference_v2.py",
+      "source_sha256": "5d638f1a0ed50bd64313fc122dff509233f14f5c3830fa00a4148aba1962b8a4",
+      "release_sha256": "5d638f1a0ed50bd64313fc122dff509233f14f5c3830fa00a4148aba1962b8a4"
+    },
+    "course_experiments/evaluation/repaired_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/repaired_full.py",
+      "source_sha256": "6d2950bf3cea387f8f4c94f9e57008d29d1589c59e2766fa7ba406e1094533bd",
+      "release_sha256": "6d2950bf3cea387f8f4c94f9e57008d29d1589c59e2766fa7ba406e1094533bd"
+    },
+    "course_experiments/evaluation/resume_identity_source.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/resume_identity_source.py",
+      "source_sha256": "6611b60f72d56876d5c8ec980d31730d3df4ae623205dc8862d893122890a691",
+      "release_sha256": "6611b60f72d56876d5c8ec980d31730d3df4ae623205dc8862d893122890a691"
+    },
+    "course_experiments/evaluation/resume_native_light_quota.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/resume_native_light_quota.py",
+      "source_sha256": "4ccf021a00e4e29f147ef1a9c00a8c916119a1e819b2195bdcd49a3094f2eca5",
+      "release_sha256": "4ccf021a00e4e29f147ef1a9c00a8c916119a1e819b2195bdcd49a3094f2eca5"
+    },
+    "course_experiments/evaluation/run_baseline_rag_bridge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_baseline_rag_bridge.py",
+      "source_sha256": "caede51205fcf5b11b82cd4810e6182cc73048a0af6510a38dd5a6cc95bea5cc",
+      "release_sha256": "caede51205fcf5b11b82cd4810e6182cc73048a0af6510a38dd5a6cc95bea5cc"
+    },
+    "course_experiments/evaluation/run_controlled_blind64.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_controlled_blind64.py",
+      "source_sha256": "ac5ad64e305bee76a2dac5d259733bbd0f35adeab7b7a399b507b7a623ba5083",
+      "release_sha256": "ac5ad64e305bee76a2dac5d259733bbd0f35adeab7b7a399b507b7a623ba5083"
+    },
+    "course_experiments/evaluation/run_controlled_legacy.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_controlled_legacy.py",
+      "source_sha256": "5c3d2ffd6c43f03e81aedecc687be41f34921da2420b45dd426bf598834eb457",
+      "release_sha256": "5c3d2ffd6c43f03e81aedecc687be41f34921da2420b45dd426bf598834eb457"
+    },
+    "course_experiments/evaluation/run_corrected_f_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_corrected_f_dual_view.py",
+      "source_sha256": "db0e8cb13af49c975415fe8ba921336c2b993ee135b2dea616f6b5a968ece939",
+      "release_sha256": "db0e8cb13af49c975415fe8ba921336c2b993ee135b2dea616f6b5a968ece939"
+    },
+    "course_experiments/evaluation/run_dvkg_blind64.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_dvkg_blind64.py",
+      "source_sha256": "253a8caab7ae3d5b873ad1cf6cd560f625acdf5f9f506b02ec1d74e63c382597",
+      "release_sha256": "253a8caab7ae3d5b873ad1cf6cd560f625acdf5f9f506b02ec1d74e63c382597"
+    },
+    "course_experiments/evaluation/run_echa.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_echa.py",
+      "source_sha256": "ce6d327bff9fd59616058aad522291c4e3e3d3befd9ad7879ce8048f49e365bb",
+      "release_sha256": "ce6d327bff9fd59616058aad522291c4e3e3d3befd9ad7879ce8048f49e365bb"
+    },
+    "course_experiments/evaluation/run_frozen_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_frozen_dual_view.py",
+      "source_sha256": "795edb3c461b7a26bf38c4a5a2170a3d5c5f152ef4c5a2297e17d75d6e79640b",
+      "release_changes": "Use repository-local output paths for historical runner defaults.",
+      "release_sha256": "988fb01040be4a3fbe674de09cd431693d0099bb8ffd687c9b330797c9320647"
+    },
+    "course_experiments/evaluation/run_graph_rag_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_graph_rag_v2.py",
+      "source_sha256": "0e2ca1dc1b505bcac1b31e5f82b52e53d91a28d9e3f5bac40072ed2a23ddb0ab",
+      "release_changes": "Read API credentials from the environment instead of a machine-local file.",
+      "release_sha256": "568fc5e0ed1ca9cbede0be5d9248685f7a99ea0ea6489dec758efd9c7cac87a3"
+    },
+    "course_experiments/evaluation/run_identity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_identity_kge.py",
+      "source_sha256": "344bcf5d556cfe7eaaf4612f4dcdbb699eb059acdeed38ffd289d2bd63036fb5",
+      "release_sha256": "344bcf5d556cfe7eaaf4612f4dcdbb699eb059acdeed38ffd289d2bd63036fb5"
+    },
+    "course_experiments/evaluation/run_identity_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_identity_recovery.py",
+      "source_sha256": "e5eb7fd524f294a82a15ef6a7d799af5340581e19b2be87a40f6451a065b639c",
+      "release_sha256": "e5eb7fd524f294a82a15ef6a7d799af5340581e19b2be87a40f6451a065b639c"
+    },
+    "course_experiments/evaluation/run_identity_single_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_identity_single_v2.py",
+      "source_sha256": "464ca64248fd38cf529938aea2a1aaccbbda7cb099e227269ad3bf48652cfdd3",
+      "release_sha256": "464ca64248fd38cf529938aea2a1aaccbbda7cb099e227269ad3bf48652cfdd3"
+    },
+    "course_experiments/evaluation/run_identity_source_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_identity_source_full.py",
+      "source_sha256": "33060a5500959e749238533bb3f313596a8c23c380a15c90f7ade02a14b071ef",
+      "release_sha256": "33060a5500959e749238533bb3f313596a8c23c380a15c90f7ade02a14b071ef"
+    },
+    "course_experiments/evaluation/run_independent_holdout.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_independent_holdout.py",
+      "source_sha256": "39720eb7449067b68a4b196af5852c90f2db3c8af04454bc4f804d76a1094156",
+      "release_sha256": "39720eb7449067b68a4b196af5852c90f2db3c8af04454bc4f804d76a1094156"
+    },
+    "course_experiments/evaluation/run_joint_pool_answers.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_joint_pool_answers.py",
+      "source_sha256": "f7bb3f611cc901e2c208b2e00ea48e779d439dd230e7e6837df1429cc2b8d65f",
+      "release_sha256": "f7bb3f611cc901e2c208b2e00ea48e779d439dd230e7e6837df1429cc2b8d65f"
+    },
+    "course_experiments/evaluation/run_joint_pool_retrieval.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_joint_pool_retrieval.py",
+      "source_sha256": "50dc877bb749edd30eb6a16eec1080441e45522c30d93807ec4675e4a2a6969f",
+      "release_sha256": "50dc877bb749edd30eb6a16eec1080441e45522c30d93807ec4675e4a2a6969f"
+    },
+    "course_experiments/evaluation/run_native_final_qa.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_final_qa.py",
+      "source_sha256": "27f47d83fe28140c948abce0770824f4f0e478588f9923c9ff15f1da38ee0d5c",
+      "release_sha256": "27f47d83fe28140c948abce0770824f4f0e478588f9923c9ff15f1da38ee0d5c"
+    },
+    "course_experiments/evaluation/run_native_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_full.py",
+      "source_sha256": "c77aa187056f4caadaf4bc9061634d7ec4ebe436280e3b43863224ce34717375",
+      "release_sha256": "c77aa187056f4caadaf4bc9061634d7ec4ebe436280e3b43863224ce34717375"
+    },
+    "course_experiments/evaluation/run_native_holdout.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_holdout.py",
+      "source_sha256": "19d216fb4a404ce37c45b7d8bc0466d9f16250666aad33cbe76be08b000f6a17",
+      "release_sha256": "19d216fb4a404ce37c45b7d8bc0466d9f16250666aad33cbe76be08b000f6a17"
+    },
+    "course_experiments/evaluation/run_native_microsoft_faithful.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_microsoft_faithful.py",
+      "source_sha256": "f207a8f647f8cc8fd514ea595252bda5e1be1a07cace8baa605dfef9a6069d94",
+      "release_sha256": "f207a8f647f8cc8fd514ea595252bda5e1be1a07cace8baa605dfef9a6069d94"
+    },
+    "course_experiments/evaluation/run_native_microsoft_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_microsoft_full.py",
+      "source_sha256": "faa38bc7f2a7d1c3dd35b03c6338094cb82df3359043a6ca848a6a9cbf790523",
+      "release_sha256": "faa38bc7f2a7d1c3dd35b03c6338094cb82df3359043a6ca848a6a9cbf790523"
+    },
+    "course_experiments/evaluation/run_native_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_native_rag.py",
+      "source_sha256": "5f498305dda67c15fb7315e3500ca12b25d8792d0162dc6ff75ad8dbb4c96c84",
+      "release_changes": "Use repository-local output paths for historical runner defaults.",
+      "release_sha256": "3bd6d854efc817d2100d9d06fbb835351ff40fe4e9b4b2a953c5d1f3a7677c9b"
+    },
+    "course_experiments/evaluation/run_reference_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_reference_identity.py",
+      "source_sha256": "47f9aa2326e9c1cb20bb4333f0088018984278c28ed0a6a70c433c5ce41371ed",
+      "release_sha256": "47f9aa2326e9c1cb20bb4333f0088018984278c28ed0a6a70c433c5ce41371ed"
+    },
+    "course_experiments/evaluation/run_repaired_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_repaired_full.py",
+      "source_sha256": "df78524704d456314caa3767e0155f65bc3bd5ebe6a1bdd4216ca121e9177678",
+      "release_changes": "Read API credentials from the environment instead of a machine-local file.",
+      "release_sha256": "19fc16dc6c60a040f5bc3f250ce5622a57f3f3db89d25a600ee7baeb641aed2c"
+    },
+    "course_experiments/evaluation/run_scope_identity_batch.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_scope_identity_batch.py",
+      "source_sha256": "ab3a671cf4b1c7319d468d00127c1b85ab50a46f678fcf555af3860504dda399",
+      "release_sha256": "ab3a671cf4b1c7319d468d00127c1b85ab50a46f678fcf555af3860504dda399"
+    },
+    "course_experiments/evaluation/run_scope_identity_controller.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_scope_identity_controller.py",
+      "source_sha256": "70962ca20fa959bc0d08151ddcd1909a5847a560f2e30d7506951a7a1deeb0c0",
+      "release_sha256": "70962ca20fa959bc0d08151ddcd1909a5847a560f2e30d7506951a7a1deeb0c0"
+    },
+    "course_experiments/evaluation/run_scope_identity_gate.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_scope_identity_gate.py",
+      "source_sha256": "8c8ef91e0873e75d9abc352c1ae1f15bc6385aa8bef6dbca51c1da8196074938",
+      "release_sha256": "8c8ef91e0873e75d9abc352c1ae1f15bc6385aa8bef6dbca51c1da8196074938"
+    },
+    "course_experiments/evaluation/run_short_source_gate.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_short_source_gate.py",
+      "source_sha256": "81edd37c041afc16d583526a3613d1f5a47986969b628c021f2392826e1acd7c",
+      "release_sha256": "81edd37c041afc16d583526a3613d1f5a47986969b628c021f2392826e1acd7c"
+    },
+    "course_experiments/evaluation/run_state_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_state_dual_view.py",
+      "source_sha256": "dde077cabf76d2dd0c1f1d934132189a272869b98e9773a483118ce8c01f9b35",
+      "release_sha256": "dde077cabf76d2dd0c1f1d934132189a272869b98e9773a483118ce8c01f9b35"
+    },
+    "course_experiments/evaluation/run_tree_native.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/run_tree_native.py",
+      "source_sha256": "dd0208258614cbc1bf6ef25d110eea854f0692117c9031f946c3ec42db63456a",
+      "release_sha256": "dd0208258614cbc1bf6ef25d110eea854f0692117c9031f946c3ec42db63456a"
+    },
+    "course_experiments/evaluation/scope_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/scope_identity.py",
+      "source_sha256": "388c5002bcecefe8e3ab068bf2478fc6c3506187e0c885d116dca32dea884dd8",
+      "release_sha256": "388c5002bcecefe8e3ab068bf2478fc6c3506187e0c885d116dca32dea884dd8"
+    },
+    "course_experiments/evaluation/scope_identity_batch.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/scope_identity_batch.py",
+      "source_sha256": "2c55fa3a97618324141b5e524d1675168918264245074422384ebe1304af92a2",
+      "release_sha256": "2c55fa3a97618324141b5e524d1675168918264245074422384ebe1304af92a2"
+    },
+    "course_experiments/evaluation/scope_identity_packing.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/scope_identity_packing.py",
+      "source_sha256": "253074bb3ffecd37b809a59b5e33df2106c0455874251e2319f69c3b1c2d7199",
+      "release_sha256": "253074bb3ffecd37b809a59b5e33df2106c0455874251e2319f69c3b1c2d7199"
+    },
+    "course_experiments/evaluation/scope_mapping_preflight.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/scope_mapping_preflight.py",
+      "source_sha256": "fb40e77aba834ceb15a5aea678044d5e3ab769e53550b924121176d71c198b64",
+      "release_sha256": "fb40e77aba834ceb15a5aea678044d5e3ab769e53550b924121176d71c198b64"
+    },
+    "course_experiments/evaluation/state_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/state_dual_view.py",
+      "source_sha256": "cccd699513aa5b17e40bef2cd8e5b97158b9ae952214e6cd182503a4ed51f7fc",
+      "release_sha256": "cccd699513aa5b17e40bef2cd8e5b97158b9ae952214e6cd182503a4ed51f7fc"
+    },
+    "course_experiments/evaluation/structured_ablation77.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/structured_ablation77.py",
+      "source_sha256": "c814ef38cd94dfcc4a0125d9401b4e3afc208d21738b15b8f90484cf75ef5c7d",
+      "release_sha256": "c814ef38cd94dfcc4a0125d9401b4e3afc208d21738b15b8f90484cf75ef5c7d"
+    },
+    "course_experiments/evaluation/supplement_fair_runner.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/supplement_fair_runner.py",
+      "source_sha256": "e9a899d99171688109e892e6d9b93a494098b35de32819cb688a394d8463a181",
+      "release_sha256": "e9a899d99171688109e892e6d9b93a494098b35de32819cb688a394d8463a181"
+    },
+    "course_experiments/evaluation/test_native_lightrag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/test_native_lightrag.py",
+      "source_sha256": "3d41799d0d40bcd5a7a50f2d45196a9312c31750ac829e33cc1a41ca8ba78c30",
+      "release_sha256": "3d41799d0d40bcd5a7a50f2d45196a9312c31750ac829e33cc1a41ca8ba78c30"
+    },
+    "course_experiments/evaluation/topology.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/evaluation/topology.py",
+      "source_sha256": "9402665916641880e4633fe7c8d9c8112e8ab171674aabaf560a1a4236239e02",
+      "release_sha256": "9402665916641880e4633fe7c8d9c8112e8ab171674aabaf560a1a4236239e02"
+    },
+    "course_experiments/fusion.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/fusion.py",
+      "source_sha256": "10800824d4021b973e850f73787a8640fd31a9a834212bfe04929c75d15db0ee",
+      "release_sha256": "10800824d4021b973e850f73787a8640fd31a9a834212bfe04929c75d15db0ee"
+    },
+    "course_experiments/manifest.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/manifest.py",
+      "source_sha256": "458f6c4050ac87d37ef74d4dad6417cfe79db9a051cc3c35579747865f8733ff",
+      "release_sha256": "458f6c4050ac87d37ef74d4dad6417cfe79db9a051cc3c35579747865f8733ff"
+    },
+    "course_experiments/matrix.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/matrix.py",
+      "source_sha256": "630a576f2be1cb47e82133aa3d837e6fedc816d11c70a863854abbf0575341b0",
+      "release_sha256": "630a576f2be1cb47e82133aa3d837e6fedc816d11c70a863854abbf0575341b0"
+    },
+    "course_experiments/prior.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/prior.py",
+      "source_sha256": "6f1884f77e8312e4883fb9aea9067d62196f95eb7a43db456caf4e9444e8758b",
+      "release_sha256": "6f1884f77e8312e4883fb9aea9067d62196f95eb7a43db456caf4e9444e8758b"
+    },
+    "course_experiments/README.md": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/README.md",
+      "source_sha256": "eb6ef7d108ff61c37c87915bb998d05751f3de1d97a69e64d7917429866bfd11",
+      "release_sha256": "eb6ef7d108ff61c37c87915bb998d05751f3de1d97a69e64d7917429866bfd11"
+    },
+    "course_experiments/results.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/results.py",
+      "source_sha256": "63801a18f0c771c2d27a9cac93da98605837e01f419bd51a6d16e945bdbd3a6b",
+      "release_sha256": "63801a18f0c771c2d27a9cac93da98605837e01f419bd51a6d16e945bdbd3a6b"
+    },
+    "course_experiments/run.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/run.py",
+      "source_sha256": "328b36789b8b832bd3d02346a811e05cfaf17f0ef67a6f1eaf94375fb01dee8f",
+      "release_sha256": "328b36789b8b832bd3d02346a811e05cfaf17f0ef67a6f1eaf94375fb01dee8f"
+    },
+    "course_experiments/semantic_cache.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/semantic_cache.py",
+      "source_sha256": "6b65e987817ab59b7380817bdc0ef6b42eeee0bd2483044dc9b994247e2bdd78",
+      "release_sha256": "6b65e987817ab59b7380817bdc0ef6b42eeee0bd2483044dc9b994247e2bdd78"
+    },
+    "course_experiments/splits.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/splits.py",
+      "source_sha256": "f7c44e3335ca5c95fcffb12a5d25b70558f627a39a854483cf9dcbe309e554fe",
+      "release_sha256": "f7c44e3335ca5c95fcffb12a5d25b70558f627a39a854483cf9dcbe309e554fe"
+    },
+    "course_experiments/supplement_tasks.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/supplement_tasks.py",
+      "source_sha256": "6bb019a883865dc185ee9866a0835b8610a269e97f8789073fd1f7fd39141e4d",
+      "release_sha256": "6bb019a883865dc185ee9866a0835b8610a269e97f8789073fd1f7fd39141e4d"
+    },
+    "course_experiments/targeted_corrections.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/targeted_corrections.py",
+      "source_sha256": "17d5b3aafc900a6e84f613e90a5fe64a6aff75b7092f2f3978ed639a21f48f8d",
+      "release_sha256": "17d5b3aafc900a6e84f613e90a5fe64a6aff75b7092f2f3978ed639a21f48f8d"
+    },
+    "course_experiments/tests/fixtures/kge_native/6929d67b0ebd9c06e7ac872de6e54f2cb61d14a5a1182205c27557a26ce988f3.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/fixtures/kge_native/6929d67b0ebd9c06e7ac872de6e54f2cb61d14a5a1182205c27557a26ce988f3.py",
+      "source_sha256": "6929d67b0ebd9c06e7ac872de6e54f2cb61d14a5a1182205c27557a26ce988f3",
+      "release_sha256": "6929d67b0ebd9c06e7ac872de6e54f2cb61d14a5a1182205c27557a26ce988f3"
+    },
+    "course_experiments/tests/fixtures/kge_native/8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/fixtures/kge_native/8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e.py",
+      "source_sha256": "8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e",
+      "release_sha256": "8dfc7d491b6e377df384763358e9a62f4d6db23ab4fa510677de03bafe3cfa9e"
+    },
+    "course_experiments/tests/test_baselines.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_baselines.py",
+      "source_sha256": "49dab3976fc210651ffd1b61c1e007fe66931deedc9488457fc09ad49b60a1e3",
+      "release_sha256": "49dab3976fc210651ffd1b61c1e007fe66931deedc9488457fc09ad49b60a1e3"
+    },
+    "course_experiments/tests/test_construction.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_construction.py",
+      "source_sha256": "554d40949fb59677d5908104c4fd680bfed216455b744fd1ecf9f64dba354d4d",
+      "release_sha256": "554d40949fb59677d5908104c4fd680bfed216455b744fd1ecf9f64dba354d4d"
+    },
+    "course_experiments/tests/test_course_macro_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_course_macro_reporting.py",
+      "source_sha256": "2df747ab3c9532d7c4eef4978baf437ae56d1af768aa23c1350283fdd2573d76",
+      "release_sha256": "2df747ab3c9532d7c4eef4978baf437ae56d1af768aa23c1350283fdd2573d76"
+    },
+    "course_experiments/tests/test_current_matrix_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_current_matrix_reporting.py",
+      "source_sha256": "d3196155b11a0f9f9bd2cb30b3e0570c49a8343ade7d66862eb56f719e8d2cdc",
+      "release_sha256": "d3196155b11a0f9f9bd2cb30b3e0570c49a8343ade7d66862eb56f719e8d2cdc"
+    },
+    "course_experiments/tests/test_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dual_view.py",
+      "source_sha256": "b5ee997b9207d53329d6aacedfd8a7b75a56a0bdf24e91e97d2ca4445d4a8315",
+      "release_sha256": "b5ee997b9207d53329d6aacedfd8a7b75a56a0bdf24e91e97d2ca4445d4a8315"
+    },
+    "course_experiments/tests/test_dual_view_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dual_view_pipeline.py",
+      "source_sha256": "adb8c39516cb3e54d8a757676ca9cc176dca5951d70ce7c25ccf3aa3976b06d1",
+      "release_sha256": "adb8c39516cb3e54d8a757676ca9cc176dca5951d70ce7c25ccf3aa3976b06d1"
+    },
+    "course_experiments/tests/test_dual_view_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dual_view_rag.py",
+      "source_sha256": "da24f5d55176f40c9b34241b7846ec0ddb87dbadcf7e0c13d7b52d10f1bc553f",
+      "release_sha256": "da24f5d55176f40c9b34241b7846ec0ddb87dbadcf7e0c13d7b52d10f1bc553f"
+    },
+    "course_experiments/tests/test_dual_view_run.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dual_view_run.py",
+      "source_sha256": "02aea4624b677b66a8fee62c6e8833b973efa35a5133470b7445aedabd1edd73",
+      "release_sha256": "02aea4624b677b66a8fee62c6e8833b973efa35a5133470b7445aedabd1edd73"
+    },
+    "course_experiments/tests/test_dual_view_tasks.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dual_view_tasks.py",
+      "source_sha256": "3631f1a407b29af0cdc77e2f5e484af3d5614547f9e12759c1e98629aaf6baef",
+      "release_sha256": "3631f1a407b29af0cdc77e2f5e484af3d5614547f9e12759c1e98629aaf6baef"
+    },
+    "course_experiments/tests/test_dvkg_development.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_dvkg_development.py",
+      "source_sha256": "1776a65faf59abd3c88f60f5977e9d1956f7ea7e998952a62c51e8f1bcfa061c",
+      "release_sha256": "1776a65faf59abd3c88f60f5977e9d1956f7ea7e998952a62c51e8f1bcfa061c"
+    },
+    "course_experiments/tests/test_echa_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_echa_pipeline.py",
+      "source_sha256": "b290cc0d06c93ae9854e53501d188ac57024f065937cfdf80cbea5b971cb6320",
+      "release_sha256": "b290cc0d06c93ae9854e53501d188ac57024f065937cfdf80cbea5b971cb6320"
+    },
+    "course_experiments/tests/test_echa_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_echa_rag.py",
+      "source_sha256": "7284a09e3f057681d26cec00a10a85339bac7f8ce0e291ae513b1527d53e8a0a",
+      "release_sha256": "7284a09e3f057681d26cec00a10a85339bac7f8ce0e291ae513b1527d53e8a0a"
+    },
+    "course_experiments/tests/test_edc_native.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_edc_native.py",
+      "source_sha256": "1ce63ec5c78d6fe67c8a5b7916075763a33a2fcf0c638702a5f73e9b63a3cc73",
+      "release_sha256": "1ce63ec5c78d6fe67c8a5b7916075763a33a2fcf0c638702a5f73e9b63a3cc73"
+    },
+    "course_experiments/tests/test_epoch_sensitivity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_epoch_sensitivity_kge.py",
+      "source_sha256": "9824603e44230aa09bd1d3a77fef46a73751832ac0e8ebd67d6e6769c7c76a38",
+      "release_sha256": "9824603e44230aa09bd1d3a77fef46a73751832ac0e8ebd67d6e6769c7c76a38"
+    },
+    "course_experiments/tests/test_evaluation.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_evaluation.py",
+      "source_sha256": "05b33e38d2f8e50dcf68dc56dc6f8819f8bda18e200b71a387390253865ad2f1",
+      "release_sha256": "05b33e38d2f8e50dcf68dc56dc6f8819f8bda18e200b71a387390253865ad2f1"
+    },
+    "course_experiments/tests/test_evidence_hierarchical_alignment.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_evidence_hierarchical_alignment.py",
+      "source_sha256": "ee6697804cd2d041a5259cc01ed4d099744fe080ae77356fd9140a5f299195ef",
+      "release_sha256": "ee6697804cd2d041a5259cc01ed4d099744fe080ae77356fd9140a5f299195ef"
+    },
+    "course_experiments/tests/test_expanded_courses.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_expanded_courses.py",
+      "source_sha256": "d49aa320ece65d02fe8d9686399cdf5e70c058b287be99faadf6a0c6403ea0c8",
+      "release_sha256": "d49aa320ece65d02fe8d9686399cdf5e70c058b287be99faadf6a0c6403ea0c8"
+    },
+    "course_experiments/tests/test_final_integration.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_final_integration.py",
+      "source_sha256": "64a8a95592fee722b2e25cbdaf530b9e1f18ca5c253d1b172f0e60d7c54463ce",
+      "release_sha256": "64a8a95592fee722b2e25cbdaf530b9e1f18ca5c253d1b172f0e60d7c54463ce"
+    },
+    "course_experiments/tests/test_followup_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_followup_reporting.py",
+      "source_sha256": "45ca350b06eff5b93126efebd433d4c3141a153d7d0dc4d92218a97aceb79a3f",
+      "release_sha256": "45ca350b06eff5b93126efebd433d4c3141a153d7d0dc4d92218a97aceb79a3f"
+    },
+    "course_experiments/tests/test_fusion.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_fusion.py",
+      "source_sha256": "34dc400b1cca9dccce8f25b640c00a853a7d875688bb1c73980f3b885dbe2ba2",
+      "release_sha256": "34dc400b1cca9dccce8f25b640c00a853a7d875688bb1c73980f3b885dbe2ba2"
+    },
+    "course_experiments/tests/test_graph_rag_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_graph_rag_v2.py",
+      "source_sha256": "0110676fa8db477a696223339725695fd937d899cd67278763a6faf8140d2cd4",
+      "release_sha256": "0110676fa8db477a696223339725695fd937d899cd67278763a6faf8140d2cd4"
+    },
+    "course_experiments/tests/test_identity_append_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_append_execution.py",
+      "source_sha256": "b719a21b2d93b93cede8f75bdf63b3cba43e44076280b48e1bda8c5a36251e2c",
+      "release_sha256": "b719a21b2d93b93cede8f75bdf63b3cba43e44076280b48e1bda8c5a36251e2c"
+    },
+    "course_experiments/tests/test_identity_format_repair.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_format_repair.py",
+      "source_sha256": "392b23b00bc06be66ad768070434a8442d42fe5d00fe19501009af84bdaa7c18",
+      "release_sha256": "392b23b00bc06be66ad768070434a8442d42fe5d00fe19501009af84bdaa7c18"
+    },
+    "course_experiments/tests/test_identity_inventory_append.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_inventory_append.py",
+      "source_sha256": "b1c3f28bf7d21c8ad5c13d18b5396d10b48bdd0137eb23b139654a732f459a81",
+      "release_sha256": "b1c3f28bf7d21c8ad5c13d18b5396d10b48bdd0137eb23b139654a732f459a81"
+    },
+    "course_experiments/tests/test_identity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_kge.py",
+      "source_sha256": "65673e85b4408df10e23ce21fdfed8885f283f5339a82e5190edb69724bd5ddd",
+      "release_sha256": "65673e85b4408df10e23ce21fdfed8885f283f5339a82e5190edb69724bd5ddd"
+    },
+    "course_experiments/tests/test_identity_kge_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_kge_execution.py",
+      "source_sha256": "3b122c27b67bdf2ba781fff667c614d53fbd484f5cdf20f45bb6b2d40b000c7d",
+      "release_sha256": "3b122c27b67bdf2ba781fff667c614d53fbd484f5cdf20f45bb6b2d40b000c7d"
+    },
+    "course_experiments/tests/test_identity_response.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_response.py",
+      "source_sha256": "83efbc5e5879c00701f7847cc629b8a898e43c36c90c1f996b4d9ebcc1c2d161",
+      "release_sha256": "83efbc5e5879c00701f7847cc629b8a898e43c36c90c1f996b4d9ebcc1c2d161"
+    },
+    "course_experiments/tests/test_identity_short_provider.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_short_provider.py",
+      "source_sha256": "0bf7c8a3e28bf40379b5b4c8daf40be5ca19215d7cf176966d2d6dc2e157f0c7",
+      "release_sha256": "0bf7c8a3e28bf40379b5b4c8daf40be5ca19215d7cf176966d2d6dc2e157f0c7"
+    },
+    "course_experiments/tests/test_identity_short_single.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_short_single.py",
+      "source_sha256": "3afe016f69bbc0ab12db073c5a3cb8e45cadbf65b49f34bd87092413a6436bd6",
+      "release_sha256": "3afe016f69bbc0ab12db073c5a3cb8e45cadbf65b49f34bd87092413a6436bd6"
+    },
+    "course_experiments/tests/test_identity_single_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_single_v2.py",
+      "source_sha256": "8d2f78abf960dbc4b7bcdb763b375cc9c8cae934d0079262715825bbfd497e62",
+      "release_sha256": "8d2f78abf960dbc4b7bcdb763b375cc9c8cae934d0079262715825bbfd497e62"
+    },
+    "course_experiments/tests/test_identity_single_v2_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_single_v2_full.py",
+      "source_sha256": "02bc880d1e3f6eb2874089540ea137ac73e9a2581e8d6ff812a102b44db2c8d7",
+      "release_sha256": "02bc880d1e3f6eb2874089540ea137ac73e9a2581e8d6ff812a102b44db2c8d7"
+    },
+    "course_experiments/tests/test_identity_single_v2_g0.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_single_v2_g0.py",
+      "source_sha256": "6e6b82e969538f83d435045ce06229f1c69e86f85d164b8832ad72755ecf9051",
+      "release_sha256": "6e6b82e969538f83d435045ce06229f1c69e86f85d164b8832ad72755ecf9051"
+    },
+    "course_experiments/tests/test_identity_single_v2_infrastructure.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_single_v2_infrastructure.py",
+      "source_sha256": "f8eef93b4993b2a66d72a693ab57f5dff49317fcfca4693b00dbd22f541bc614",
+      "release_sha256": "f8eef93b4993b2a66d72a693ab57f5dff49317fcfca4693b00dbd22f541bc614"
+    },
+    "course_experiments/tests/test_identity_source_full_execution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_source_full_execution.py",
+      "source_sha256": "606684710bd55f9f70a7c404a1e65da52fffc44e2edc0673a307748d43971d92",
+      "release_sha256": "606684710bd55f9f70a7c404a1e65da52fffc44e2edc0673a307748d43971d92"
+    },
+    "course_experiments/tests/test_identity_wire_labels.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_identity_wire_labels.py",
+      "source_sha256": "bef43b29dc19cc9979574dc70ea9f31e0bdaa8fa2cb4e1de8023ca74808711cf",
+      "release_sha256": "bef43b29dc19cc9979574dc70ea9f31e0bdaa8fa2cb4e1de8023ca74808711cf"
+    },
+    "course_experiments/tests/test_k12_alias_compat.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_k12_alias_compat.py",
+      "source_sha256": "6f802105a773b5051902ac57f9ef305bc100739ba7785bac8df640e3daa8946b",
+      "release_sha256": "6f802105a773b5051902ac57f9ef305bc100739ba7785bac8df640e3daa8946b"
+    },
+    "course_experiments/tests/test_k12_native_projection.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_k12_native_projection.py",
+      "source_sha256": "de93ebebc50663c6b2a7019531b1b53ce4b0461be128bfdc0d3b8e086287753b",
+      "release_sha256": "de93ebebc50663c6b2a7019531b1b53ce4b0461be128bfdc0d3b8e086287753b"
+    },
+    "course_experiments/tests/test_kge_collection_reporting.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_kge_collection_reporting.py",
+      "source_sha256": "6f3dba6446ec47d9ecba0fdd57b7f2adc6b5c187d7e762a48d1e6186166f2f70",
+      "release_sha256": "6f3dba6446ec47d9ecba0fdd57b7f2adc6b5c187d7e762a48d1e6186166f2f70"
+    },
+    "course_experiments/tests/test_lightrag_exact_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_lightrag_exact_length_recovery.py",
+      "source_sha256": "6fdbc776dced5e563a1106ded6ef17e273e9a1cae5abb8b9fa37a66664600563",
+      "release_sha256": "6fdbc776dced5e563a1106ded6ef17e273e9a1cae5abb8b9fa37a66664600563"
+    },
+    "course_experiments/tests/test_lightrag_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_lightrag_length_recovery.py",
+      "source_sha256": "ee242d6ba15246456273f9ba75664f17a6ed78e43eb6033191a68a8c1cd00da7",
+      "release_sha256": "ee242d6ba15246456273f9ba75664f17a6ed78e43eb6033191a68a8c1cd00da7"
+    },
+    "course_experiments/tests/test_manifest_matrix.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_manifest_matrix.py",
+      "source_sha256": "86de89a040782f09f14ba2e5437de710e5b463ee5b527d24e653682da3858d71",
+      "release_sha256": "86de89a040782f09f14ba2e5437de710e5b463ee5b527d24e653682da3858d71"
+    },
+    "course_experiments/tests/test_multi_model_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_multi_model_kge.py",
+      "source_sha256": "427a274b3159fad28d1b6173143cf9ffc6190f802234cb8e2cf9fb5438d14bb4",
+      "release_sha256": "427a274b3159fad28d1b6173143cf9ffc6190f802234cb8e2cf9fb5438d14bb4"
+    },
+    "course_experiments/tests/test_native_corpus.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_corpus.py",
+      "source_sha256": "d6249ed47ace29eb595d52b23d7803bdbdce78040fd46c154dad9d6d3caf0bbf",
+      "release_sha256": "d6249ed47ace29eb595d52b23d7803bdbdce78040fd46c154dad9d6d3caf0bbf"
+    },
+    "course_experiments/tests/test_native_final_qa.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_final_qa.py",
+      "source_sha256": "8fe6f85cbed3da22fae1167417dba832aef5d1de7d92e8372abd69d2c560d7a9",
+      "release_sha256": "8fe6f85cbed3da22fae1167417dba832aef5d1de7d92e8372abd69d2c560d7a9"
+    },
+    "course_experiments/tests/test_native_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_full.py",
+      "source_sha256": "5c88c9541abd1389c933d03b00f5f779f0b675ef756fc28e21c1570832113497",
+      "release_sha256": "5c88c9541abd1389c933d03b00f5f779f0b675ef756fc28e21c1570832113497"
+    },
+    "course_experiments/tests/test_native_graph_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_graph_kge.py",
+      "source_sha256": "a36073e0eff4c0db09838b413dfa1be305158f01200b7266f32ac8d0b6ed3544",
+      "release_sha256": "a36073e0eff4c0db09838b413dfa1be305158f01200b7266f32ac8d0b6ed3544"
+    },
+    "course_experiments/tests/test_native_hipporag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_hipporag.py",
+      "source_sha256": "c612abd4e596bfc8614247c0f79f02023f2462956aa8f22252fee36b300351b4",
+      "release_sha256": "c612abd4e596bfc8614247c0f79f02023f2462956aa8f22252fee36b300351b4"
+    },
+    "course_experiments/tests/test_native_microsoft_graphrag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_microsoft_graphrag.py",
+      "source_sha256": "9d391522f7ac603d9d15c332038b43a6c42ffa5b935f30f9df5bb5e673727152",
+      "release_sha256": "9d391522f7ac603d9d15c332038b43a6c42ffa5b935f30f9df5bb5e673727152"
+    },
+    "course_experiments/tests/test_native_provider.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_provider.py",
+      "source_sha256": "631925ec0b45b71a7250bd82739218c770ee65bc5d49e06beded30ef3fc788f6",
+      "release_sha256": "631925ec0b45b71a7250bd82739218c770ee65bc5d49e06beded30ef3fc788f6"
+    },
+    "course_experiments/tests/test_native_qa_length_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_qa_length_recovery.py",
+      "source_sha256": "036dd4ad86e5ae1756ee60acc52d8835b9d706ec9eb5c3b9eecbbabe0cb24403",
+      "release_sha256": "036dd4ad86e5ae1756ee60acc52d8835b9d706ec9eb5c3b9eecbbabe0cb24403"
+    },
+    "course_experiments/tests/test_native_rag_runner.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_native_rag_runner.py",
+      "source_sha256": "094f0716cca724ba3ea9f5c6536fa196348b8af4a4f53431ea9b1e5489e23181",
+      "release_sha256": "094f0716cca724ba3ea9f5c6536fa196348b8af4a4f53431ea9b1e5489e23181"
+    },
+    "course_experiments/tests/test_posthoc_joint_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_posthoc_joint_kge.py",
+      "source_sha256": "6c61d86d57678f1de4d591cb72685eadedc83d529878deb072823bafe32a2513",
+      "release_sha256": "6c61d86d57678f1de4d591cb72685eadedc83d529878deb072823bafe32a2513"
+    },
+    "course_experiments/tests/test_prior_definition_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_prior_definition_identity.py",
+      "source_sha256": "95579ffccfce528c7e0ad13730dfe9bd8ea4f673c0abdeb5b314e0ef4bead11b",
+      "release_sha256": "95579ffccfce528c7e0ad13730dfe9bd8ea4f673c0abdeb5b314e0ef4bead11b"
+    },
+    "course_experiments/tests/test_priority_comparison.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_priority_comparison.py",
+      "source_sha256": "002fdbe396cda7943a39b4af0b23188dcbb5259a2e984d5a67fe99083ab280e9",
+      "release_sha256": "002fdbe396cda7943a39b4af0b23188dcbb5259a2e984d5a67fe99083ab280e9"
+    },
+    "course_experiments/tests/test_provider_extension_200k.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_provider_extension_200k.py",
+      "source_sha256": "31521d44af4d6184396404f72a17052b23744892eee4957ee4640145b5b1afb1",
+      "release_sha256": "31521d44af4d6184396404f72a17052b23744892eee4957ee4640145b5b1afb1"
+    },
+    "course_experiments/tests/test_rag_attribution.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_rag_attribution.py",
+      "source_sha256": "7f3a305dcafb75aa10e32320ef2cb9a029aa60c1d662a04688d9189f75a93349",
+      "release_sha256": "7f3a305dcafb75aa10e32320ef2cb9a029aa60c1d662a04688d9189f75a93349"
+    },
+    "course_experiments/tests/test_rag_component_ablation.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_rag_component_ablation.py",
+      "source_sha256": "1935efdf1917ff5fdc6a161e799bfcfa081dd21190b281238c40fae15055228b",
+      "release_sha256": "1935efdf1917ff5fdc6a161e799bfcfa081dd21190b281238c40fae15055228b"
+    },
+    "course_experiments/tests/test_rag_repair_v3.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_rag_repair_v3.py",
+      "source_sha256": "7a884a4d19cb5b4a19e7345823caa3fa7a6281f564e57b0f2a1b43cecd91551c",
+      "release_sha256": "7a884a4d19cb5b4a19e7345823caa3fa7a6281f564e57b0f2a1b43cecd91551c"
+    },
+    "course_experiments/tests/test_reference_curation.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_reference_curation.py",
+      "source_sha256": "91bb108c26093f8ea7e2412a2ccefe2684564e9da19a24a99387e6a9e92853e2",
+      "release_sha256": "91bb108c26093f8ea7e2412a2ccefe2684564e9da19a24a99387e6a9e92853e2"
+    },
+    "course_experiments/tests/test_reference_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_reference_identity.py",
+      "source_sha256": "8670bc7d3228deb90009830106c2155a0c3f039daaa820f8af5457be669dc793",
+      "release_sha256": "8670bc7d3228deb90009830106c2155a0c3f039daaa820f8af5457be669dc793"
+    },
+    "course_experiments/tests/test_reference_identity_audit.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_reference_identity_audit.py",
+      "source_sha256": "8c1f80722183e3fc48f5273bc1373ef7eb790019917669b916f4755308f33923",
+      "release_sha256": "8c1f80722183e3fc48f5273bc1373ef7eb790019917669b916f4755308f33923"
+    },
+    "course_experiments/tests/test_reference_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_reference_v2.py",
+      "source_sha256": "195cae0a291b0d0eeb21f0f2bf5bd0e3222cd896099634759ad6dcbf9331879e",
+      "release_sha256": "195cae0a291b0d0eeb21f0f2bf5bd0e3222cd896099634759ad6dcbf9331879e"
+    },
+    "course_experiments/tests/test_repaired_full.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_repaired_full.py",
+      "source_sha256": "22209e34ed5b12d8bea94686c3a5308dbfe66a8d5f302148b5af866f54210cab",
+      "release_sha256": "22209e34ed5b12d8bea94686c3a5308dbfe66a8d5f302148b5af866f54210cab"
+    },
+    "course_experiments/tests/test_resume_identity_source.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_resume_identity_source.py",
+      "source_sha256": "9278de399e400cc9d7b0fdf6ee0ed4cf9e7859b8d783124fafda697ca2fc749e",
+      "release_sha256": "9278de399e400cc9d7b0fdf6ee0ed4cf9e7859b8d783124fafda697ca2fc749e"
+    },
+    "course_experiments/tests/test_run.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run.py",
+      "source_sha256": "6f8994f67af7af71233f8ed71ba96c4f6505818f22432236fa96d41913c6f6c7",
+      "release_sha256": "6f8994f67af7af71233f8ed71ba96c4f6505818f22432236fa96d41913c6f6c7"
+    },
+    "course_experiments/tests/test_run_frozen_dual_view.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_frozen_dual_view.py",
+      "source_sha256": "061a5bc3b16dfcf3d48585b13a2b5d4d19d0436329df3af471986fe6654996ad",
+      "release_sha256": "061a5bc3b16dfcf3d48585b13a2b5d4d19d0436329df3af471986fe6654996ad"
+    },
+    "course_experiments/tests/test_run_identity_kge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_identity_kge.py",
+      "source_sha256": "5fb19acdfe4028b36ea6885f2573344e4c544e7c5057c197ba5a067a9070e5d0",
+      "release_sha256": "5fb19acdfe4028b36ea6885f2573344e4c544e7c5057c197ba5a067a9070e5d0"
+    },
+    "course_experiments/tests/test_run_identity_recovery.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_identity_recovery.py",
+      "source_sha256": "25364fd532b68ed3130a8942d577cde21ed7addb42ec0e7da114f384dc36aea2",
+      "release_sha256": "25364fd532b68ed3130a8942d577cde21ed7addb42ec0e7da114f384dc36aea2"
+    },
+    "course_experiments/tests/test_run_identity_single_v2.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_identity_single_v2.py",
+      "source_sha256": "ff0e1ecb4bdcc23024ea223d810659855775fd39fd2fc9463766222c98eed7e6",
+      "release_sha256": "ff0e1ecb4bdcc23024ea223d810659855775fd39fd2fc9463766222c98eed7e6"
+    },
+    "course_experiments/tests/test_run_reference_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_reference_identity.py",
+      "source_sha256": "a476895bde4f3fc98d910c0b7f150184789bdc7ec208fd48972a67e90236b21d",
+      "release_sha256": "a476895bde4f3fc98d910c0b7f150184789bdc7ec208fd48972a67e90236b21d"
+    },
+    "course_experiments/tests/test_run_scope_identity_batch.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_scope_identity_batch.py",
+      "source_sha256": "d95c018e195c6e605dda3f733678120126d29ff729a9cb3a41e21e82213d9e37",
+      "release_sha256": "d95c018e195c6e605dda3f733678120126d29ff729a9cb3a41e21e82213d9e37"
+    },
+    "course_experiments/tests/test_run_short_source_gate.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_short_source_gate.py",
+      "source_sha256": "b249db632023ba62b683ac4f54d6541eb8365b4e476dc22613393b8e80f0bd83",
+      "release_sha256": "b249db632023ba62b683ac4f54d6541eb8365b4e476dc22613393b8e80f0bd83"
+    },
+    "course_experiments/tests/test_run_tree_native.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_run_tree_native.py",
+      "source_sha256": "20676de80439c66d53978243232e0cbce99421d1cd0bf42878f5f934b7b64702",
+      "release_sha256": "20676de80439c66d53978243232e0cbce99421d1cd0bf42878f5f934b7b64702"
+    },
+    "course_experiments/tests/test_scope_identity.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_identity.py",
+      "source_sha256": "e2eeb21da70a5f969a9937e94581a611accfbb789dd19ca479904acf4cbe72f8",
+      "release_sha256": "e2eeb21da70a5f969a9937e94581a611accfbb789dd19ca479904acf4cbe72f8"
+    },
+    "course_experiments/tests/test_scope_identity_batch.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_identity_batch.py",
+      "source_sha256": "63b55595c71e327056cf5d59f0ff62fde0174d6e25878861fe6cbd8ddf0ba645",
+      "release_sha256": "63b55595c71e327056cf5d59f0ff62fde0174d6e25878861fe6cbd8ddf0ba645"
+    },
+    "course_experiments/tests/test_scope_identity_controller.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_identity_controller.py",
+      "source_sha256": "d269e1a689215a50634f62eb3ecb8320839e372172c7f277b647f4f8dc7abffc",
+      "release_sha256": "d269e1a689215a50634f62eb3ecb8320839e372172c7f277b647f4f8dc7abffc"
+    },
+    "course_experiments/tests/test_scope_identity_gate.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_identity_gate.py",
+      "source_sha256": "1969fee593210b603e527fe408d2ed0fa1f5135f64e5fd08cc7ee11e4e6760bb",
+      "release_sha256": "1969fee593210b603e527fe408d2ed0fa1f5135f64e5fd08cc7ee11e4e6760bb"
+    },
+    "course_experiments/tests/test_scope_identity_packing.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_identity_packing.py",
+      "source_sha256": "451f41d792808ccb15caebcb6d44b6bc1fedab4e67c0ce3c0502d9d3035ad520",
+      "release_sha256": "451f41d792808ccb15caebcb6d44b6bc1fedab4e67c0ce3c0502d9d3035ad520"
+    },
+    "course_experiments/tests/test_scope_mapping_preflight.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_scope_mapping_preflight.py",
+      "source_sha256": "ae9d85285fe0099a0d64a8c58f021d51915901ffa443e467eb16387b0f192140",
+      "release_sha256": "ae9d85285fe0099a0d64a8c58f021d51915901ffa443e467eb16387b0f192140"
+    },
+    "course_experiments/tests/test_semantic_cache.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_semantic_cache.py",
+      "source_sha256": "9333249c86c7e29a0e0f069c5352b83fd29243f77d1b64baf2ca16648c145dec",
+      "release_sha256": "9333249c86c7e29a0e0f069c5352b83fd29243f77d1b64baf2ca16648c145dec"
+    },
+    "course_experiments/tests/test_supplement_fair_runner.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_supplement_fair_runner.py",
+      "source_sha256": "94b9cadc03a1f612772a8f173b536d7a08306555525ed51982ceac137c9ae625",
+      "release_sha256": "94b9cadc03a1f612772a8f173b536d7a08306555525ed51982ceac137c9ae625"
+    },
+    "course_experiments/tests/test_supplement_pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_supplement_pipeline.py",
+      "source_sha256": "db28116bdb25da9119304fed023126fb41aaf8b842cb055ca4c59f20ca6f1f22",
+      "release_sha256": "db28116bdb25da9119304fed023126fb41aaf8b842cb055ca4c59f20ca6f1f22"
+    },
+    "course_experiments/tests/test_supplement_tasks.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_supplement_tasks.py",
+      "source_sha256": "0ab3ffa79de4431b98e8b0a91fedef49130dd4896981410b1c36f209cdb25e87",
+      "release_sha256": "0ab3ffa79de4431b98e8b0a91fedef49130dd4896981410b1c36f209cdb25e87"
+    },
+    "course_experiments/tests/test_targeted_corrections.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_targeted_corrections.py",
+      "source_sha256": "8c87a4031c54d19d5e1c352869fc81d1837da2f908c896d23099000f41f98d0c",
+      "release_sha256": "8c87a4031c54d19d5e1c352869fc81d1837da2f908c896d23099000f41f98d0c"
+    },
+    "course_experiments/tests/test_tree_embedding_resume.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_tree_embedding_resume.py",
+      "source_sha256": "0283bd643e49c2fafe1856cb59e4a7142f301ce5f7e577c9bc22ba39ecb4b128",
+      "release_sha256": "0283bd643e49c2fafe1856cb59e4a7142f301ce5f7e577c9bc22ba39ecb4b128"
+    },
+    "course_experiments/tests/test_tree_kg.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_tree_kg.py",
+      "source_sha256": "3e9729c299478472997a8f5b0cccdc26ad24f3c9e86edde0740914cbe48af515",
+      "release_sha256": "3e9729c299478472997a8f5b0cccdc26ad24f3c9e86edde0740914cbe48af515"
+    },
+    "course_experiments/tests/test_tree_relation_input.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_tree_relation_input.py",
+      "source_sha256": "1ac36f2d074b4e6f4cfe1afe17273225cf637ab5cb219ff0693f5c5cd475f253",
+      "release_sha256": "1ac36f2d074b4e6f4cfe1afe17273225cf637ab5cb219ff0693f5c5cd475f253"
+    },
+    "course_experiments/tests/test_tree_target_scope.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/tests/test_tree_target_scope.py",
+      "source_sha256": "305395a684109f926fb194e2c006f2ee4b8025e534834c98dbf0cdb3e491b070",
+      "release_sha256": "305395a684109f926fb194e2c006f2ee4b8025e534834c98dbf0cdb3e491b070"
+    },
+    "course_experiments/textbook.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/textbook.py",
+      "source_sha256": "5869767c3e84e5d18f1f3bc088f78851ba2f6269fec838070f3e2df594fd2b1e",
+      "release_sha256": "5869767c3e84e5d18f1f3bc088f78851ba2f6269fec838070f3e2df594fd2b1e"
+    },
+    "course_experiments/views.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "course_experiments/views.py",
+      "source_sha256": "2b931da3ebd44d1aa0af21e22d0580614dbed6f740d85114eb709a39242adf61",
+      "release_sha256": "2b931da3ebd44d1aa0af21e22d0580614dbed6f740d85114eb709a39242adf61"
+    },
+    "domain_ckg_workspace/ckg_incremental/__init__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/__init__.py",
+      "source_sha256": "02214cf4c4694ad50cda37777a13bc54252b964c6bd877c8ffb7343c386c7339",
+      "release_sha256": "02214cf4c4694ad50cda37777a13bc54252b964c6bd877c8ffb7343c386c7339"
+    },
+    "domain_ckg_workspace/ckg_incremental/engine.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/engine.py",
+      "source_sha256": "c303020f9fdb33a2df4cd61616300d01be71c3f3c75e63aa8a39ce6c64cc0990",
+      "release_sha256": "c303020f9fdb33a2df4cd61616300d01be71c3f3c75e63aa8a39ce6c64cc0990"
+    },
+    "domain_ckg_workspace/ckg_incremental/graph_merge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/graph_merge.py",
+      "source_sha256": "182961f41a5fe29811344e0e27bb7cb393c7219aa6be579ec7e12f7adac68add",
+      "release_sha256": "182961f41a5fe29811344e0e27bb7cb393c7219aa6be579ec7e12f7adac68add"
+    },
+    "domain_ckg_workspace/ckg_incremental/neo4j_store.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/neo4j_store.py",
+      "source_sha256": "7f317f6a6e8b47b91346aad4a38aceead91463a4a3c518bdf3d35abaaa89fc2b",
+      "release_sha256": "7f317f6a6e8b47b91346aad4a38aceead91463a4a3c518bdf3d35abaaa89fc2b"
+    },
+    "domain_ckg_workspace/ckg_incremental/runtime.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/runtime.py",
+      "source_sha256": "f1b477144b4f6d61582bb1c5aba75de56ea709f6f8d3656d423353adb00eabda",
+      "release_sha256": "f1b477144b4f6d61582bb1c5aba75de56ea709f6f8d3656d423353adb00eabda"
+    },
+    "domain_ckg_workspace/ckg_incremental/semantic_merge.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/semantic_merge.py",
+      "source_sha256": "0367fa9d4433de11be09e2edd32a3b4065c66bba44a9b00fda5438a3515f96c5",
+      "release_sha256": "0367fa9d4433de11be09e2edd32a3b4065c66bba44a9b00fda5438a3515f96c5"
+    },
+    "domain_ckg_workspace/ckg_incremental/sources.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/sources.py",
+      "source_sha256": "aff5d7ab6bd4a6b02c55636072334dcc0e8fb0e83722bea4e5f5153e59f61185",
+      "release_sha256": "aff5d7ab6bd4a6b02c55636072334dcc0e8fb0e83722bea4e5f5153e59f61185"
+    },
+    "domain_ckg_workspace/ckg_incremental/store.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/ckg_incremental/store.py",
+      "source_sha256": "4fbb893a6bb1f12dd26e9458321d6c70d9e02938be91130115e04140f4ca56a0",
+      "release_sha256": "4fbb893a6bb1f12dd26e9458321d6c70d9e02938be91130115e04140f4ca56a0"
+    },
+    "domain_ckg_workspace/config/concept_kg_incremental.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "domain_ckg_workspace/config/concept_kg_incremental.yaml",
+      "source_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059",
+      "release_sha256": "cbd055868292c261396e4c79d170e3e098c2feef7469739d5adbf645aa94d059"
+    },
+    "prompts/chapter_relation_completion.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/chapter_relation_completion.txt",
+      "source_sha256": "f3e986553bb33f933ac3ca7f6bcc4c880ddf1d9b830c1845cd87fde959fd8ccf",
+      "release_sha256": "f3e986553bb33f933ac3ca7f6bcc4c880ddf1d9b830c1845cd87fde959fd8ccf"
+    },
+    "prompts/entity_relation_extraction.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/entity_relation_extraction.txt",
+      "source_sha256": "078264bf65e677949a2ae287b843b2915d0ccc99d4c5affa4930d07161ff4bdf",
+      "release_sha256": "078264bf65e677949a2ae287b843b2915d0ccc99d4c5affa4930d07161ff4bdf"
+    },
+    "prompts/evaluation/answer.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/evaluation/answer.txt",
+      "source_sha256": "895a99778760d52d48348756ed105031d71ff575dec12f19eef149f478c32ae0",
+      "release_sha256": "895a99778760d52d48348756ed105031d71ff575dec12f19eef149f478c32ae0"
+    },
+    "prompts/evaluation/judge.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/evaluation/judge.txt",
+      "source_sha256": "61ef7852151b030f9823e5342bf8d4bd6a2bb93b9b6ea876db1644bcb5adf6f8",
+      "release_sha256": "61ef7852151b030f9823e5342bf8d4bd6a2bb93b9b6ea876db1644bcb5adf6f8"
+    },
+    "prompts/evaluation/reference.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/evaluation/reference.txt",
+      "source_sha256": "fe6f4762138ee611826ef9e495d6d85f1ef317324ccdf385f6682d5ef1565f08",
+      "release_sha256": "fe6f4762138ee611826ef9e495d6d85f1ef317324ccdf385f6682d5ef1565f08"
+    },
+    "prompts/incremental_v5/00_教材共同_system.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/00_教材共同_system.txt",
+      "source_sha256": "956a1c7bc5bb5620ed6815eabd1771bb604945815995f0ac9f264bb53cd04693",
+      "release_sha256": "956a1c7bc5bb5620ed6815eabd1771bb604945815995f0ac9f264bb53cd04693"
+    },
+    "prompts/incremental_v5/01_G0生成_system.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/01_G0生成_system.txt",
+      "source_sha256": "0e23b100556fa564f2eddda5d70b449b9a3b6a1e319028170f245a4bc15f96da",
+      "release_sha256": "0e23b100556fa564f2eddda5d70b449b9a3b6a1e319028170f245a4bc15f96da"
+    },
+    "prompts/incremental_v5/01_G0生成_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/01_G0生成_user.txt",
+      "source_sha256": "564f091fa2c5bcf981aa994e71bc2f77ffb6e648747ccac6fbd8764c13361b15",
+      "release_sha256": "564f091fa2c5bcf981aa994e71bc2f77ffb6e648747ccac6fbd8764c13361b15"
+    },
+    "prompts/incremental_v5/02_片段概念识别_system.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/02_片段概念识别_system.txt",
+      "source_sha256": "523fef2ebd2f60f65031754dec36831c86fca44cc63de88b54b3cf4a017db30f",
+      "release_sha256": "523fef2ebd2f60f65031754dec36831c86fca44cc63de88b54b3cf4a017db30f"
+    },
+    "prompts/incremental_v5/02_片段概念识别_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/02_片段概念识别_user.txt",
+      "source_sha256": "a668e02e1b6dc03ab8c59ad8f558f1e10c0bd6df9d378b6b35e52b59065cb755",
+      "release_sha256": "a668e02e1b6dc03ab8c59ad8f558f1e10c0bd6df9d378b6b35e52b59065cb755"
+    },
+    "prompts/incremental_v5/03_批量概念身份判断_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/03_批量概念身份判断_user.txt",
+      "source_sha256": "46f7b19732f7e49eecb1d4b1d5ba0e61502d8fe9c6ee1a95814d04b1b50bf11d",
+      "release_sha256": "46f7b19732f7e49eecb1d4b1d5ba0e61502d8fe9c6ee1a95814d04b1b50bf11d"
+    },
+    "prompts/incremental_v5/04_关系与图谱增量更新_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/04_关系与图谱增量更新_user.txt",
+      "source_sha256": "be8d797e782925800151bfafc355a59e9433867200874927a4558e42ef8c7593",
+      "release_sha256": "be8d797e782925800151bfafc355a59e9433867200874927a4558e42ef8c7593"
+    },
+    "prompts/incremental_v5/05_定向证据与冲突复核_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/05_定向证据与冲突复核_user.txt",
+      "source_sha256": "e88f8989073fee9776b1c70e424342f3c484cb3325f0e9b362b593e6689df1fa",
+      "release_sha256": "e88f8989073fee9776b1c70e424342f3c484cb3325f0e9b362b593e6689df1fa"
+    },
+    "prompts/incremental_v5/06_片段图谱抽取_system.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/06_片段图谱抽取_system.txt",
+      "source_sha256": "ede1bb492023af03d6bf17bf887028e475c27902296f5315c4629dc2890b1202",
+      "release_sha256": "ede1bb492023af03d6bf17bf887028e475c27902296f5315c4629dc2890b1202"
+    },
+    "prompts/incremental_v5/06_片段图谱抽取_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/06_片段图谱抽取_user.txt",
+      "source_sha256": "c4a93125e1c58c383cda1733f2b142f849fb113e575c96367d6b3865bc030036",
+      "release_sha256": "c4a93125e1c58c383cda1733f2b142f849fb113e575c96367d6b3865bc030036"
+    },
+    "prompts/incremental_v5/07_同义概念判定_system.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/07_同义概念判定_system.txt",
+      "source_sha256": "322ce3e25075c616cc36b17cdd4721f6fab9d67cf9eb8e13609717fd51fa8f0f",
+      "release_sha256": "322ce3e25075c616cc36b17cdd4721f6fab9d67cf9eb8e13609717fd51fa8f0f"
+    },
+    "prompts/incremental_v5/07_同义概念判定_user.txt": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "prompts/incremental_v5/07_同义概念判定_user.txt",
+      "source_sha256": "74f40e2f8db7da47a499d2609adbe09045b4d8951463036b6b52206b82117393",
+      "release_sha256": "74f40e2f8db7da47a499d2609adbe09045b4d8951463036b6b52206b82117393"
+    },
+    "scripts/evaluate_kg_quality.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "scripts/evaluate_kg_quality.py",
+      "source_sha256": "cbb84a06e866f0c135f1bf366df3013993136c0159c483872970b9a35a44aaca",
+      "release_sha256": "cbb84a06e866f0c135f1bf366df3013993136c0159c483872970b9a35a44aaca"
+    },
+    "scripts/export_manual_paper_rag.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "scripts/export_manual_paper_rag.py",
+      "source_sha256": "f52831ebff20da648b309b3535e9a143c395ecbf4cfe0eb976ecc3d99cdba10a",
+      "release_sha256": "f52831ebff20da648b309b3535e9a143c395ecbf4cfe0eb976ecc3d99cdba10a"
+    },
+    "scripts/manual_paper_metrics.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "scripts/manual_paper_metrics.py",
+      "source_sha256": "a963c4cc273368e2f938b65c6c47451550604ca938b0c7a94a445cf3f45bfa83",
+      "release_sha256": "a963c4cc273368e2f938b65c6c47451550604ca938b0c7a94a445cf3f45bfa83"
+    },
+    "scripts/run_pykeen_epoch_sweep.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "scripts/run_pykeen_epoch_sweep.py",
+      "source_sha256": "1b2e0d98d3da4b1c5362733ec904e00555dd72af5f6436961a7c09aead818f8c",
+      "release_sha256": "1b2e0d98d3da4b1c5362733ec904e00555dd72af5f6436961a7c09aead818f8c"
+    },
+    "src/__init__.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/__init__.py",
+      "source_sha256": "9c1166551093fa2c0561a2f6c380eaba5fb1b84009d9b85dd0d50893e6352ff8",
+      "release_sha256": "9c1166551093fa2c0561a2f6c380eaba5fb1b84009d9b85dd0d50893e6352ff8"
+    },
+    "src/cleaner.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/cleaner.py",
+      "source_sha256": "1be5cdab34ff0433d017aa05c9dba51a340a60fee9a0bce2cd613ec3492fd3b2",
+      "release_sha256": "1be5cdab34ff0433d017aa05c9dba51a340a60fee9a0bce2cd613ec3492fd3b2"
+    },
+    "src/embedder.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/embedder.py",
+      "source_sha256": "fb4f296ee80654b31814411b8ed5ae34bd39058cb6d6c50dfddee5c4c3918757",
+      "release_sha256": "fb4f296ee80654b31814411b8ed5ae34bd39058cb6d6c50dfddee5c4c3918757"
+    },
+    "src/exporter.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/exporter.py",
+      "source_sha256": "4e1a269f5e02b79846f86049c6afcbed3e8862510270f6cb921b6602a79da5a9",
+      "release_sha256": "4e1a269f5e02b79846f86049c6afcbed3e8862510270f6cb921b6602a79da5a9"
+    },
+    "src/extractor.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/extractor.py",
+      "source_sha256": "0489ee3bffa3423e11aabc261b4ce6b09f6d15046a70d9d40d055a92dd5eb35b",
+      "release_sha256": "0489ee3bffa3423e11aabc261b4ce6b09f6d15046a70d9d40d055a92dd5eb35b"
+    },
+    "src/graph_builder.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/graph_builder.py",
+      "source_sha256": "7c9686d175f37a8e47913d54b94ebd739c5332aab628d2fbee5359c1837a1f2c",
+      "release_sha256": "7c9686d175f37a8e47913d54b94ebd739c5332aab628d2fbee5359c1837a1f2c"
+    },
+    "src/graph_inference.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/graph_inference.py",
+      "source_sha256": "013ea5c73f2308e295fe1d1a90460a5fb9b69b6e47f09dde8d81749f08ac7371",
+      "release_sha256": "013ea5c73f2308e295fe1d1a90460a5fb9b69b6e47f09dde8d81749f08ac7371"
+    },
+    "src/loader.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/loader.py",
+      "source_sha256": "913e0f20926eaca6522d86aecb09803e890167149ec989534beb3bac57d05f61",
+      "release_sha256": "913e0f20926eaca6522d86aecb09803e890167149ec989534beb3bac57d05f61"
+    },
+    "src/mapper.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/mapper.py",
+      "source_sha256": "fae23c06fde2910f1dfa0b86f5bc7e6adb826c121dd5845271cf6cd665c105e4",
+      "release_sha256": "fae23c06fde2910f1dfa0b86f5bc7e6adb826c121dd5845271cf6cd665c105e4"
+    },
+    "src/merger.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/merger.py",
+      "source_sha256": "3017a95c6fe0efc9003480e4ab99796a20f9a22315cb556762acdec654f00fc5",
+      "release_sha256": "3017a95c6fe0efc9003480e4ab99796a20f9a22315cb556762acdec654f00fc5"
+    },
+    "src/models.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/models.py",
+      "source_sha256": "278ecfdde905689c66f525a864a19def9b71bef6270711fc85620b2760ee8bf8",
+      "release_sha256": "278ecfdde905689c66f525a864a19def9b71bef6270711fc85620b2760ee8bf8"
+    },
+    "src/neo4j_writer.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/neo4j_writer.py",
+      "source_sha256": "f47a53a72ba49047f43ed75cadd5920644b63f0a9564da540cd9de0ca6efaf4a",
+      "release_sha256": "f47a53a72ba49047f43ed75cadd5920644b63f0a9564da540cd9de0ca6efaf4a"
+    },
+    "src/pipeline.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/pipeline.py",
+      "source_sha256": "f7d9005ef14b0ca97b4cf9b2864e4b58db9d06370a9d96bcb952e79ca37bafed",
+      "release_sha256": "f7d9005ef14b0ca97b4cf9b2864e4b58db9d06370a9d96bcb952e79ca37bafed"
+    },
+    "src/utils.py": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "src/utils.py",
+      "source_sha256": "19fd2d1b83ab51a4ec41b702f4b2b2c818635a06d43de8c1dcc8783b342fe026",
+      "release_sha256": "19fd2d1b83ab51a4ec41b702f4b2b2c818635a06d43de8c1dcc8783b342fe026"
+    },
+    "config/schema.yaml": {
+      "snapshot": "DVKG manuscript code snapshot / 2026-11-21",
+      "source": "config/schema.yaml",
+      "source_sha256": "10a6c15b25ad2e24b6eb538fcaf9dd04f33081b80842c16aeb9cbcaabc31db56",
+      "release_sha256": "10a6c15b25ad2e24b6eb538fcaf9dd04f33081b80842c16aeb9cbcaabc31db56"
+    },
+    "scripts/topology_metrics.py": {
+      "snapshot": "manuscript topology scripts / 2026-11-21",
+      "source": "metrics.py",
+      "source_sha256": "822f6c372ec36a18bb63675d001116859d4b75b2a71edc6b2239b9163ea464fa",
+      "release_sha256": "822f6c372ec36a18bb63675d001116859d4b75b2a71edc6b2239b9163ea464fa"
+    },
+    "tests/test_incremental_graph_extraction.py": {
+      "snapshot": "DVKG research workspace test fixtures",
+      "source": "tests/test_incremental_graph_extraction.py",
+      "source_sha256": "2249297406886e970d9049becbbb452967b8b21d37c0fbac08c06d7d29cb149e",
+      "release_sha256": "2249297406886e970d9049becbbb452967b8b21d37c0fbac08c06d7d29cb149e"
+    },
+    "tests/test_incremental_semantic_merge.py": {
+      "snapshot": "DVKG research workspace test fixtures",
+      "source": "tests/test_incremental_semantic_merge.py",
+      "source_sha256": "1a964245537c5e272d3d2c8be336a5220e65c8f546a53c9884aa400ee5492b0b",
+      "release_sha256": "1a964245537c5e272d3d2c8be336a5220e65c8f546a53c9884aa400ee5492b0b"
+    },
+    "scripts/historical/topology/course_geometry_stats_20261018.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "几何拓扑/course_geometry_stats_20261018.py",
+      "source_sha256": "0229c00505e36b0a27cbe68b86b885d5de3f3225f659b3dad17867c0668c7a15",
+      "release_sha256": "b6b51d3a3afe02b49270aed121efec4bbdf60d8b7355a1fde638f987711c6792",
+      "release_changes": "Declare the source encoding for standalone execution on Windows."
+    },
+    "scripts/historical/construction_cost/full_cost_worker_v2.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "构图成本/full_cost_worker_v2.py",
+      "source_sha256": "f125b7351ba9e5e8b465ba61e230d62a5a4c38468419a4d667a6230e8248b9fb",
+      "release_sha256": "f125b7351ba9e5e8b465ba61e230d62a5a4c38468419a4d667a6230e8248b9fb"
+    },
+    "scripts/historical/construction_cost/parallel_echa.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "构图成本/parallel_echa.py",
+      "source_sha256": "36b49d82176124b192740f467a0fe57d2560e4108afd0d1a28f9e9b591140b57",
+      "release_sha256": "36b49d82176124b192740f467a0fe57d2560e4108afd0d1a28f9e9b591140b57"
+    },
+    "scripts/historical/expanded_pools/expanded_pool_full_prepare.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/expanded_pool_full_prepare.py",
+      "source_sha256": "193bc8794c681b121b0531c023dd37d1f54e7aaca26870392b2c3a2e7bcd6f45",
+      "release_sha256": "f02da54604f312aec06a28ce506b50e19101952e3159c5aa0a053171016e3897",
+      "release_changes": "Read the artifact root from the user's environment or local outputs directory."
+    },
+    "scripts/historical/expanded_pools/full_comparison_answer_worker.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/full_comparison_answer_worker.py",
+      "source_sha256": "c6958fcf55c4aed10620e7e3813b214332a312b815758813042e076cab9aa237",
+      "release_sha256": "3e5635ab167eeed5c7d28e6d6d3374536d0107446381a534fe9baebfc60878fe",
+      "release_changes": "Read the artifact root from the user's environment or local outputs directory."
+    },
+    "scripts/historical/expanded_pools/full_comparison_report.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/full_comparison_report.py",
+      "source_sha256": "97ee95fa7e45287d2dacffb8c2e689ef40479e655046dedd74f056c6eb67f1b8",
+      "release_sha256": "c99df887d3565a28025b8f167fab8d52a2a346647fc1b21df10f33a72e1a6db4",
+      "release_changes": "Require an explicit canonical audit input path."
+    },
+    "scripts/historical/expanded_pools/full_rerank_finish.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/full_rerank_finish.py",
+      "source_sha256": "5a3a86bd4cb341da238dc9e9776ca8f533446ae52a7c1fb86dd909c3c7894338",
+      "release_sha256": "5a3a86bd4cb341da238dc9e9776ca8f533446ae52a7c1fb86dd909c3c7894338"
+    },
+    "scripts/historical/expanded_pools/gpu_score_worker.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/gpu_score_worker.py",
+      "source_sha256": "9156f3356f68c4b609fbc1142895c8a737b50033c087af876898fc58d4a4d5fb",
+      "release_sha256": "5d25daae40a3e1b967170208787cda23130b9b1691262689f84f89dc2678572f",
+      "release_changes": "Read the frozen local reranker directory from the user's environment or models directory."
+    },
+    "scripts/historical/expanded_pools/shared_control_finish.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/shared_control_finish.py",
+      "source_sha256": "80c049349b9f1164af250ff26571f196a8fe3c3fac9ba648366723f46e22b7ca",
+      "release_sha256": "80c049349b9f1164af250ff26571f196a8fe3c3fac9ba648366723f46e22b7ca"
+    },
+    "scripts/historical/expanded_pools/shared_control_prepare.py": {
+      "snapshot": "historical paper experiment source / 2026-11-21",
+      "source": "扩展教材池/shared_control_prepare.py",
+      "source_sha256": "17c65fc34a78f232e5c508a514d619e109ba973ec5c93bb6d674e4a9daacb6ac",
+      "release_sha256": "d141cce49f26d1412ab82b718387f1841814882e66af1b67ea380f07f5987031",
+      "release_changes": "Read the artifact root from the user's environment or local outputs directory."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+version: 1
+selection_basis: user_selected_third_course_computer_networks_20261016
+source_completed_graph_version: 4604
+source_graph_role: historical_reference_only
+courses:
+  - course_id: computer_networks
+    name: 计算机网络
+    description: >-
+      面向本科计算机专业，学习计算机网络体系结构、分层与协议、应用层与运输层、
+      网络层与路由、链路层与局域网、可靠传输、流量控制与拥塞控制、
+      网络性能及基本网络安全，理解端系统与网络设备协同完成数据通信的机制。
+    g0_inputs: [description, schema]
+    books:
+      - alias: A
+        book_id: book_dd8183b4cb60
+        title: 《计算机网络》第7版（谢希仁）
+        source_fingerprint: c701f0b9508cefbe86528ccb43dbc2d7b7443401d437840c768c4f890baf7eaf
+      - alias: B
+        book_id: book_00849acee112
+        title: 《计算机网络：自顶向下方法》第7版
+        source_fingerprint: d361910a2d6d86f5e080a014a98b72a99cd27fb6875258fe3e93228f20a10a15

@@ -1,0 +1,14 @@
+dspy==2.6.27
+dspy-ai==2.6.27
+pydantic>=2,<3
+openai>=1.108.1,<2
+sentence-transformers>=5.1.0
+semhash>=0.3.2
+inflect>=7.5.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.7.2
+rank-bm25>=0.2.2
+networkx>=3
+nltk
+neo4j>=5

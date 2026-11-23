@@ -1,0 +1,35 @@
+# Local secrets and Python state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test_tmp/
+.runtime_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+*.egg-info/
+
+# Local inputs and generated run artifacts
+/local_data/
+/runs/
+/work/
+/src/outputs/
+/build/
+/dist/
+node_modules/
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# Workstation metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

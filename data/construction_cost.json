@@ -1,0 +1,79 @@
+{
+  "scope": "DMKD Table 6. Offline processing from the two parsed Computer Organization inputs. K12-KGraph reports partial costs.",
+  "rows": [
+    {
+      "method": "GraphRAG",
+      "scope": "complete",
+      "llm_input_tokens": 18983740,
+      "llm_output_tokens": 7614064,
+      "active_minutes": 585.5742584991424
+    },
+    {
+      "method": "LightRAG",
+      "scope": "complete",
+      "llm_input_tokens": 4601959,
+      "llm_output_tokens": 1340910,
+      "active_minutes": 154.1095437311412
+    },
+    {
+      "method": "HippoRAG 2",
+      "scope": "complete",
+      "llm_input_tokens": 1096050,
+      "llm_output_tokens": 281931,
+      "active_minutes": 70.73040541950613
+    },
+    {
+      "method": "K12-KGraph",
+      "scope": "partial",
+      "llm_input_tokens": 788801,
+      "llm_output_tokens": 950975,
+      "active_minutes": 74.28325028022131
+    },
+    {
+      "method": "DVKG",
+      "scope": "complete",
+      "llm_input_tokens": 65715544,
+      "llm_output_tokens": 16529816,
+      "active_minutes": 1130.750422580323
+    }
+  ],
+  "dvkg_stages": {
+    "ECHA_verification": {
+      "LLM_input_tokens": 37038918,
+      "LLM_output_tokens": 10829191,
+      "elapsed_seconds": 44846.11513184663,
+      "elapsed_minutes": 747.4352521974438
+    },
+    "alignment_concept_vectors": {
+      "LLM_input_tokens": 0,
+      "LLM_output_tokens": 0,
+      "elapsed_seconds": 234.4765090867877,
+      "elapsed_minutes": 3.9079418181131285
+    },
+    "paragraph_retrieval_vectors": {
+      "LLM_input_tokens": 0,
+      "LLM_output_tokens": 0,
+      "elapsed_seconds": 653.3287980239838,
+      "elapsed_minutes": 10.88881330039973
+    },
+    "concept_graph_build_including_prior": {
+      "LLM_input_tokens": 28676626,
+      "LLM_output_tokens": 5700625,
+      "elapsed_seconds": 22047.960916112177,
+      "elapsed_minutes": 367.4660152685363
+    },
+    "textbook_structure_graph_build": {
+      "LLM_input_tokens": 0,
+      "LLM_output_tokens": 0,
+      "elapsed_seconds": 0.8445381661877036,
+      "elapsed_minutes": 0.014075636103128394
+    },
+    "alignment_materialization": {
+      "LLM_input_tokens": 0,
+      "LLM_output_tokens": 0,
+      "elapsed_seconds": 3.278161552734673,
+      "elapsed_minutes": 0.05463602587891122
+    }
+  },
+  "dvkg_unattributed_seconds": 59.021300030872226
+}

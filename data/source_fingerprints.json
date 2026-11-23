@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Identifies source artifacts without host paths. Sanitized release files are listed in checksums.sha256.",
+  "sources": {
+    "textbook_inventory": "fd3f3ed2bf665fe408b7294a4bd2f8239347796144993b1a0b14f6c5df9bde55",
+    "historical_numeric_aggregate": "c6cc424f456620d065a7f20297e549846f21cddf62f0acd320d6698995ebd3e2",
+    "geometry_audit": "64bf8f98de5c659af8ca6e7b56cc518f89c2c0911d74db2e1b4cff2815064088",
+    "kge_bundle_ours": "590ca8e85fada7fe4211fed9a783a01d2e2c62572b3dcbd8a97307cdde8d8e38",
+    "kge_bundle_k12": "f797cb8267d91e0e2dcb6c9580c4fed22cd23ee67e9dc86402168e376346ea01",
+    "kge_bundle_graph_ext": "dc3066fc83806e9c1380ebefadd0eb80b521697505ac2d83a3c2a46cd00077df",
+    "kge_bundle_lightrag_posthoc_AB": "588a5a400a67947c9705da918a6c7a0738260e26eb989782736bce20d8a52a8b",
+    "original_qa_score_replay": "477b708d144368eb666534f215aeee5ddb1870f2f22fb4cab8bba62915b06a5c",
+    "current_expanded_pool_audit": "eb59283071b43cef286b267a88c1cd4a08ba6ad9f3af735e123b8a14ac853cf8",
+    "dvkg_cost_audit": "77566b7935c570c3acc2ae4ed4acff386ae49b394abe32c11ec1a56020d4f059",
+    "k12_timing_audit": "7a1405504f80a117c35264f936345d9d67c67768b164386dbce352586b676ec1",
+    "k12_extraction_usage_audit": "d6b2ee049506f3324f567dfd38d80ffc4c8cd46a7c541d7208dc993322ed90c1",
+    "controlled_query_timing": "d6914a90ead69403809b9dbe49536a393fe1ccab529ac17b903b5b79dcae96db",
+    "native_query_timing": "767f6d1b20b95cb36c56d0d0eff3f131b709bad273216a35a2b168c24f814976"
+  }
+}

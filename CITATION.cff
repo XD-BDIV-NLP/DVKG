@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the accompanying paper."
+title: "DVKG: Dual-View Knowledge Graph Construction for Textbook-Specific Retrieval-Augmented Generation"
+type: software
+authors:
+  - given-names: Kaixi
+    family-names: Wu
+    affiliation: Xidian University
+  - given-names: Ronghan
+    family-names: Li
+    affiliation: Xidian University
+  - given-names: Ruyi
+    family-names: Liu
+    affiliation: Xidian University
+  - given-names: Qiguang
+    family-names: Miao
+    affiliation: Xidian University
+license: MIT
+version: "0.1.0"
+repository-code: "https://github.com/XD-BDIV-NLP/DVKG"
+keywords:
+  - knowledge graphs
+  - textbook question answering
+  - retrieval-augmented generation

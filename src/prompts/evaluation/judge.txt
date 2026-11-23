@@ -1,0 +1,1 @@
+根据提供的独立教材参考answer与citations评估candidate回答；不要因为措辞相同而忽略事实矛盾。只输出JSON {score:0到1数字,reason:字符串}。这是机器判分，不能称作人工金标准。

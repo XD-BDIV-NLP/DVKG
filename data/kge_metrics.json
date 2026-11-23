@@ -1,0 +1,1463 @@
+{
+  "scope": "DMKD Table 3. Native-graph link prediction; method-specific vocabularies and candidate sets.",
+  "summaries": [
+    {
+      "name": "ours",
+      "model": "TransE",
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.08801462749640147,
+          "std": 0.005344589261774761
+        },
+        "hits_at_1": {
+          "mean": 0.018557422969187675,
+          "std": 0.0069940421412598664
+        },
+        "hits_at_3": {
+          "mean": 0.10434173669467788,
+          "std": 0.008490445135141553
+        },
+        "hits_at_10": {
+          "mean": 0.22478991596638656,
+          "std": 0.01365546218487395
+        }
+      }
+    },
+    {
+      "name": "ours",
+      "model": "TransR",
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.05913223202029864,
+          "std": 0.005634995347020073
+        },
+        "hits_at_1": {
+          "mean": 0.008753501400560224,
+          "std": 0.001604543310558768
+        },
+        "hits_at_3": {
+          "mean": 0.0626750700280112,
+          "std": 0.015088558421859412
+        },
+        "hits_at_10": {
+          "mean": 0.1642156862745098,
+          "std": 0.01885886976119781
+        }
+      }
+    },
+    {
+      "name": "k12",
+      "model": "TransE",
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.05720921605825424,
+          "std": 0.0033818260842214303
+        },
+        "hits_at_1": {
+          "mean": 0.007818930041152264,
+          "std": 0.001885833619323391
+        },
+        "hits_at_3": {
+          "mean": 0.0654320987654321,
+          "std": 0.006873783163987679
+        },
+        "hits_at_10": {
+          "mean": 0.14814814814814814,
+          "std": 0.014968340312323636
+        }
+      }
+    },
+    {
+      "name": "k12",
+      "model": "TransR",
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.04202017933130264,
+          "std": 0.0024223274343536188
+        },
+        "hits_at_1": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "hits_at_3": {
+          "mean": 0.04691358024691358,
+          "std": 0.005381356720420586
+        },
+        "hits_at_10": {
+          "mean": 0.12510288065843622,
+          "std": 0.006335310419070221
+        }
+      }
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransE",
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.06813123573859532,
+          "std": 0.0020900308189937527
+        },
+        "hits_at_1": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "hits_at_3": {
+          "mean": 0.0829997331198292,
+          "std": 0.0047968880352331714
+        },
+        "hits_at_10": {
+          "mean": 0.20683213237256473,
+          "std": 0.0062100734836232335
+        }
+      }
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransR",
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "variant": "native_joint_graph",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.020580679799119633,
+          "std": 0.00763993386048334
+        },
+        "hits_at_1": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "hits_at_3": {
+          "mean": 0.014911929543634907,
+          "std": 0.007637623710303808
+        },
+        "hits_at_10": {
+          "mean": 0.04963971176941553,
+          "std": 0.0231414454963924
+        }
+      }
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransE",
+      "counts": {
+        "original_triples": 24260,
+        "unique_triples": 24260,
+        "duplicates": 0,
+        "entities": 7694,
+        "relations": 1,
+        "pair_groups": 12130,
+        "coverage_groups_moved_to_train": 778,
+        "train": 20964,
+        "validation": 1646,
+        "test": 1650
+      },
+      "variant": "posthoc_AB_exact_name_union_v1",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.04813125729560852,
+          "std": 0.0003157030573052583
+        },
+        "hits_at_1": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "hits_at_3": {
+          "mean": 0.053636363636363635,
+          "std": 0.002641756935479197
+        },
+        "hits_at_10": {
+          "mean": 0.14717171717171718,
+          "std": 0.0032402050368374674
+        }
+      }
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransR",
+      "counts": {
+        "original_triples": 24260,
+        "unique_triples": 24260,
+        "duplicates": 0,
+        "entities": 7694,
+        "relations": 1,
+        "pair_groups": 12130,
+        "coverage_groups_moved_to_train": 778,
+        "train": 20964,
+        "validation": 1646,
+        "test": 1650
+      },
+      "variant": "posthoc_AB_exact_name_union_v1",
+      "status": "completed",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "metrics": {
+        "mrr": {
+          "mean": 0.03444893347720305,
+          "std": 0.007381918493332882
+        },
+        "hits_at_1": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "hits_at_3": {
+          "mean": 0.027070707070707068,
+          "std": 0.010384408269548263
+        },
+        "hits_at_10": {
+          "mean": 0.1006060606060606,
+          "std": 0.024746650161483995
+        }
+      }
+    }
+  ],
+  "runs": [
+    {
+      "name": "graph_ext",
+      "model": "TransE",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransE",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "e2bae2a976cffcc574c334b8eb64bb4d18987933e011da56436ecdc9a6294b93"
+      },
+      "metrics": {
+        "mrr": 0.06938230991363525,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.08586869495596477,
+        "hits_at_10": 0.20886709367493994
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1403.6936612129211,
+      "model_sha256": "0f49a0cfb0478edb4278995253e60a934411faf69de31cb09d4f5fd7fe626215",
+      "result_sha256": "127e2f526df4829010c3c66d43754ae6721ebe63840fbc5139cd3bc7c8b6e079"
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransE",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransE",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "69d7445666127c7a38525e4ebf1637f0c47cc414c221d97f29fbbaec96e28fae"
+      },
+      "metrics": {
+        "mrr": 0.06929297000169754,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.08566853482786228,
+        "hits_at_10": 0.21176941553242595
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1408.0155551433563,
+      "model_sha256": "c879b163a73b1d93bfcef893b06e4d5cc1224439482f4b4228a7ba44704fd0fd",
+      "result_sha256": "4c061c0d1c52884f8612b88964ba5e2a82b0d72158b4acb3ebdcf5a71a9932c4"
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransE",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransE",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "b63619a78f06d5623804c01b57a78a21a175673a5bd41f320ef948b1c86f1d36"
+      },
+      "metrics": {
+        "mrr": 0.06571842730045319,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.07746196957566052,
+        "hits_at_10": 0.19985988791032827
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1407.9401938915253,
+      "model_sha256": "ea24920029168f248f3ed0456299263787e567ba9f75f71e79c7bb33279fe4d2",
+      "result_sha256": "6bcfbef83a727069514d50c4847bc0c26e00abd9efda9ecf45dd32f9cd45cc42"
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransR",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransR",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "a5d7d92d6cdcbbef8caca631ff784070d86ebccf5451bbf2771ed225e6ec3992"
+      },
+      "metrics": {
+        "mrr": 0.029398119077086452,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.023718975180144115,
+        "hits_at_10": 0.07626100880704563
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 2563.259032726288,
+      "model_sha256": "5e230cdd210c2d1c23a47a03c00f4ce76ed52bb7b087526a4c93d9d7610b41ff",
+      "result_sha256": "c24de3ba225691c26f1e14d77153cabaf42a9f9cb0590ab39546fb3d1365e934"
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransR",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransR",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "635e4437634c4696073e19c4512e2bb87c2426c303c37c3f98d1aeff0e703db4"
+      },
+      "metrics": {
+        "mrr": 0.0164131298661232,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.01010808646917534,
+        "hits_at_10": 0.0383306645316253
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 2468.655375480652,
+      "model_sha256": "dabef6c0b181b5539018b253cf94f737f808a6061f51fd7a1bdf6f238cdf01e6",
+      "result_sha256": "dfe086ecce199ad8cf8279854e18dbdbbbe64dceb7e0d55cc42ae6caa0988876"
+    },
+    {
+      "name": "graph_ext",
+      "model": "TransR",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "b12f99dc0840825839148d4cf0e6ca8132bf9e5d13994ea3b53d109b900a89d1",
+        "model": "TransR",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "7070b69c926cb33fb52d94df330ad04d091186924b7b92bc8d25229c5004fb64"
+      },
+      "metrics": {
+        "mrr": 0.015930790454149246,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.010908726981585268,
+        "hits_at_10": 0.03432746196957566
+      },
+      "counts": {
+        "original_triples": 61343,
+        "unique_triples": 61343,
+        "duplicates": 0,
+        "entities": 14081,
+        "relations": 1,
+        "pair_groups": 30677,
+        "coverage_groups_moved_to_train": 1089,
+        "train": 51255,
+        "validation": 5092,
+        "test": 4996
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 2496.5718157291412,
+      "model_sha256": "e105f74b1201dc6c76f13f30321d3fa4b7dfec3f867602bfb21efafcfdee8b8d",
+      "result_sha256": "1fd5f4b39c92b52ec44041d02bffe8362a5b934ed1553257241bf2101107d7b6"
+    },
+    {
+      "name": "k12",
+      "model": "TransE",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransE",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "9c813848f8bd68be455a80ffad3a0010ab6e5d8dfb690854c188b36848ee72ea"
+      },
+      "metrics": {
+        "mrr": 0.0586778149008751,
+        "hits_at_1": 0.009876543209876543,
+        "hits_at_3": 0.0728395061728395,
+        "hits_at_10": 0.13950617283950617
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 255.10769248008728,
+      "model_sha256": "631646cb7764b0b26c3636e4e1d6be2709f03640e11f121839bab6820994f664",
+      "result_sha256": "3b09b3370a2bfb4ce29e1071f07fa11bb57372ce17a7bc829c7c99987f9f314f"
+    },
+    {
+      "name": "k12",
+      "model": "TransE",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransE",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "94387c934a9c5da07bde7daf2ff8d60b33812687f08091dfbcb3c1d4fa6276bf"
+      },
+      "metrics": {
+        "mrr": 0.059608470648527145,
+        "hits_at_1": 0.007407407407407408,
+        "hits_at_3": 0.06419753086419754,
+        "hits_at_10": 0.1654320987654321
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 260.5479345321655,
+      "model_sha256": "a2c99d9ceea7f5cc8dafaf56bfad3c5ab3cc076b70b51f67c1408cead291b57b",
+      "result_sha256": "3813d547b54da55249bb4098d4254ba1e9f22ad4b92f46c7e315c1f53fa32d4d"
+    },
+    {
+      "name": "k12",
+      "model": "TransE",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransE",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "0564e3582baa3e0edd287223b2164d6f7a8945d88301a548817b94a05b4a988e"
+      },
+      "metrics": {
+        "mrr": 0.05334136262536049,
+        "hits_at_1": 0.006172839506172839,
+        "hits_at_3": 0.05925925925925926,
+        "hits_at_10": 0.13950617283950617
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 261.33035373687744,
+      "model_sha256": "340d03620b71776e9b0b5bffd9a3dfbb6802e08bb8da1e7f895a8c500e0b3842",
+      "result_sha256": "cdaff011d9d7b2316841b8e17ba8516a8de0a50948a823645e0fae9fdb281686"
+    },
+    {
+      "name": "k12",
+      "model": "TransR",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransR",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "47b800a0b3c235f56815c5956503a7aa2fd2fb37bd1befe9b18994df02ec8d1b"
+      },
+      "metrics": {
+        "mrr": 0.0411800891160965,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.044444444444444446,
+        "hits_at_10": 0.11975308641975309
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 373.7536816596985,
+      "model_sha256": "c78eb75324b6fff7e9d95b5973559a696990ab0ac6025f6a9e4d04663a54bbf8",
+      "result_sha256": "f0dee430c4b25765737c5a646d547547c085826dcfc0fd098c564ad2a1895616"
+    },
+    {
+      "name": "k12",
+      "model": "TransR",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransR",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "abb2b9868d18d3055c9e7455370d38d690a3c3b3a496d923d34f29ea6e0460d8"
+      },
+      "metrics": {
+        "mrr": 0.04012973606586456,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.043209876543209874,
+        "hits_at_10": 0.12345679012345678
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 370.49859285354614,
+      "model_sha256": "b46d667d1a887444981380ed9f8a71626444fdf449b2b8ca272571ff461c5c75",
+      "result_sha256": "246a80ef1231443014b122dcfe3ab40115b3c7aaf223f33d93d460660f0925ff"
+    },
+    {
+      "name": "k12",
+      "model": "TransR",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "485f2cccdb9aef678e58f92ee8e2af03d1f09938cf952b3666321db129df925e",
+        "model": "TransR",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "88a2571337eae9e2fd1f97cf02dde4389f13b546dcd1406e064eebdef50051f6"
+      },
+      "metrics": {
+        "mrr": 0.04475071281194687,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.05308641975308642,
+        "hits_at_10": 0.13209876543209875
+      },
+      "counts": {
+        "original_triples": 5596,
+        "unique_triples": 5596,
+        "duplicates": 0,
+        "entities": 3047,
+        "relations": 4,
+        "pair_groups": 4721,
+        "coverage_groups_moved_to_train": 252,
+        "train": 4756,
+        "validation": 435,
+        "test": 405
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 361.1099684238434,
+      "model_sha256": "26dba6067085a90c4d48ac3f9293f636fd3be2d9af7b6e1cd87d1e72fab5d29c",
+      "result_sha256": "3b847df4c3ec83f4c6bbc78c60c9acb8fc680ae2e0582770832bdaa5702a5cd5"
+    },
+    {
+      "name": "ours",
+      "model": "TransE",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransE",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "804534faf0869e3fc1c9f92d6c786254bf787fae480cf6a42322fea86a1e3ed0"
+      },
+      "metrics": {
+        "mrr": 0.08832574635744095,
+        "hits_at_1": 0.023109243697478993,
+        "hits_at_3": 0.10294117647058823,
+        "hits_at_10": 0.21638655462184875
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 283.2759609222412,
+      "model_sha256": "a71c3c1a3836b33c4342aa2b8c690de6f92715b406db94016270ee3ec661f33d",
+      "result_sha256": "ed9f1d541f936f9f6b735c7cbab5caa0791f3b4d7cb3885e49973a1d7a7ef37a"
+    },
+    {
+      "name": "ours",
+      "model": "TransE",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransE",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "7842971f3ba9799b71c24cf4e0fb775328d1e5268584f01cc47a8d3f061d9ffe"
+      },
+      "metrics": {
+        "mrr": 0.09319686144590378,
+        "hits_at_1": 0.022058823529411766,
+        "hits_at_3": 0.1134453781512605,
+        "hits_at_10": 0.24054621848739496
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 273.5894923210144,
+      "model_sha256": "b880de262ad1f398904a25c5053c194a40dc52d7303e303909b1d05ca210319c",
+      "result_sha256": "01adb3a7ad437c930806c8858224a55206fa939c48532339a6f2e0150dba5db6"
+    },
+    {
+      "name": "ours",
+      "model": "TransE",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransE",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "62d4c55eb02a9bb2b3817264937fccdf6dccc0892e7021c0ed35c2eed99d88a6"
+      },
+      "metrics": {
+        "mrr": 0.08252127468585968,
+        "hits_at_1": 0.01050420168067227,
+        "hits_at_3": 0.09663865546218488,
+        "hits_at_10": 0.21743697478991597
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 279.58881998062134,
+      "model_sha256": "8e39f6f08e0376123ed5636c853d658ca26cedc106fb7cb977bcf762e1471625",
+      "result_sha256": "cc57164bfff372548aec775854c6892b2e13ad6c1515669d0a9c3ea2054b4844"
+    },
+    {
+      "name": "ours",
+      "model": "TransR",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransR",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "98140f05ebcfc42f95aa11bfb5a9a5159f7835aff9839700ee50550257e7e706"
+      },
+      "metrics": {
+        "mrr": 0.05895991250872612,
+        "hits_at_1": 0.007352941176470588,
+        "hits_at_3": 0.05672268907563025,
+        "hits_at_10": 0.17857142857142858
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 409.23716378211975,
+      "model_sha256": "471186651cb29cfe47a95bea387e70b4443f7046bef677946e3f12636c71045a",
+      "result_sha256": "dbe8f0e1a444e71260d61c88a6b17c05a61edc215bd7b8422c512dd6978d207a"
+    },
+    {
+      "name": "ours",
+      "model": "TransR",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransR",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "2dbef93e60589e822416b2984cc11a052b421fe3ca2da408712979115c259c7a"
+      },
+      "metrics": {
+        "mrr": 0.05358537286520004,
+        "hits_at_1": 0.008403361344537815,
+        "hits_at_3": 0.051470588235294115,
+        "hits_at_10": 0.14285714285714285
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 410.50450348854065,
+      "model_sha256": "d6c5cce53956b28a8c6f18f253c268074a0ad036ea975f12943aed2d6e8773b2",
+      "result_sha256": "63c6df7aea04bd4574c2c9e8bb1ddc243b8553ded138efb1c0612e40041b69d5"
+    },
+    {
+      "name": "ours",
+      "model": "TransR",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "eb35d2eb65a630da8bce7a3fb62c1db38a37dafdc183516ec5bec3d312711c83",
+        "model": "TransR",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "371b6f2b514027495f46a10c1be0636f1311e1b82591f98fe3b62231d513309f"
+      },
+      "metrics": {
+        "mrr": 0.06485141068696976,
+        "hits_at_1": 0.01050420168067227,
+        "hits_at_3": 0.07983193277310924,
+        "hits_at_10": 0.17121848739495799
+      },
+      "counts": {
+        "original_triples": 6489,
+        "unique_triples": 6470,
+        "duplicates": 19,
+        "entities": 3179,
+        "relations": 11,
+        "pair_groups": 5625,
+        "coverage_groups_moved_to_train": 253,
+        "train": 5472,
+        "validation": 522,
+        "test": 476
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 405.9729552268982,
+      "model_sha256": "e094abc9d48227847f10888386a5944e618e119bd729efda672148c45852ad1f",
+      "result_sha256": "56f360d235e665332ecc054b9c9fc8db432cbe09d67a0ce2610c29bb641acc42"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransE",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransE",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "70d7d1a78879c3e3d655e60408407f510003d7c6c91e304bc16561dad544d009"
+      },
+      "metrics": {
+        "mrr": 0.04817132279276848,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.050606060606060606,
+        "hits_at_10": 0.1509090909090909
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 641.1664152145386,
+      "model_sha256": "db0c9a845825110ce3ef2c392e82f558751b96cc85a73294a0b2604996072d05",
+      "result_sha256": "163a4290b4504d44089dec1ad39d94199817ffa02951ce5a62532aefc46cc995"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransE",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransE",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "4ee364197d75c618aa5780d3d3b14bf41abe7aa10dd3903c22a807ca30a7e0a7"
+      },
+      "metrics": {
+        "mrr": 0.04779743403196335,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.05484848484848485,
+        "hits_at_10": 0.14515151515151514
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 644.930878162384,
+      "model_sha256": "5f69b9778fc3dc34389ec0e9bbf1f81c76b8535260d97e06a71ac63cc50aa244",
+      "result_sha256": "322354a09ee9c625fd6839b4f322b3122f1a5a57606e4c6f342345449df282d5"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransE",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransE",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "9ace2ded183bc588443fca2c2572e203660dbcf5e9d8caa6a6b3281b6ca981c9"
+      },
+      "metrics": {
+        "mrr": 0.04842501506209374,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.05545454545454546,
+        "hits_at_10": 0.14545454545454545
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 636.142529964447,
+      "model_sha256": "7fcedea10111a2abda79a8007eb0cc801ce4cbc366f6308debad3d9c2c434a50",
+      "result_sha256": "f9101f09bbeacd597b2706a9cee1b0f0cd25a6e1a8053a443df0a9a748cdaa52"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransR",
+      "seed": 42,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransR",
+        "seed": 42,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "5a9162acfd1a2f18e19488809ef470a6fd4c750896371b91d726c4b6476d4dd6"
+      },
+      "metrics": {
+        "mrr": 0.030603596940636635,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.024545454545454544,
+        "hits_at_10": 0.0906060606060606
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1089.8789811134338,
+      "model_sha256": "a5c9ffa765bdabbd32d973d60f13d78b610d5077cd258affa79c5f2d5968a222",
+      "result_sha256": "d8e964d795acd048fadf3ec5e980417838f6180aa78ce094adbfdaea7cf9b8cc"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransR",
+      "seed": 43,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransR",
+        "seed": 43,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "f096c128eb6899a5305076120f65f502be40004f5e2b2863bb2c5002872ad54c"
+      },
+      "metrics": {
+        "mrr": 0.042959678918123245,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.03848484848484848,
+        "hits_at_10": 0.12878787878787878
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1105.9272873401642,
+      "model_sha256": "f86c66d06dc70a1f46ad5d9892ce97ad6dc4939e8e655a99d8b65688a4b701e6",
+      "result_sha256": "0844b931b6abc04c39d19ffdd39aada2cbb12d84a7ac2ab8d37781d7649c249c"
+    },
+    {
+      "name": "lightrag_posthoc_AB",
+      "model": "TransR",
+      "seed": 44,
+      "status": "completed",
+      "identity": {
+        "protocol": "native_graph_pair_grouped_transductive_v1",
+        "bundle_id": "e85cab7e721d7e624aa6409c1d83adc7f7efd7c058d193e327ff71d07dbe98b7",
+        "model": "TransR",
+        "seed": 44,
+        "epochs": 1000,
+        "dimension": 128,
+        "relation_dimension": 128,
+        "batch_size": 256,
+        "negatives": 16,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss": "MarginRankingLoss",
+        "margin": 1.0,
+        "scoring_fct_norm": 1,
+        "evaluator": "filtered_both_sides_realistic",
+        "selection": "fixed_final_epoch; no test-dependent tuning",
+        "job_id": "138d0f5b7ca4116a7043e05f63345cf3b10ae5eb8ccad8689b6d2be509b3bc64"
+      },
+      "metrics": {
+        "mrr": 0.02978352457284927,
+        "hits_at_1": 0.0,
+        "hits_at_3": 0.01818181818181818,
+        "hits_at_10": 0.08242424242424243
+      },
+      "counts": {
+        "coverage_groups_moved_to_train": 778,
+        "duplicates": 0,
+        "entities": 7694,
+        "original_triples": 24260,
+        "pair_groups": 12130,
+        "relations": 1,
+        "test": 1650,
+        "train": 20964,
+        "unique_triples": 24260,
+        "validation": 1646
+      },
+      "actual_epochs": 1000,
+      "elapsed_seconds": 1083.3533129692078,
+      "model_sha256": "a2178c5f7968d7eeb177cad25b7fc5fcc8d12bec457dd58bd7fac052e6ef7cce",
+      "result_sha256": "4fb7766f464f30254228610a3d1a53a34b8601f73d5a6382baa6126dbbb1020f"
+    }
+  ]
+}
