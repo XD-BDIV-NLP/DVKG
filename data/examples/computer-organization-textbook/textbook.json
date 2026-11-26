@@ -1,0 +1,28 @@
+{
+  "book_id": "book_25f718562685",
+  "course_id": "computer_organization",
+  "source_units": 188,
+  "original_paragraphs": 3716,
+  "source_fingerprint": "562e0941fc8cc4dc5853e49777c052527ff9a433c017c34dd9a934f94bfb3fc0",
+  "current_main_table_pool": true,
+  "title": "Computer Composition and System Architecture",
+  "title_as_recorded": "计算机组成与系统结构 裘雪红",
+  "recorded_corpus_sha256": "0fec2f25bf6824a0b4fc2769215a80369007f67c28bfd6328294362fbe4bf792",
+  "chapters": 9,
+  "sections": 163,
+  "structure_id": "0c599baf261cd6954d9d46de31c4c254a1d238175a1941efb258e51e6c2003ce",
+  "concept_source_graph_digest": "a12b56e900684668396413466f29705cc4edc5ed83e40b71de928b0edae77dc0",
+  "record_counts": {
+    "concept_nodes.csv": 2337,
+    "semantic_edges.csv": 3261,
+    "structure_nodes.csv": 3889,
+    "structure_edges.csv": 7603,
+    "alignment_edges.csv": 4149
+  },
+  "structure_node_types": {
+    "Book": 1,
+    "Chapter": 9,
+    "Evidence": 3716,
+    "Section": 163
+  }
+}

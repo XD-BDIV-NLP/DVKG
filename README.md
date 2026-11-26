@@ -10,6 +10,7 @@ DVKG builds a shared concept graph for each course and a separate structure grap
 | --- | --- |
 | [`src/`](src/README.md) | Construction code for the two graph views, ECHA, retrieval and evaluation, and offline checks |
 | [`data/`](data/) | Textbook inventory, released numerical inputs and results, and verification scripts |
+| [Textbook graph example](data/examples/computer-organization-textbook/) | Concept graph, textbook structure graph, and cross-view links for one evaluated textbook |
 | [`docs/JOURNAL_SUBMISSION.md`](docs/JOURNAL_SUBMISSION.md) | Journal statements and versioned archive instructions |
 
 ## Reproducing the experiments

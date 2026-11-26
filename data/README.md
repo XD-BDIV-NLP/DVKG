@@ -22,4 +22,6 @@ The frozen archive used earlier table numbers 3, 4, and 6 for what is now textbo
 
 `qa/*.jsonl` contains labels, original opaque IDs, metric values, and optional artifact hashes. Paragraph Recall@5 deduplicates the ranked paragraph IDs before taking the first five and divides the count of retrieved support IDs by the annotated support count. Answer F1 is the original multiset token-overlap score. The released F1 numbers support aggregation only, because question and answer text are outside this archive.
 
+The [textbook graph example](examples/computer-organization-textbook/) provides a text-free projection of the two graph views and their alignment for one textbook in the study.
+
 The textbooks and their parsed text, retrieved passages, private indexes, vectors, and full graph artifacts are excluded. Researchers can acquire the listed editions through the applicable rights holders and prepare their own inputs. The dataset and artifact fingerprints identify the inputs used for the recorded experiments. They do not grant a license to redistribute any underlying textbook material.
